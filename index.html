@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Weather Icons by Bas</title>
 	<link rel="stylesheet" href="https://unpkg.com/@bybas/latte-ui@1.3.0-beta.3/dist/latte.css" type="text/css"/>
 	<style type="text/css">
 		:root
 		{
-			--color-primary: 244, 167, 29;
-			--panel-background: rgb(180, 180, 180);
+			--color-primary: 114, 184, 212;
+		}
+
+		div.panel-body
+		{
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
 		}
 
 		.weather-icon
@@ -16,8 +23,8 @@
 			position: relative;
 			display: inline-block;
 			margin: 12px;
-			height: 64px;
-			width: 64px;
+			height: 96px;
+			width: 96px;
 		}
 	</style>
 </head>
@@ -35,15 +42,17 @@
 			<div class="row">
 				<div class="col-12 col-lg-6">
 
-					<div class="panel">
+					<div class="panel mb-panel-gutter">
 						<div class="panel-header"><span class="panel-title">Day</span></div>
 						<div class="panel-body">
 
-							<img src="./production/day/800.svg" alt="800" class="weather-icon" />
-							<img src="./production/day/801.svg" alt="801" class="weather-icon" />
-							<img src="./production/day/802.svg" alt="802" class="weather-icon" />
-							<img src="./production/day/803.svg" alt="803" class="weather-icon" />
-							<img src="./production/day/804.svg" alt="804" class="weather-icon" />
+							<img src="./production/day/500.svg" alt="500" class="weather-icon"/>
+							<img src="./production/day/501.svg" alt="501" class="weather-icon"/>
+							<img src="./production/day/800.svg" alt="800" class="weather-icon"/>
+							<img src="./production/day/801.svg" alt="801" class="weather-icon"/>
+							<img src="./production/day/802.svg" alt="802" class="weather-icon"/>
+							<img src="./production/day/803.svg" alt="803" class="weather-icon"/>
+							<img src="./production/day/804.svg" alt="804" class="weather-icon"/>
 
 						</div>
 					</div>
@@ -55,11 +64,13 @@
 						<div class="panel-header"><span class="panel-title">Night</span></div>
 						<div class="panel-body">
 
-							<img src="./production/night/800.svg" alt="800" class="weather-icon" />
-							<img src="./production/night/801.svg" alt="801" class="weather-icon" />
-							<img src="./production/night/802.svg" alt="802" class="weather-icon" />
-							<img src="./production/night/803.svg" alt="803" class="weather-icon" />
-							<img src="./production/night/804.svg" alt="804" class="weather-icon" />
+							<img src="./production/night/500.svg" alt="500" class="weather-icon"/>
+							<img src="./production/night/501.svg" alt="501" class="weather-icon"/>
+							<img src="./production/night/800.svg" alt="800" class="weather-icon"/>
+							<img src="./production/night/801.svg" alt="801" class="weather-icon"/>
+							<img src="./production/night/802.svg" alt="802" class="weather-icon"/>
+							<img src="./production/night/803.svg" alt="803" class="weather-icon"/>
+							<img src="./production/night/804.svg" alt="804" class="weather-icon"/>
 
 						</div>
 					</div>
