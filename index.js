@@ -4,10 +4,12 @@ const SVGOptimizer = require("svgo");
 const OPTIMIZED_ICONS = {};
 
 const ICONS_MAP = {
+	all: {},
 	darksky: {
 		"clear-day": "clear-day",
 		"clear-night": "clear-night",
 		"cloudy": "cloudy",
+		"hail": "hail",
 		"mist": "mist",
 		"partly-cloudy-day": "partly-cloudy-day",
 		"partly-cloudy-night": "partly-cloudy-night",
@@ -109,7 +111,10 @@ async function run()
 		.map(icon => icon.substr(0, icon.length - 4));
 
 	for (let icon of icons)
+	{
+		ICONS_MAP.all[icon] = icon;
 		await optimizeIcon(icon);
+	}
 
 	for (let provider in ICONS_MAP)
 		for (let name in ICONS_MAP[provider])
