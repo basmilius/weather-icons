@@ -8,18 +8,18 @@
 	<g clip-path="url(#a)">
 		<g>
 			<line x1="24.52" y1="49.05" x2="23.48" y2="54.95" fill="none" stroke="#2885c7" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-			<animateTransform attributeName="transform" type="translate" values="2 -10; -2 12" dur=".7s" repeatCount="indefinite"/>
-			<animate attributeName="opacity" values="1;1;0" dur=".7s" repeatCount="indefinite"/>
+			<animateTransform attributeName="transform" type="translate" values="2 -10; -2 10" dur=".5s" repeatCount="indefinite"/>
+			<animate attributeName="opacity" values="1;1;0" dur=".5s" repeatCount="indefinite"/>
 		</g>
 		<g>
 			<line x1="31.52" y1="49.05" x2="30.48" y2="54.95" fill="none" stroke="#2885c7" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-			<animateTransform attributeName="transform" type="translate" begin="-.6s" values="2 -10; -2 12" dur=".7s" repeatCount="indefinite"/>
-			<animate attributeName="opacity" values="1;1;0" dur=".7s" begin="-.6s" repeatCount="indefinite"/>
+			<animateTransform attributeName="transform" type="translate" begin="-.3s" values="2 -10; -2 10" dur=".5s" repeatCount="indefinite"/>
+			<animate attributeName="opacity" values="1;1;0" dur=".5s" begin="-.3s" repeatCount="indefinite"/>
 		</g>
 		<g>
 			<line x1="38.52" y1="49.05" x2="37.48" y2="54.95" fill="none" stroke="#2885c7" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-			<animateTransform attributeName="transform" type="translate" begin="-.2s" values="2 -10; -2 12" dur=".7s" repeatCount="indefinite"/>
-			<animate attributeName="opacity" values="1;1;0" dur=".7s" begin="-.2s" repeatCount="indefinite"/>
+			<animateTransform attributeName="transform" type="translate" begin="-.1s" values="2 -10; -2 10" dur=".5s" repeatCount="indefinite"/>
+			<animate attributeName="opacity" values="1;1;0" dur=".5s" begin="-.1s" repeatCount="indefinite"/>
 		</g>
 	</g>
 </svg>
