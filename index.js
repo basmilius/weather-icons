@@ -95,7 +95,7 @@ async function optimizeIcon(icon)
 {
 	console.log(`Optimizing icon ${icon}...`);
 
-	const path = `./design/${icon}.svg`;
+	const path = `./design/animation-ready/${icon}.svg`;
 	const svg = await fs.readFile(path, {encoding: "utf8"});
 
 	const {data} = await svgo.optimize(svg, {path});
@@ -105,7 +105,7 @@ async function optimizeIcon(icon)
 
 async function run()
 {
-	const icons = (await fs.readdir("./design"))
+	const icons = (await fs.readdir("./design/animation-ready"))
 		.map(icon => icon.substr(0, icon.length - 4));
 
 	for (let icon of icons)
