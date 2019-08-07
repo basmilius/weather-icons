@@ -19,6 +19,6 @@
 			<animateTransform attributeName="transform" type="rotate" from="0 32 42" to="360 32 42" dur="45s" repeatCount="indefinite"/>
 		</g>
 	</g>
-	<line x1="12.5" y1="45" x2="51.5" y2="45" fill="none" stroke="#2885c7" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
-	<line x1="15.5" y1="49" x2="48.5" y2="49" fill="none" stroke="#2885c7" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+	<line x1="16" y1="45" x2="48" y2="45" fill="none" stroke="#2885c7" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+	<line x1="20" y1="49" x2="44" y2="49" fill="none" stroke="#2885c7" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
 </svg>
