@@ -1,7 +1,7 @@
 {
 	"name": "@bybas/weather-icons",
 	"version": "1.0.0",
-	"description": "Weather icons",
+	"description": "A set of animated svg weather icons.",
 	"main": "index.js",
 	"scripts": {
 		"build": "node ."
@@ -20,7 +20,11 @@
 		"weather",
 		"bybas"
 	],
-	"author": "Bas Milius",
+	"author": {
+		"name": "Bas Milius",
+		"email": "hello@bas.dev",
+		"url": "https://bas.dev"
+	},
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/basmilius/weather-icons/issues"
