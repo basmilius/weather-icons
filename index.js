@@ -1,4 +1,6 @@
 const fs = require("fs").promises;
+const fss = require("fs");
+const rimraf = require("rimraf");
 const SVGOptimizer = require("svgo");
 
 const OPTIMIZED_ICONS = {};
@@ -9,13 +11,15 @@ const ICONS_MAP = {
 		"clear-day": "clear-day",
 		"clear-night": "clear-night",
 		"cloudy": "cloudy",
+		"drizzle": "drizzle",
+		"fog": "mist",
 		"hail": "hail",
-		"mist": "mist",
 		"partly-cloudy-day": "partly-cloudy-day",
 		"partly-cloudy-night": "partly-cloudy-night",
 		"rain": "rain",
+		"sleet": "hail",
 		"snow": "snow",
-		"thunderstorms": "thunderstorms",
+		"thunderstorm": "thunderstorms",
 		"tornado": "tornado",
 		"wind": "wind"
 	},
@@ -72,7 +76,7 @@ function initializeSvgOptimizer()
 			{cleanupNumericValues: true},
 			{moveElemsAttrsToGroup: true},
 			{moveGroupAttrsToElems: true},
-			{collapseGroups: true},
+			{collapseGroups: false},
 			{removeRasterImages: false},
 			{mergePaths: true},
 			{convertShapeToPath: true},
@@ -86,9 +90,13 @@ const svgo = initializeSvgOptimizer();
 
 async function copyIcon(provider, name, icon)
 {
-	const path = `./production/${provider}/${name}.svg`;
+	const dir = `./production/${provider}`;
+	const path = `${dir}/${name}.svg`;
 
 	console.log(`Creating ${name} for ${provider}...`);
+
+	if (!fss.existsSync(dir))
+		await fs.mkdir(dir);
 
 	await fs.writeFile(path, OPTIMIZED_ICONS[icon], {encoding: "utf8"});
 }
@@ -107,6 +115,8 @@ async function optimizeIcon(icon)
 
 async function run()
 {
+	await new Promise(resolve => rimraf("./production/*", resolve));
+
 	const icons = (await fs.readdir("./design/animation-ready"))
 		.map(icon => icon.substr(0, icon.length - 4));
 

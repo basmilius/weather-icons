@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+	<defs>
+		<clipPath id="a">
+			<polyline points="42 64 44.85 47 21.05 47 17 64" fill="none"/>
+		</clipPath>
+	</defs>
+	<path d="M46.3,46.81H18.21a8.74,8.74,0,0,1-8.71-8.7,8.84,8.84,0,0,1,6-8.29v-.25a7.89,7.89,0,0,1,11.1-7.26,11.46,11.46,0,0,1,21,6.32,15.89,15.89,0,0,1-.17,2.05,8.1,8.1,0,0,1,7.09,8A8.3,8.3,0,0,1,46.3,46.81Zm-25.42-2.3H46.22a5.81,5.81,0,0,0,0-11.61H46L44.25,33l.52-1.62a11,11,0,0,0,.42-2.82,9.16,9.16,0,0,0-17.25-4.27l-.59,1.11-1-.6a5.07,5.07,0,0,0-2.9-.85,5.69,5.69,0,0,0-5.64,5.64,3.7,3.7,0,0,0,.09.94L18,31.62l-1.11.17a6.48,6.48,0,0,0-5.21,6.32,6.39,6.39,0,0,0,6.4,6.4h2.76" fill="#efefef"/>
+	<g clip-path="url(#a)">
+		<g>
+			<line x1="32.08" y1="49.01" x2="31.92" y2="49.99" fill="none" stroke="#2885c7" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+			<animateTransform attributeName="transform" type="translate" values="2 -10; -2 10" dur="1.5s" repeatCount="indefinite"/>
+			<animate attributeName="opacity" values="1;1;0" dur="1.5s" repeatCount="indefinite"/>
+		</g>
+		<g>
+			<line x1="26.08" y1="49.01" x2="25.92" y2="49.99" fill="none" stroke="#2885c7" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+			<animateTransform attributeName="transform" type="translate" begin="-1s" values="2 -10; -2 10" dur="1.5s" repeatCount="indefinite"/>
+			<animate attributeName="opacity" values="1;1;0" dur="1.5s" begin="-1s" repeatCount="indefinite"/>
+		</g>
+		<g>
+			<line x1="38.08" y1="49.01" x2="37.92" y2="49.99" fill="none" stroke="#2885c7" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+			<animateTransform attributeName="transform" type="translate" begin="-.5s" values="2 -10; -2 10" dur="1.5s" repeatCount="indefinite"/>
+			<animate attributeName="opacity" values="1;1;0" dur="1.5s" begin="-.5s" repeatCount="indefinite"/>
+		</g>
+	</g>
+</svg>
