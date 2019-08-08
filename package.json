@@ -1,6 +1,6 @@
 {
 	"name": "@bybas/weather-icons",
-	"version": "1.1.1",
+	"version": "1.2.0",
 	"description": "A set of animated svg weather icons.",
 	"main": "index.js",
 	"scripts": {
@@ -29,5 +29,5 @@
 	"bugs": {
 		"url": "https://github.com/basmilius/weather-icons/issues"
 	},
-	"homepage": "https://github.com/basmilius/weather-icons#readme"
+	"homepage": "https://weather-icons.dev-preview.nl/"
 }
