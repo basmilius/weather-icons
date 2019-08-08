@@ -4,7 +4,6 @@ const rimraf = require("rimraf");
 const SVGOptimizer = require("svgo");
 
 const OPTIMIZED_ICONS = {};
-
 const ICONS_MAP = {
 	all: {},
 	darksky: {
@@ -40,8 +39,8 @@ const ICONS_MAP = {
 		"10n": "partly-cloudy-night-rain",
 		"11d": "thunderstorms",
 		"11n": "thunderstorms",
-		"13d": "snow",
-		"13n": "snow",
+		"13d": "partly-cloudy-day-snow",
+		"13n": "partly-cloudy-day-snow",
 		"50d": "mist",
 		"50n": "mist"
 	}
@@ -90,47 +89,61 @@ function initializeSvgOptimizer()
 
 const svgo = initializeSvgOptimizer();
 
-async function copyIcon(provider, name, icon)
+async function copyIcon(type, provider, name, icon)
 {
-	const dir = `./production/${provider}`;
+	const dir = `./production/${type}/${provider}`;
 	const path = `${dir}/${name}.svg`;
-
-	console.log(`Creating ${name} for ${provider}...`);
 
 	if (!fss.existsSync(dir))
 		await fs.mkdir(dir);
 
-	await fs.writeFile(path, OPTIMIZED_ICONS[icon], {encoding: "utf8"});
+	if (OPTIMIZED_ICONS[type] && OPTIMIZED_ICONS[type][icon])
+	{
+		console.log(`Creating ${name} for ${provider}...`);
+
+		await fs.writeFile(path, OPTIMIZED_ICONS[type][icon], {encoding: "utf8"});
+	}
+	else
+	{
+		console.error(`Could not find icon ${icon} (> ${name}) for ${type}!`);
+	}
 }
 
-async function optimizeIcon(icon)
+async function optimizeIcon(type, icon)
 {
 	console.log(`Optimizing icon ${icon}...`);
 
-	const path = `./design/animation-ready/${icon}.svg`;
+	const path = `./design/${type}/animation-ready/${icon}.svg`;
 	const svg = await fs.readFile(path, {encoding: "utf8"});
 
 	const {data} = await svgo.optimize(svg, {path});
 
-	OPTIMIZED_ICONS[icon] = data;
+	OPTIMIZED_ICONS[type][icon] = data;
 }
 
 async function run()
 {
 	await new Promise(resolve => rimraf("./production/*", resolve));
 
-	const icons = (await fs.readdir("./design/animation-ready"))
-		.map(icon => icon.substr(0, icon.length - 4));
-
-	for (let icon of icons)
+	for (let type of ["line", "fill"])
 	{
-		ICONS_MAP.all[icon] = icon;
-		await optimizeIcon(icon);
-	}
+		await fs.mkdir(`./production/${type}`);
 
-	for (let provider in ICONS_MAP)
-		for (let name in ICONS_MAP[provider])
-			await copyIcon(provider, name, ICONS_MAP[provider][name]);
+		const icons = (await fs.readdir(`./design/${type}/animation-ready`))
+			.map(icon => icon.substr(0, icon.length - 4));
+
+		OPTIMIZED_ICONS[type] = {};
+
+		for (let icon of icons)
+		{
+			ICONS_MAP.all[icon] = icon;
+			await optimizeIcon(type, icon);
+		}
+
+		for (let provider in ICONS_MAP)
+			for (let name in ICONS_MAP[provider])
+				await copyIcon(type, provider, name, ICONS_MAP[provider][name]);
+	}
 }
 
 run()

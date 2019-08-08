@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+	<defs>
+		<clipPath id="a">
+			<polygon points="10.55 34.21 6.72 30.79 4.72 24.79 5.72 17.79 9.72 12.79 14.72 9.79 20.72 9.79 25.72 10.79 28.72 13.79 31.28 18.15 26.72 22.79 21.72 22.79 16.72 27.79 16.72 30.79 10.55 34.21" fill="none"/>
+		</clipPath>
+		<clipPath id="b">
+			<polygon points="21.17 46.81 18 64 42 64 44.75 46.81 21.17 46.81" fill="none"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#a)">
+		<g>
+			<path d="M29.33,27.13A10.6,10.6,0,0,1,18.65,16.6,10.44,10.44,0,0,1,19,14,10.54,10.54,0,1,0,30.5,27.07,11.46,11.46,0,0,1,29.33,27.13Z" fill="#72b9d5" stroke="#72b9d5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+
+			<animateTransform attributeName="transform" type="rotate" values="-10 19.22 24.293;10 19.22 24.293;-10 19.22 24.293" dur="10s" repeatCount="indefinite"/>
+		</g>
+	</g>
+	<path d="M46.5,31.5l-.32,0a10.49,10.49,0,0,0-19.11-8,7,7,0,0,0-10.57,6,7.21,7.21,0,0,0,.1,1.14A7.5,7.5,0,0,0,18,45.5a4.19,4.19,0,0,0,.5,0v0h28a7,7,0,0,0,0-14Z" fill="#efefef" stroke="#efefef" stroke-miterlimit="10" stroke-width="3"/>
+	<g clip-path="url(#b)">
+		<g>
+			<g>
+				<g>
+					<path d="M32.29,47.2l.29.82a.29.29,0,0,0,.41.17l.79-.37a.3.3,0,0,1,.4.4l-.37.79a.29.29,0,0,0,.17.41l.82.29a.31.31,0,0,1,0,.58l-.82.29a.29.29,0,0,0-.17.41l.37.79a.3.3,0,0,1-.4.4L33,51.81a.29.29,0,0,0-.41.17l-.29.82a.31.31,0,0,1-.58,0L31.42,52a.29.29,0,0,0-.41-.17l-.79.37a.3.3,0,0,1-.4-.4l.37-.79a.29.29,0,0,0-.17-.41l-.82-.29a.31.31,0,0,1,0-.58l.82-.29a.29.29,0,0,0,.17-.41l-.37-.79a.3.3,0,0,1,.4-.4l.79.37a.29.29,0,0,0,.41-.17l.29-.82A.31.31,0,0,1,32.29,47.2Z" fill="#72b8d4"/>
+					<animateTransform attributeName="transform" type="rotate" values="0 32 50; 180 32 50; 360 32 50" dur="9s" repeatCount="indefinite"/>
+				</g>
+				<animateTransform attributeName="transform" type="translate" values="-3 0; 3 0" dur="3s" repeatCount="indefinite"/>
+			</g>
+			<animateTransform attributeName="transform" type="translate" values="2 -6; -2 12" dur="3s" repeatCount="indefinite"/>
+			<animate attributeName="opacity" values="1;1;1;0" dur="3s" repeatCount="indefinite"/>
+		</g>
+		<g>
+			<g>
+				<g>
+					<path d="M39.29,47.2l.29.82a.29.29,0,0,0,.41.17l.79-.37a.3.3,0,0,1,.4.4l-.37.79a.29.29,0,0,0,.17.41l.82.29a.31.31,0,0,1,0,.58l-.82.29a.29.29,0,0,0-.17.41l.37.79a.3.3,0,0,1-.4.4L40,51.81a.29.29,0,0,0-.41.17l-.29.82a.31.31,0,0,1-.58,0L38.42,52a.29.29,0,0,0-.41-.17l-.79.37a.3.3,0,0,1-.4-.4l.37-.79a.29.29,0,0,0-.17-.41l-.82-.29a.31.31,0,0,1,0-.58l.82-.29a.29.29,0,0,0,.17-.41l-.37-.79a.3.3,0,0,1,.4-.4l.79.37a.29.29,0,0,0,.41-.17l.29-.82A.31.31,0,0,1,39.29,47.2Z" fill="#72b8d4"/>
+					<animateTransform attributeName="transform" type="rotate" values="0 39 50; 180 39 50; 360 39 50" dur="6s" repeatCount="indefinite"/>
+				</g>
+				<animateTransform attributeName="transform" type="translate" values="0 0; 3 0" begin="-1s" dur="3s" repeatCount="indefinite"/>
+			</g>
+			<animateTransform attributeName="transform" type="translate" values="2 -6; -2 12" begin="-1s" dur="3s" repeatCount="indefinite"/>
+			<animate attributeName="opacity" values="1;1;1;0" begin="-1s" dur="3s" repeatCount="indefinite"/>
+		</g>
+		<g>
+			<g>
+				<g>
+					<path d="M25.29,47.2l.29.82a.29.29,0,0,0,.41.17l.79-.37a.3.3,0,0,1,.4.4l-.37.79a.29.29,0,0,0,.17.41l.82.29a.31.31,0,0,1,0,.58l-.82.29a.29.29,0,0,0-.17.41l.37.79a.3.3,0,0,1-.4.4L26,51.81a.29.29,0,0,0-.41.17l-.29.82a.31.31,0,0,1-.58,0L24.42,52a.29.29,0,0,0-.41-.17l-.79.37a.3.3,0,0,1-.4-.4l.37-.79a.29.29,0,0,0-.17-.41l-.82-.29a.31.31,0,0,1,0-.58l.82-.29a.29.29,0,0,0,.17-.41l-.37-.79a.3.3,0,0,1,.4-.4l.79.37a.29.29,0,0,0,.41-.17l.29-.82A.31.31,0,0,1,25.29,47.2Z" fill="#72b8d4"/>
+					<animateTransform attributeName="transform" type="rotate" values="0 25 50; 180 25 50; 360 25 50" dur="6s" repeatCount="indefinite"/>
+				</g>
+				<animateTransform attributeName="transform" type="translate" values="-3 0; 2 0" begin="-1.5s" dur="3s" repeatCount="indefinite"/>
+			</g>
+			<animateTransform attributeName="transform" type="translate" values="2 -6; -2 12" begin="-1.5s" dur="3s" repeatCount="indefinite"/>
+			<animate attributeName="opacity" values="1;1;1;0" begin="-1.5s" dur="3s" repeatCount="indefinite"/>
+		</g>
+	</g>
+</svg>
