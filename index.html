@@ -4,11 +4,12 @@
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Weather Icons by Bas</title>
-	<link rel="stylesheet" href="https://unpkg.com/@bybas/latte-ui@1.8.0-beta.13/dist/latte-ui.css" type="text/css"/>
+	<link rel="stylesheet" href="https://unpkg.com/@latte-ui/css@2.0.0-dev.1/dist/index.css" type="text/css"/>
 	<style type="text/css">
 		:root
 		{
-			--color-primary: 34, 152, 212;
+			--primary: 200, 72%;
+			--primary-l: 48%;
 		}
 
 		div.panel-body
@@ -25,7 +26,7 @@
 			margin: 12px;
 			height: 128px;
 			width: 128px;
-			outline: 1px dashed rgba(var(--outline-color), 1);
+			outline: 1px dashed hsl(var(--outline), var(--outline-l));
 		}
 	</style>
 </head>
@@ -33,7 +34,7 @@
 
 	<main id="app">
 
-		<div class="app-bar app-bar-primary">
+		<div class="app-bar is-primary shadow-4">
 			<div class="app-bar-row">
 				<span class="app-bar-title mx-auto">Weather Icons by Bas</span>
 			</div>
@@ -41,14 +42,15 @@
 
 		<div class="container my-5">
 			<div class="row">
-				<div class="col-12 col-lg-6">
+				<div class="col-12 lg:col-6">
 
-					<div class="panel">
+					<div class="panel bg-base-light rounded-1 shadow-outline-0">
 						<div class="panel-body py-5">
 
 							<img src="./design/line/animation-ready/clear-day.svg" alt="clear-day" class="weather-icon"/>
 							<img src="./design/line/animation-ready/clear-night.svg" alt="clear-night" class="weather-icon"/>
 							<img src="./design/line/animation-ready/cloudy.svg" alt="cloudy" class="weather-icon"/>
+							<img src="./design/line/animation-ready/overcast.svg" alt="overcast" class="weather-icon"/>
 							<img src="./design/line/animation-ready/drizzle.svg" alt="drizzle" class="weather-icon"/>
 							<img src="./design/line/animation-ready/hail.svg" alt="hail" class="weather-icon"/>
 							<img src="./design/line/animation-ready/mist.svg" alt="mist" class="weather-icon"/>
@@ -65,6 +67,8 @@
 							<img src="./design/line/animation-ready/rain.svg" alt="rain" class="weather-icon"/>
 							<img src="./design/line/animation-ready/snow.svg" alt="snow" class="weather-icon"/>
 							<img src="./design/line/animation-ready/thunderstorms.svg" alt="thunderstorms" class="weather-icon"/>
+							<img src="./design/line/animation-ready/thunderstorms-day.svg" alt="thunderstorms-day" class="weather-icon"/>
+							<img src="./design/line/animation-ready/thunderstorms-night.svg" alt="thunderstorms-night" class="weather-icon"/>
 							<img src="./design/line/animation-ready/tornado.svg" alt="tornado" class="weather-icon"/>
 							<img src="./design/line/animation-ready/wind.svg" alt="wind" class="weather-icon"/>
 
@@ -85,9 +89,9 @@
 					</div>
 
 				</div>
-				<div class="col-12 col-lg-6">
+				<div class="col-12 lg:col-6">
 
-					<div class="panel">
+					<div class="panel bg-base-light rounded-1 shadow-outline-0">
 						<div class="panel-body py-5">
 
 							<img src="./design/fill/animation-ready/clear-day.svg" alt="clear-day" class="weather-icon"/>
