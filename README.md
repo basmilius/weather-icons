@@ -11,7 +11,7 @@ can preview all icons on [this website](https://bas.dev/projects/weather-icons).
 ### ⚒ Process
 - An icon is designed in Adobe Illustrator.
 - Icons are exported to plain SVG files.
-- Animations are added by editing svg files.
+- Animations are added by editing SVG files.
 - A node.js script minifies the SVG's.
 
 ### 🎨 Design files
