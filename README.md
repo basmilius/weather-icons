@@ -5,7 +5,8 @@
 ---
 
 # Meteocons
-Free to use animated SVG weather icons. Handcrafted by [Bas Milius](https://bas.dev).
+Free to use animated SVG weather icons. Handcrafted by [Bas Milius](https://bas.dev). You
+can preview all icons on [this website](https://bas.dev/projects/weather-icons).
 
 ### ⚒ Process
 - An icon is desined in Adobe Illustrator.
@@ -21,3 +22,11 @@ are Adobe Illustrator .ai-files.
 ### 🌥 Missing an icon?
 Please let me know by creating an issue. Keep in mind that I only accept icons that are
 somewhat weather related.
+
+---
+
+<img src="https://bmcdn.nl/assets/weather-icons/all/clear-day.svg" alt="Partly Cloudy Day" height="48"/>
+<img src="https://bmcdn.nl/assets/weather-icons/all/partly-cloudy-day.svg" alt="Partly Cloudy Day" height="48"/>
+<img src="https://bmcdn.nl/assets/weather-icons/all/rain.svg" alt="Rain" height="48"/>
+<img src="https://bmcdn.nl/assets/weather-icons/all/tornado.svg" alt="Tornado" height="48"/>
+<img src="https://bmcdn.nl/assets/weather-icons/all/clear-night.svg" alt="Clear Night" height="48"/>
