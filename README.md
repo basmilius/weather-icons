@@ -9,7 +9,7 @@ Free to use animated SVG weather icons. Handcrafted by [Bas Milius](https://bas.
 can preview all icons on [this website](https://bas.dev/projects/weather-icons).
 
 ### ⚒ Process
-- An icon is desined in Adobe Illustrator.
+- An icon is designed in Adobe Illustrator.
 - Icons are exported to plain SVG files.
 - Animations are added by editing svg files.
 - A node.js script minifies the SVG's.
