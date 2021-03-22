@@ -1,31 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
 	<g>
-		<path d="M32,23.36A8.64,8.64,0,1,1,23.36,32,8.66,8.66,0,0,1,32,23.36m0-3A11.64,11.64,0,1,0,43.64,32,11.64,11.64,0,0,0,32,20.36Z" fill="#f4a71d"/>
-		<line x1="32" y1="15.71" x2="32" y2="9.5" fill="none" stroke="#f4a71d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3">
-			<animate attributeName="stroke-dasharray" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" values="3 6; 6 6; 3 6" keyTimes="0; .5; 1" repeatCount="indefinite"/>
-		</line>
-		<line x1="32" y1="48.29" x2="32" y2="54.5" fill="none" stroke="#f4a71d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3">
-			<animate attributeName="stroke-dasharray" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" values="3 6; 6 6; 3 6" keyTimes="0; .5; 1" repeatCount="indefinite"/>
-		</line>
-		<line x1="43.52" y1="20.48" x2="47.91" y2="16.09" fill="none" stroke="#f4a71d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3">
-			<animate attributeName="stroke-dasharray" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" values="3 6; 6 6; 3 6" keyTimes="0; .5; 1" repeatCount="indefinite"/>
-		</line>
-		<line x1="20.48" y1="43.52" x2="16.09" y2="47.91" fill="none" stroke="#f4a71d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3">
-			<animate attributeName="stroke-dasharray" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" values="3 6; 6 6; 3 6" keyTimes="0; .5; 1" repeatCount="indefinite"/>
-		</line>
-		<line x1="20.48" y1="20.48" x2="16.09" y2="16.09" fill="none" stroke="#f4a71d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3">
-			<animate attributeName="stroke-dasharray" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" values="3 6; 6 6; 3 6" keyTimes="0; .5; 1" repeatCount="indefinite"/>
-		</line>
-		<line x1="43.52" y1="43.52" x2="47.91" y2="47.91" fill="none" stroke="#f4a71d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3">
-			<animate attributeName="stroke-dasharray" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" values="3 6; 6 6; 3 6" keyTimes="0; .5; 1" repeatCount="indefinite"/>
-		</line>
-		<line x1="15.71" y1="32" x2="9.5" y2="32" fill="none" stroke="#f4a71d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3">
-			<animate attributeName="stroke-dasharray" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" values="3 6; 6 6; 3 6" keyTimes="0; .5; 1" repeatCount="indefinite"/>
-		</line>
-		<line x1="48.29" y1="32" x2="54.5" y2="32" fill="none" stroke="#f4a71d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3">
-			<animate attributeName="stroke-dasharray" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" values="3 6; 6 6; 3 6" keyTimes="0; .5; 1" repeatCount="indefinite"/>
-		</line>
-
-		<animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" dur="45s" repeatCount="indefinite"/>
+		<path fill="#f59e0b" d="M32 23.36A8.64 8.64 0 1123.36 32 8.66 8.66 0 0132 23.36m0-3A11.64 11.64 0 1043.64 32 11.64 11.64 0 0032 20.36z"/>
+		<path fill="none" stroke="#f59e0b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" d="M32 15.71V9.5">
+			<animate attributeName="stroke-dasharray" calcMode="spline" dur="5s" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" keyTimes="0; .5; 1" repeatCount="indefinite" values="3 6; 6 6; 3 6"/>
+		</path>
+		<path fill="none" stroke="#f59e0b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" d="M32 48.29v6.21">
+			<animate attributeName="stroke-dasharray" calcMode="spline" dur="5s" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" keyTimes="0; .5; 1" repeatCount="indefinite" values="3 6; 6 6; 3 6"/>
+		</path>
+		<path fill="none" stroke="#f59e0b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" d="M43.52 20.48l4.39-4.39">
+			<animate attributeName="stroke-dasharray" calcMode="spline" dur="5s" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" keyTimes="0; .5; 1" repeatCount="indefinite" values="3 6; 6 6; 3 6"/>
+		</path>
+		<path fill="none" stroke="#f59e0b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" d="M20.48 43.52l-4.39 4.39">
+			<animate attributeName="stroke-dasharray" calcMode="spline" dur="5s" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" keyTimes="0; .5; 1" repeatCount="indefinite" values="3 6; 6 6; 3 6"/>
+		</path>
+		<path fill="none" stroke="#f59e0b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" d="M20.48 20.48l-4.39-4.39">
+			<animate attributeName="stroke-dasharray" calcMode="spline" dur="5s" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" keyTimes="0; .5; 1" repeatCount="indefinite" values="3 6; 6 6; 3 6"/>
+		</path>
+		<path fill="none" stroke="#f59e0b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" d="M43.52 43.52l4.39 4.39">
+			<animate attributeName="stroke-dasharray" calcMode="spline" dur="5s" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" keyTimes="0; .5; 1" repeatCount="indefinite" values="3 6; 6 6; 3 6"/>
+		</path>
+		<path fill="none" stroke="#f59e0b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" d="M15.71 32H9.5">
+			<animate attributeName="stroke-dasharray" calcMode="spline" dur="5s" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" keyTimes="0; .5; 1" repeatCount="indefinite" values="3 6; 6 6; 3 6"/>
+		</path>
+		<path fill="none" stroke="#f59e0b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" d="M48.29 32h6.21">
+			<animate attributeName="stroke-dasharray" calcMode="spline" dur="5s" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" keyTimes="0; .5; 1" repeatCount="indefinite" values="3 6; 6 6; 3 6"/>
+		</path>
+		<animateTransform attributeName="transform" dur="45s" from="0 32 32" repeatCount="indefinite" to="360 32 32" type="rotate"/>
 	</g>
 </svg>

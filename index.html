@@ -4,14 +4,8 @@
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Weather Icons by Bas</title>
-	<link rel="stylesheet" href="https://unpkg.com/@latte-ui/css@2.0.0-dev.1/dist/index.css" type="text/css"/>
+	<link rel="stylesheet" href="https://unpkg.com/@latte-ui/css@2.0.0-dev.2/dist/latte-ui.css" type="text/css"/>
 	<style type="text/css">
-		:root
-		{
-			--primary: 200, 72%;
-			--primary-l: 48%;
-		}
-
 		div.panel-body
 		{
 			display: flex;
@@ -26,11 +20,10 @@
 			margin: 12px;
 			height: 128px;
 			width: 128px;
-			outline: 1px dashed hsl(var(--outline), var(--outline-l));
 		}
 	</style>
 </head>
-<body>
+<body class="bg-gray-100">
 
 	<main id="app">
 
@@ -42,27 +35,36 @@
 
 		<div class="container my-5">
 			<div class="row">
-				<div class="col-12 lg:col-6">
+				<div class="col-12">
 
-					<div class="panel bg-base-light rounded-1 shadow-outline-0">
+					<div class="panel bg-gray-0 rounded-1 shadow-outline-0">
 						<div class="panel-body py-5">
 
 							<img src="./design/line/animation-ready/clear-day.svg" alt="clear-day" class="weather-icon"/>
 							<img src="./design/line/animation-ready/clear-night.svg" alt="clear-night" class="weather-icon"/>
 							<img src="./design/line/animation-ready/cloudy.svg" alt="cloudy" class="weather-icon"/>
 							<img src="./design/line/animation-ready/overcast.svg" alt="overcast" class="weather-icon"/>
+							<img src="./design/line/animation-ready/overcast-day.svg" alt="overcast-day" class="weather-icon"/>
+							<img src="./design/line/animation-ready/overcast-night.svg" alt="overcast-night" class="weather-icon"/>
 							<img src="./design/line/animation-ready/drizzle.svg" alt="drizzle" class="weather-icon"/>
+							<img src="./design/line/animation-ready/fog.svg" alt="fog" class="weather-icon"/>
+							<img src="./design/line/animation-ready/fog-day.svg" alt="fog-day" class="weather-icon"/>
+							<img src="./design/line/animation-ready/fog-night.svg" alt="fog-night" class="weather-icon"/>
 							<img src="./design/line/animation-ready/hail.svg" alt="hail" class="weather-icon"/>
 							<img src="./design/line/animation-ready/mist.svg" alt="mist" class="weather-icon"/>
 							<img src="./design/line/animation-ready/partly-cloudy-day.svg" alt="partly-cloudy-day" class="weather-icon"/>
 							<img src="./design/line/animation-ready/partly-cloudy-day-drizzle.svg" alt="partly-cloudy-day-drizzle" class="weather-icon"/>
+							<img src="./design/line/animation-ready/partly-cloudy-day-fog.svg" alt="partly-cloudy-day-fog" class="weather-icon"/>
 							<img src="./design/line/animation-ready/partly-cloudy-day-hail.svg" alt="partly-cloudy-day-hail" class="weather-icon"/>
 							<img src="./design/line/animation-ready/partly-cloudy-day-rain.svg" alt="partly-cloudy-day-rain" class="weather-icon"/>
+							<img src="./design/line/animation-ready/partly-cloudy-day-sleet.svg" alt="partly-cloudy-day-sleet" class="weather-icon"/>
 							<img src="./design/line/animation-ready/partly-cloudy-day-snow.svg" alt="partly-cloudy-day-snow" class="weather-icon"/>
 							<img src="./design/line/animation-ready/partly-cloudy-night.svg" alt="partly-cloudy-night" class="weather-icon"/>
 							<img src="./design/line/animation-ready/partly-cloudy-night-drizzle.svg" alt="partly-cloudy-night-drizzle" class="weather-icon"/>
+							<img src="./design/line/animation-ready/partly-cloudy-night-fog.svg" alt="partly-cloudy-night-fog" class="weather-icon"/>
 							<img src="./design/line/animation-ready/partly-cloudy-night-hail.svg" alt="partly-cloudy-night-hail" class="weather-icon"/>
 							<img src="./design/line/animation-ready/partly-cloudy-night-rain.svg" alt="partly-cloudy-night-rain" class="weather-icon"/>
+							<img src="./design/line/animation-ready/partly-cloudy-night-sleet.svg" alt="partly-cloudy-night-sleet" class="weather-icon"/>
 							<img src="./design/line/animation-ready/partly-cloudy-night-snow.svg" alt="partly-cloudy-night-snow" class="weather-icon"/>
 							<img src="./design/line/animation-ready/rain.svg" alt="rain" class="weather-icon"/>
 							<img src="./design/line/animation-ready/snow.svg" alt="snow" class="weather-icon"/>
@@ -77,6 +79,8 @@
 
 							<img src="./design/line/animation-ready/sunrise.svg" alt="sunrise" class="weather-icon"/>
 							<img src="./design/line/animation-ready/sunset.svg" alt="sunset" class="weather-icon"/>
+							<img src="./design/line/animation-ready/moonrise.svg" alt="moonrise" class="weather-icon"/>
+							<img src="./design/line/animation-ready/moonset.svg" alt="moonset" class="weather-icon"/>
 
 						</div>
 						<div class="panel-body py-5">
@@ -84,50 +88,6 @@
 							<img src="./design/line/animation-ready/compass.svg" alt="compass" class="weather-icon"/>
 							<img src="./design/line/animation-ready/droplet.svg" alt="droplet" class="weather-icon"/>
 							<img src="./design/line/animation-ready/thermometer.svg" alt="thermometer" class="weather-icon"/>
-
-						</div>
-					</div>
-
-				</div>
-				<div class="col-12 lg:col-6">
-
-					<div class="panel bg-base-light rounded-1 shadow-outline-0">
-						<div class="panel-body py-5">
-
-							<img src="./design/fill/animation-ready/clear-day.svg" alt="clear-day" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/clear-night.svg" alt="clear-night" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/cloudy.svg" alt="cloudy" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/drizzle.svg" alt="drizzle" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/hail.svg" alt="hail" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/mist.svg" alt="mist" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/partly-cloudy-day.svg" alt="partly-cloudy-day" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/partly-cloudy-day-drizzle.svg" alt="partly-cloudy-day-drizzle" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/partly-cloudy-day-hail.svg" alt="partly-cloudy-day-hail" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/partly-cloudy-day-rain.svg" alt="partly-cloudy-day-rain" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/partly-cloudy-day-snow.svg" alt="partly-cloudy-day-snow" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/partly-cloudy-night.svg" alt="partly-cloudy-night" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/partly-cloudy-night-drizzle.svg" alt="partly-cloudy-night-drizzle" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/partly-cloudy-night-hail.svg" alt="partly-cloudy-night-hail" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/partly-cloudy-night-rain.svg" alt="partly-cloudy-night-rain" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/partly-cloudy-night-snow.svg" alt="partly-cloudy-night-snow" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/rain.svg" alt="rain" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/snow.svg" alt="snow" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/thunderstorms.svg" alt="thunderstorms" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/tornado.svg" alt="tornado" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/wind.svg" alt="wind" class="weather-icon"/>
-
-						</div>
-						<div class="panel-body py-5">
-
-							<img src="./design/fill/animation-ready/sunrise.svg" alt="sunrise" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/sunset.svg" alt="sunset" class="weather-icon"/>
-
-						</div>
-						<div class="panel-body py-5">
-
-							<img src="./design/fill/animation-ready/compass.svg" alt="compass" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/droplet.svg" alt="droplet" class="weather-icon"/>
-							<img src="./design/fill/animation-ready/thermometer.svg" alt="thermometer" class="weather-icon"/>
 
 						</div>
 					</div>
