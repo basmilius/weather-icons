@@ -18,7 +18,7 @@ const ICONS_MAP = {
 		"partly-cloudy-night": "partly-cloudy-night",
 		"partly-cloudy-night-rain": "partly-cloudy-night-rain",
 		"rain": "rain",
-		"sleet": "hail",
+		"sleet": "sleet",
 		"snow": "snow",
 		"thunderstorm": "thunderstorms",
 		"tornado": "tornado",
