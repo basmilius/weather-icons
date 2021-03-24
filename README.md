@@ -26,9 +26,9 @@ somewhat weather related.
 ---
 
 <p float="left">
-    <img src="https://bmcdn.nl/assets/weather-icons/all/clear-day.svg" alt="Partly Cloudy Day" height="48"/>
-    <img src="https://bmcdn.nl/assets/weather-icons/all/partly-cloudy-day.svg" alt="Partly Cloudy Day" height="48"/>
-    <img src="https://bmcdn.nl/assets/weather-icons/all/rain.svg" alt="Rain" height="48"/>
-    <img src="https://bmcdn.nl/assets/weather-icons/all/tornado.svg" alt="Tornado" height="48"/>
-    <img src="https://bmcdn.nl/assets/weather-icons/all/clear-night.svg" alt="Clear Night" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v1.3/clear-day.svg" alt="Partly Cloudy Day" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v1.3/partly-cloudy-day.svg" alt="Partly Cloudy Day" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v1.3/rain.svg" alt="Rain" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v1.3/tornado.svg" alt="Tornado" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v1.3/clear-night.svg" alt="Clear Night" height="48"/>
 </p>
