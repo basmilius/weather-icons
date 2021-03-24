@@ -130,6 +130,7 @@ async function run()
 		await fs.mkdir(`./production/${type}`);
 
 		const icons = (await fs.readdir(`./design/${type}/animation-ready`))
+			.filter(icon => icon !== ".DS_Store")
 			.map(icon => icon.substr(0, icon.length - 4));
 
 		OPTIMIZED_ICONS[type] = {};
