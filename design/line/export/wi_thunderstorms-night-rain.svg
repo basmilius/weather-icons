@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+	<defs>
+		<clipPath id="a">
+			<polygon points="12 35 6.72 30.79 4.72 24.79 5.72 17.79 9.72 12.79 14.72 9.79 20.72 9.79 25.72 10.79 28.72 13.79 33 20 27 24 21 24 18 27 18 31 14 33 12 35" fill="none"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#a)">
+		<path d="M29.33,26.68A10.61,10.61,0,0,1,18.65,16.14,10.5,10.5,0,0,1,19,13.5,10.54,10.54,0,1,0,30.5,26.61,11.48,11.48,0,0,1,29.33,26.68Z" fill="none" stroke="#72b9d5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+	</g>
+	<path d="M43.67,45.5H46.5a7,7,0,0,0,0-14l-.32,0a10.49,10.49,0,0,0-19.11-8,7,7,0,0,0-10.57,6,7.21,7.21,0,0,0,.1,1.14A7.5,7.5,0,0,0,18,45.5a4.19,4.19,0,0,0,.5,0v0" fill="none" stroke="#e5e7eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+	<line x1="24.39" y1="43.03" x2="23.61" y2="47.97" fill="none" stroke="#2885c7" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+	<line x1="31.39" y1="43.03" x2="30.61" y2="47.97" fill="none" stroke="#2885c7" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+	<line x1="38.39" y1="43.03" x2="37.61" y2="47.97" fill="none" stroke="#2885c7" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+	<polygon points="30 36 26 48 30 48 28 58 38 44 32 44 36 36 30 36" fill="#f59e0b"/>
+</svg>

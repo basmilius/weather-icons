@@ -17,9 +17,15 @@
 		{
 			position: relative;
 			display: inline-block;
-			margin: 12px;
+			margin: 9px;
 			height: 128px;
 			width: 128px;
+		}
+
+		.weather-icons-smaller .weather-icon
+		{
+            height: 96px;
+            width: 96px;
 		}
 	</style>
 </head>
@@ -28,67 +34,93 @@
 	<main id="app">
 
 		<div class="app-bar is-primary shadow-4">
-			<div class="app-bar-row">
+			<div class="app-bar-row my-3">
 				<span class="app-bar-title mx-auto">Weather Icons by Bas</span>
 			</div>
 		</div>
 
-		<div class="container my-5">
+		<div class="container my-8">
 			<div class="row">
 				<div class="col-12">
 
-					<div class="panel bg-gray-0 rounded-1 shadow-outline-0">
-						<div class="panel-body py-5">
+					<div class="panel bg-gray-0 rounded-1 shadow-2 overflow-hidden">
+						<div class="panel-body p-7 lg:p-10">
 
-							<img src="./design/line/animation-ready/clear-day.svg" alt="clear-day" class="weather-icon"/>
-							<img src="./design/line/animation-ready/clear-night.svg" alt="clear-night" class="weather-icon"/>
-							<img src="./design/line/animation-ready/cloudy.svg" alt="cloudy" class="weather-icon"/>
-							<img src="./design/line/animation-ready/overcast.svg" alt="overcast" class="weather-icon"/>
-							<img src="./design/line/animation-ready/overcast-day.svg" alt="overcast-day" class="weather-icon"/>
-							<img src="./design/line/animation-ready/overcast-night.svg" alt="overcast-night" class="weather-icon"/>
-							<img src="./design/line/animation-ready/drizzle.svg" alt="drizzle" class="weather-icon"/>
-							<img src="./design/line/animation-ready/fog.svg" alt="fog" class="weather-icon"/>
-							<img src="./design/line/animation-ready/fog-day.svg" alt="fog-day" class="weather-icon"/>
-							<img src="./design/line/animation-ready/fog-night.svg" alt="fog-night" class="weather-icon"/>
-							<img src="./design/line/animation-ready/hail.svg" alt="hail" class="weather-icon"/>
-							<img src="./design/line/animation-ready/mist.svg" alt="mist" class="weather-icon"/>
-							<img src="./design/line/animation-ready/partly-cloudy-day.svg" alt="partly-cloudy-day" class="weather-icon"/>
-							<img src="./design/line/animation-ready/partly-cloudy-day-drizzle.svg" alt="partly-cloudy-day-drizzle" class="weather-icon"/>
-							<img src="./design/line/animation-ready/partly-cloudy-day-fog.svg" alt="partly-cloudy-day-fog" class="weather-icon"/>
-							<img src="./design/line/animation-ready/partly-cloudy-day-hail.svg" alt="partly-cloudy-day-hail" class="weather-icon"/>
-							<img src="./design/line/animation-ready/partly-cloudy-day-rain.svg" alt="partly-cloudy-day-rain" class="weather-icon"/>
-							<img src="./design/line/animation-ready/partly-cloudy-day-sleet.svg" alt="partly-cloudy-day-sleet" class="weather-icon"/>
-							<img src="./design/line/animation-ready/partly-cloudy-day-snow.svg" alt="partly-cloudy-day-snow" class="weather-icon"/>
-							<img src="./design/line/animation-ready/partly-cloudy-night.svg" alt="partly-cloudy-night" class="weather-icon"/>
-							<img src="./design/line/animation-ready/partly-cloudy-night-drizzle.svg" alt="partly-cloudy-night-drizzle" class="weather-icon"/>
-							<img src="./design/line/animation-ready/partly-cloudy-night-fog.svg" alt="partly-cloudy-night-fog" class="weather-icon"/>
-							<img src="./design/line/animation-ready/partly-cloudy-night-hail.svg" alt="partly-cloudy-night-hail" class="weather-icon"/>
-							<img src="./design/line/animation-ready/partly-cloudy-night-rain.svg" alt="partly-cloudy-night-rain" class="weather-icon"/>
-							<img src="./design/line/animation-ready/partly-cloudy-night-sleet.svg" alt="partly-cloudy-night-sleet" class="weather-icon"/>
-							<img src="./design/line/animation-ready/partly-cloudy-night-snow.svg" alt="partly-cloudy-night-snow" class="weather-icon"/>
-							<img src="./design/line/animation-ready/rain.svg" alt="rain" class="weather-icon"/>
-							<img src="./design/line/animation-ready/snow.svg" alt="snow" class="weather-icon"/>
-							<img src="./design/line/animation-ready/thunderstorms.svg" alt="thunderstorms" class="weather-icon"/>
-							<img src="./design/line/animation-ready/thunderstorms-day.svg" alt="thunderstorms-day" class="weather-icon"/>
-							<img src="./design/line/animation-ready/thunderstorms-night.svg" alt="thunderstorms-night" class="weather-icon"/>
-							<img src="./design/line/animation-ready/tornado.svg" alt="tornado" class="weather-icon"/>
-							<img src="./design/line/animation-ready/wind.svg" alt="wind" class="weather-icon"/>
-
-						</div>
-						<div class="panel-body py-5">
-
-							<img src="./design/line/animation-ready/sunrise.svg" alt="sunrise" class="weather-icon"/>
-							<img src="./design/line/animation-ready/sunset.svg" alt="sunset" class="weather-icon"/>
-							<img src="./design/line/animation-ready/moonrise.svg" alt="moonrise" class="weather-icon"/>
-							<img src="./design/line/animation-ready/moonset.svg" alt="moonset" class="weather-icon"/>
+							<img src="./production/line/all/clear-day.svg" alt="clear-day" class="weather-icon"/>
+							<img src="./production/line/all/clear-night.svg" alt="clear-night" class="weather-icon"/>
+							<img src="./production/line/all/cloudy.svg" alt="cloudy" class="weather-icon"/>
+							<img src="./production/line/all/overcast.svg" alt="overcast" class="weather-icon"/>
+							<img src="./production/line/all/overcast-day.svg" alt="overcast-day" class="weather-icon"/>
+							<img src="./production/line/all/overcast-night.svg" alt="overcast-night" class="weather-icon"/>
+							<img src="./production/line/all/drizzle.svg" alt="drizzle" class="weather-icon"/>
+							<img src="./production/line/all/fog.svg" alt="fog" class="weather-icon"/>
+							<img src="./production/line/all/fog-day.svg" alt="fog-day" class="weather-icon"/>
+							<img src="./production/line/all/fog-night.svg" alt="fog-night" class="weather-icon"/>
+							<img src="./production/line/all/hail.svg" alt="hail" class="weather-icon"/>
+							<img src="./production/line/all/mist.svg" alt="mist" class="weather-icon"/>
+							<img src="./production/line/all/partly-cloudy-day.svg" alt="partly-cloudy-day" class="weather-icon"/>
+							<img src="./production/line/all/partly-cloudy-day-drizzle.svg" alt="partly-cloudy-day-drizzle" class="weather-icon"/>
+							<img src="./production/line/all/partly-cloudy-day-fog.svg" alt="partly-cloudy-day-fog" class="weather-icon"/>
+							<img src="./production/line/all/partly-cloudy-day-hail.svg" alt="partly-cloudy-day-hail" class="weather-icon"/>
+							<img src="./production/line/all/partly-cloudy-day-rain.svg" alt="partly-cloudy-day-rain" class="weather-icon"/>
+							<img src="./production/line/all/partly-cloudy-day-sleet.svg" alt="partly-cloudy-day-sleet" class="weather-icon"/>
+							<img src="./production/line/all/partly-cloudy-day-snow.svg" alt="partly-cloudy-day-snow" class="weather-icon"/>
+							<img src="./production/line/all/partly-cloudy-night.svg" alt="partly-cloudy-night" class="weather-icon"/>
+							<img src="./production/line/all/partly-cloudy-night-drizzle.svg" alt="partly-cloudy-night-drizzle" class="weather-icon"/>
+							<img src="./production/line/all/partly-cloudy-night-fog.svg" alt="partly-cloudy-night-fog" class="weather-icon"/>
+							<img src="./production/line/all/partly-cloudy-night-hail.svg" alt="partly-cloudy-night-hail" class="weather-icon"/>
+							<img src="./production/line/all/partly-cloudy-night-rain.svg" alt="partly-cloudy-night-rain" class="weather-icon"/>
+							<img src="./production/line/all/partly-cloudy-night-sleet.svg" alt="partly-cloudy-night-sleet" class="weather-icon"/>
+							<img src="./production/line/all/partly-cloudy-night-snow.svg" alt="partly-cloudy-night-snow" class="weather-icon"/>
+							<img src="./production/line/all/rain.svg" alt="rain" class="weather-icon"/>
+							<img src="./production/line/all/snow.svg" alt="snow" class="weather-icon"/>
+							<img src="./production/line/all/thunderstorms.svg" alt="thunderstorms" class="weather-icon"/>
+							<img src="./production/line/all/thunderstorms-day.svg" alt="thunderstorms-day" class="weather-icon"/>
+							<img src="./production/line/all/thunderstorms-night.svg" alt="thunderstorms-night" class="weather-icon"/>
+							<img src="./production/line/all/thunderstorms-rain.svg" alt="thunderstorms-rain" class="weather-icon"/>
+							<img src="./production/line/all/thunderstorms-day-rain.svg" alt="thunderstorms-day-rain" class="weather-icon"/>
+							<img src="./production/line/all/thunderstorms-night-rain.svg" alt="thunderstorms-night-rain" class="weather-icon"/>
+							<img src="./production/line/all/hurricane.svg" alt="hurricane" class="weather-icon"/>
+							<img src="./production/line/all/tornado.svg" alt="tornado" class="weather-icon"/>
+							<img src="./production/line/all/wind.svg" alt="wind" class="weather-icon"/>
 
 						</div>
-						<div class="panel-body py-5">
+						<div class="panel-body p-7 lg:p-10 pt-0 lg:pt-0">
 
-							<img src="./design/line/animation-ready/compass.svg" alt="compass" class="weather-icon"/>
-							<img src="./design/line/animation-ready/droplet.svg" alt="droplet" class="weather-icon"/>
-							<img src="./design/line/animation-ready/thermometer.svg" alt="thermometer" class="weather-icon"/>
+							<img src="./production/line/all/horizon.svg" alt="horizon" class="weather-icon"/>
+							<img src="./production/line/all/sunrise.svg" alt="sunrise" class="weather-icon"/>
+							<img src="./production/line/all/sunset.svg" alt="sunset" class="weather-icon"/>
+							<img src="./production/line/all/moonrise.svg" alt="moonrise" class="weather-icon"/>
+							<img src="./production/line/all/moonset.svg" alt="moonset" class="weather-icon"/>
 
+						</div>
+						<div class="panel-body p-7 lg:p-10 pt-0 lg:pt-0 weather-icons-smaller">
+
+							<img src="./production/line/all/moon-new.svg" alt="moon-new" class="weather-icon"/>
+							<img src="./production/line/all/moon-waxing-crescent.svg" alt="moon-waxing-crescent" class="weather-icon"/>
+							<img src="./production/line/all/moon-first-quarter.svg" alt="moon-first-quarter" class="weather-icon"/>
+							<img src="./production/line/all/moon-waxing-gibbous.svg" alt="moon-waxing-gibbous" class="weather-icon"/>
+							<img src="./production/line/all/moon-full.svg" alt="moon-full" class="weather-icon"/>
+							<img src="./production/line/all/moon-waning-gibbous.svg" alt="moon-waning-gibbous" class="weather-icon"/>
+							<img src="./production/line/all/moon-last-quarter.svg" alt="moon-last-quarter" class="weather-icon"/>
+							<img src="./production/line/all/moon-waning-crescent.svg" alt="moon-waning-crescent" class="weather-icon"/>
+
+						</div>
+						<div class="panel-body p-7 lg:p-10 pt-0 lg:pt-0 weather-icons-smaller">
+
+							<img src="./production/line/all/compass.svg" alt="compass" class="weather-icon"/>
+							<img src="./production/line/all/thermometer.svg" alt="thermometer" class="weather-icon"/>
+							<img src="./production/line/all/lightning-bolt.svg" alt="lightning-bolt" class="weather-icon"/>
+							<img src="./production/line/all/raindrop.svg" alt="raindrop" class="weather-icon"/>
+							<img src="./production/line/all/snowflake.svg" alt="snowflake" class="weather-icon"/>
+							<img src="./production/line/all/star.svg" alt="star" class="weather-icon"/>
+
+						</div>
+						<div class="divider divider-horizontal bg-gray-100 my-0"></div>
+						<div class="panel-body bg-gray-50 p-7">
+							<a class="text-gray-500" href="https://github.com/basmilius/weather-icons" rel="noopener" target="_blank">
+								View them on GitHub
+							</a>
 						</div>
 					</div>
 

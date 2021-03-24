@@ -4,6 +4,14 @@
 			<rect y="7.5" width="64" height="32" fill="none"/>
 		</clipPath>
 	</defs>
+	<g>
+		<line x1="17" y1="44" x2="47" y2="44" fill="none" stroke="#d1d5db" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+		<animateTransform attributeName="transform" type="translate" values="-4 0; 4 0; -4 0" dur="5s" begin="0s" repeatCount="indefinite"/>
+	</g>
+	<g>
+		<line x1="17" y1="51" x2="47" y2="51" fill="none" stroke="#d1d5db" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+		<animateTransform attributeName="transform" type="translate" values="-4 0; 4 0; -4 0" dur="5s" begin="-4s" repeatCount="indefinite"/>
+	</g>
 	<g clip-path="url(#a)">
 		<g>
 			<path d="M32,30.36A8.64,8.64,0,1,1,23.36,39,8.66,8.66,0,0,1,32,30.36m0-3A11.64,11.64,0,1,0,43.64,39,11.64,11.64,0,0,0,32,27.36Z" fill="#f59e0b"/>
@@ -17,13 +25,5 @@
 			<line x1="54.5" y1="39" x2="48.29" y2="39" fill="none" stroke="#f59e0b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
 			<animateTransform attributeName="transform" type="rotate" from="0 32 39" to="360 32 39" dur="45s" repeatCount="indefinite"/>
 		</g>
-	</g>
-	<g>
-		<line x1="17" y1="44" x2="47" y2="44" fill="none" stroke="#e5e7eb" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
-		<animateTransform attributeName="transform" type="translate" values="-4 0; 4 0; -4 0" dur="5s" begin="0s" repeatCount="indefinite"/>
-	</g>
-	<g>
-		<line x1="17" y1="51" x2="47" y2="51" fill="none" stroke="#e5e7eb" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
-		<animateTransform attributeName="transform" type="translate" values="-4 0; 4 0; -4 0" dur="5s" begin="-4s" repeatCount="indefinite"/>
 	</g>
 </svg>
