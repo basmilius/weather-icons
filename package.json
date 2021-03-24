@@ -1,6 +1,6 @@
 {
 	"name": "@bybas/weather-icons",
-	"version": "1.4.0",
+	"version": "1.4.1",
 	"description": "A set of animated svg weather icons.",
 	"main": "index.js",
 	"scripts": {
@@ -22,12 +22,12 @@
 	],
 	"author": {
 		"name": "Bas Milius",
-		"email": "hello@bas.dev",
+		"email": "bas@mili.us",
 		"url": "https://bas.dev"
 	},
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/basmilius/weather-icons/issues"
 	},
-	"homepage": "https://weather-icons.dev-preview.nl/"
+	"homepage": "https://meteocons.com/"
 }
