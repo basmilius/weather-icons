@@ -5,12 +5,16 @@
 		</clipPath>
 	</defs>
 	<g>
-		<line x1="17" y1="44" x2="47" y2="44" fill="none" stroke="#afccf7" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
-		<animateTransform attributeName="transform" type="translate" values="-4 0; 4 0; -4 0" dur="5s" begin="0s" repeatCount="indefinite"/>
+		<line x1="17" y1="44" x2="21.5" y2="44" fill="none" stroke="#d1d5db" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+		<line x1="28.5" y1="44" x2="39" y2="44" fill="none" stroke="#d1d5db" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="7 7"/>
+		<line x1="42.5" y1="44" x2="47" y2="44" fill="none" stroke="#d1d5db" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+		<animateTransform attributeName="transform" type="translate" values="-3 0; 3 0; -3 0" dur="5s" begin="0s" repeatCount="indefinite"/>
 	</g>
 	<g>
-		<line x1="17" y1="51" x2="47" y2="51" fill="none" stroke="#afccf7" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
-		<animateTransform attributeName="transform" type="translate" values="-4 0; 4 0; -4 0" dur="5s" begin="-4s" repeatCount="indefinite"/>
+		<line x1="17" y1="51" x2="21.5" y2="51" fill="none" stroke="#d1d5db" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+		<line x1="28.5" y1="51" x2="39" y2="51" fill="none" stroke="#d1d5db" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="7 7"/>
+		<line x1="42.5" y1="51" x2="47" y2="51" fill="none" stroke="#d1d5db" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+		<animateTransform attributeName="transform" type="translate" values="-3 0; 3 0; -3 0" dur="5s" begin="-4s" repeatCount="indefinite"/>
 	</g>
 	<g clip-path="url(#a)">
 		<g>

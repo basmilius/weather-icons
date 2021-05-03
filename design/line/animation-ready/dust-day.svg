@@ -1,21 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
 	<defs>
 		<clipPath id="a">
-			<rect y="7.5" width="64" height="32" fill="none"/>
+			<polygon points="7.5 7.5 54.5 7.5 7.5 54.5 7.5 7.5" fill="none"/>
 		</clipPath>
 	</defs>
-	<g>
-		<line x1="17" y1="44" x2="21.5" y2="44" fill="none" stroke="#d1d5db" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
-		<line x1="28.5" y1="44" x2="39" y2="44" fill="none" stroke="#d1d5db" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="7 7"/>
-		<line x1="42.5" y1="44" x2="47" y2="44" fill="none" stroke="#d1d5db" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
-		<animateTransform attributeName="transform" type="translate" values="-3 0; 3 0; -3 0" dur="5s" begin="0s" repeatCount="indefinite"/>
-	</g>
-	<g>
-		<line x1="17" y1="51" x2="21.5" y2="51" fill="none" stroke="#d1d5db" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
-		<line x1="28.5" y1="51" x2="39" y2="51" fill="none" stroke="#d1d5db" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="7 7"/>
-		<line x1="42.5" y1="51" x2="47" y2="51" fill="none" stroke="#d1d5db" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
-		<animateTransform attributeName="transform" type="translate" values="-3 0; 3 0; -3 0" dur="5s" begin="-4s" repeatCount="indefinite"/>
-	</g>
 	<g clip-path="url(#a)">
 		<g>
 			<path d="M32,30.36A8.64,8.64,0,1,1,23.36,39,8.66,8.66,0,0,1,32,30.36m0-3A11.64,11.64,0,1,0,43.64,39,11.64,11.64,0,0,0,32,27.36Z" fill="#f59e0b"/>
@@ -29,5 +17,21 @@
 			<line x1="54.5" y1="39" x2="48.29" y2="39" fill="none" stroke="#f59e0b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
 			<animateTransform attributeName="transform" type="rotate" from="0 32 39" to="360 32 39" dur="45s" repeatCount="indefinite"/>
 		</g>
+	</g>
+	<g>
+		<line x1="24.89" y1="45.11" x2="28.08" y2="41.92" fill="none" stroke="#fde68a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+		<line x1="33.03" y1="36.97" x2="40.45" y2="29.55" fill="none" stroke="#fde68a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="7 7">
+			<animate attributeName="stroke-dasharray" values="7 7; 5 9; 7 7" dur="5s" repeatCount="indefinite"/>
+		</line>
+		<line x1="42.92" y1="27.08" x2="46.11" y2="23.89" fill="none" stroke="#fde68a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+		<animateTransform attributeName="transform" type="translate" values="-2 2; 0 0; -2 2" dur="5s" repeatCount="indefinite"/>
+	</g>
+	<g>
+		<line x1="34.89" y1="45.11" x2="38.08" y2="41.92" fill="none" stroke="#fde68a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+		<line x1="43.03" y1="36.97" x2="50.45" y2="29.55" fill="none" stroke="#fde68a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="7 7">
+			<animate attributeName="stroke-dasharray" values="7 7; 5 9; 7 7" dur="5s" begin="-2.5s" repeatCount="indefinite"/>
+		</line>
+		<line x1="52.92" y1="27.08" x2="56.11" y2="23.89" fill="none" stroke="#fde68a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+		<animateTransform attributeName="transform" type="translate" values="-2 2; 0 0; -2 2" dur="5s" begin="-2.5s" repeatCount="indefinite"/>
 	</g>
 </svg>
