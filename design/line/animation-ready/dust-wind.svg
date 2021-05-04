@@ -12,12 +12,12 @@
 	</g>
 	<g>
 		<line x1="11.5" y1="24.5" x2="20.5" y2="24.5" fill="none" stroke="#fde68a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
-		<animateTransform attributeName="transform" type="translate" values="-3 0; 15 0" dur=".9s" begin="-.3s" repeatCount="indefinite"/>
+		<animateTransform attributeName="transform" type="translate" values="-3 0; 18 0" dur=".9s" begin="-.3s" repeatCount="indefinite"/>
 		<animate attributeName="opacity" values="0; 1; 1; 1; 0" dur=".9s" begin="-.3s" repeatCount="indefinite"/>
 	</g>
 	<g>
 		<line x1="27.5" y1="32" x2="36.5" y2="32" fill="none" stroke="#fde68a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
-		<animateTransform attributeName="transform" type="translate" values="-6 0; 9 0" dur=".9s" begin="-.6s" repeatCount="indefinite"/>
+		<animateTransform attributeName="transform" type="translate" values="-6 0; 12 0" dur=".9s" begin="-.6s" repeatCount="indefinite"/>
 		<animate attributeName="opacity" values="0; 1; 1; 1; 0" dur=".9s" begin="-.6s" repeatCount="indefinite"/>
 	</g>
 </svg>
