@@ -27,11 +27,23 @@
             grid-template-columns: repeat(5, 1fr);
         }
 
+		.wi-icons-new
+		{
+            grid-gap: 9px;
+			grid-template-columns: repeat(10, 1fr);
+		}
+
         @media (max-width: 991px)
         {
             .wi-icons
             {
                 grid-template-columns: repeat(3, 1fr);
+            }
+
+            .wi-icons-new
+            {
+                grid-gap: 9px;
+                grid-template-columns: repeat(6, 1fr);
             }
         }
 
@@ -40,6 +52,12 @@
             .wi-icons
             {
                 grid-template-columns: repeat(2, 1fr);
+            }
+
+            .wi-icons-new
+            {
+                grid-gap: 9px;
+                grid-template-columns: repeat(4, 1fr);
             }
         }
 
@@ -73,6 +91,18 @@
             text-align: center;
 			transition: inherit;
         }
+
+		.wi-icons-new .wi-icon
+		{
+            padding: 12px;
+		}
+
+		.wi-icons-new .wi-icon img
+		{
+            height: 60px;
+            width: 60px;
+			margin-bottom: 0;
+		}
 
         .wi-section,
 		.wi-title
@@ -134,48 +164,59 @@
 			</div>
 
 			<h2 class="wi-section mx-4 sm:mx-0">Newest icons</h2>
-			<div class="wi-icons">
-				<div class="wi-icon"><img src="./production/line/all/smoke-particles.svg" alt=""/><span>smoke-particles</span></div>
-				<div class="wi-icon"><img src="./production/line/all/smoke.svg" alt=""/><span>smoke</span></div>
-				<div class="wi-icon"><img src="./production/line/all/partly-cloudy-day-smoke.svg" alt=""/><span>partly-cloudy-day-smoke</span></div>
-				<div class="wi-icon"><img src="./production/line/all/partly-cloudy-night-smoke.svg" alt=""/><span>partly-cloudy-night-smoke</span></div>
-				<div class="wi-icon"><img src="./production/line/all/humidity.svg" alt=""/><span>humidity</span></div>
-				<div class="wi-icon"><img src="./production/line/all/haze.svg" alt=""/><span>haze</span></div>
-				<div class="wi-icon"><img src="./production/line/all/haze-day.svg" alt=""/><span>haze-day</span></div>
-				<div class="wi-icon"><img src="./production/line/all/haze-night.svg" alt=""/><span>haze-night</span></div>
-				<div class="wi-icon"><img src="./production/line/all/partly-cloudy-day-haze.svg" alt=""/><span>partly-cloudy-day-haze</span></div>
-				<div class="wi-icon"><img src="./production/line/all/partly-cloudy-night-haze.svg" alt=""/><span>partly-cloudy-night-haze</span></div>
-				<div class="wi-icon"><img src="./production/line/all/dust.svg" alt=""/><span>dust</span></div>
-				<div class="wi-icon"><img src="./production/line/all/dust-day.svg" alt=""/><span>dust-day</span></div>
-				<div class="wi-icon"><img src="./production/line/all/dust-night.svg" alt=""/><span>dust-night</span></div>
-				<div class="wi-icon"><img src="./production/line/all/dust-wind.svg" alt=""/><span>dust-wind</span></div>
-				<div class="wi-icon"><img src="./production/line/all/thunderstorms-snow.svg" alt=""/><span>thunderstorms-snow</span></div>
-				<div class="wi-icon"><img src="./production/line/all/thunderstorms-day-snow.svg" alt=""/><span>thunderstorms-day-snow</span></div>
-				<div class="wi-icon"><img src="./production/line/all/thunderstorms-night-snow.svg" alt=""/><span>thunderstorms-night-snow</span></div>
-				<div class="wi-icon"><img src="./production/line/all/thermometer-colder.svg" alt=""/><span>thermometer-colder</span></div>
-				<div class="wi-icon"><img src="./production/line/all/thermometer-warmer.svg" alt=""/><span>thermometer-warmer</span></div>
-				<div class="wi-icon"><img src="./production/line/all/thermometer-celsius.svg" alt=""/><span>thermometer-celsius</span></div>
-				<div class="wi-icon"><img src="./production/line/all/thermometer-fahrenheit.svg" alt=""/><span>thermometer-fahrenheit</span></div>
-				<div class="wi-icon"><img src="./production/line/all/celsius.svg" alt=""/><span>celsius</span></div>
-				<div class="wi-icon"><img src="./production/line/all/fahrenheit.svg" alt=""/><span>fahrenheit</span></div>
-				<div class="wi-icon"><img src="./production/line/all/not-available.svg" alt=""/><span>not-available</span></div>
-				<div class="wi-icon"><img src="./production/line/all/umbrella.svg" alt=""/><span>umbrella</span></div>
-				<div class="wi-icon"><img src="./production/line/all/falling-stars.svg" alt=""/><span>falling-stars</span></div>
-				<div class="wi-icon"><img src="./production/line/all/solar-eclipse.svg" alt=""/><span>solar-eclipse</span></div>
-				<div class="wi-icon"><img src="./production/line/all/starry-night.svg" alt=""/><span>starry-night</span></div>
-				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-0.svg" alt=""/><span>wind-beaufort-0</span></div>
-				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-1.svg" alt=""/><span>wind-beaufort-1</span></div>
-				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-2.svg" alt=""/><span>wind-beaufort-2</span></div>
-				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-3.svg" alt=""/><span>wind-beaufort-3</span></div>
-				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-4.svg" alt=""/><span>wind-beaufort-4</span></div>
-				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-5.svg" alt=""/><span>wind-beaufort-5</span></div>
-				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-6.svg" alt=""/><span>wind-beaufort-6</span></div>
-				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-7.svg" alt=""/><span>wind-beaufort-7</span></div>
-				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-8.svg" alt=""/><span>wind-beaufort-8</span></div>
-				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-9.svg" alt=""/><span>wind-beaufort-9</span></div>
-				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-10.svg" alt=""/><span>wind-beaufort-10</span></div>
-				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-11.svg" alt=""/><span>wind-beaufort-11</span></div>
-				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-12.svg" alt=""/><span>wind-beaufort-12</span></div>
+			<div class="wi-icons wi-icons-new">
+				<div class="wi-icon"><img src="./production/line/all/smoke-particles.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/smoke.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/partly-cloudy-day-smoke.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/partly-cloudy-night-smoke.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/humidity.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/haze.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/haze-day.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/haze-night.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/partly-cloudy-day-haze.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/partly-cloudy-night-haze.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/dust.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/dust-day.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/dust-night.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/dust-wind.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/thunderstorms-snow.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/thunderstorms-day-snow.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/thunderstorms-night-snow.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/thermometer-colder.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/thermometer-warmer.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/thermometer-celsius.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/thermometer-fahrenheit.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/celsius.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/fahrenheit.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/not-available.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/umbrella.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/falling-stars.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/solar-eclipse.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/starry-night.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-0.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-1.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-2.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-3.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-4.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-5.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-6.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-7.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-8.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-9.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-10.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-11.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-12.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-1.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-2.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-3.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-4.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-5.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-6.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-7.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-8.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-9.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-10.svg" alt=""/></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-11.svg" alt=""/></div>
 			</div>
 
 			<h2 class="wi-section mx-4 sm:mx-0">Weather</h2>
@@ -309,6 +350,21 @@
 				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-10.svg" alt=""/><span>wind-beaufort-10</span></div>
 				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-11.svg" alt=""/><span>wind-beaufort-11</span></div>
 				<div class="wi-icon"><img src="./production/line/all/wind-beaufort-12.svg" alt=""/><span>wind-beaufort-12</span></div>
+			</div>
+
+			<h2 class="wi-section mx-4 sm:mx-0">UV Index</h2>
+			<div class="wi-icons">
+				<div class="wi-icon"><img src="./production/line/all/uv-index-1.svg" alt=""/><span>uv-index-1</span></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-2.svg" alt=""/><span>uv-index-2</span></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-3.svg" alt=""/><span>uv-index-3</span></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-4.svg" alt=""/><span>uv-index-4</span></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-5.svg" alt=""/><span>uv-index-5</span></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-6.svg" alt=""/><span>uv-index-6</span></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-7.svg" alt=""/><span>uv-index-7</span></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-8.svg" alt=""/><span>uv-index-8</span></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-9.svg" alt=""/><span>uv-index-9</span></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-10.svg" alt=""/><span>uv-index-10</span></div>
+				<div class="wi-icon"><img src="./production/line/all/uv-index-11.svg" alt=""/><span>uv-index-11</span></div>
 			</div>
 		</div>
 
