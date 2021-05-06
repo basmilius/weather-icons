@@ -5,8 +5,11 @@
 ---
 
 # Meteocons
-Free to use animated SVG weather icons. Handcrafted by [Bas Milius](https://bas.dev). You
-can preview all icons on [this website](https://bas.dev/projects/weather-icons).
+Free to use animated SVG weather icons. Handcrafted by [Bas Milius](https://bas.dev).
+
+## 👀 Preview
+- **Filled icons**: https://basmilius.github.io/weather-icons/index-fill.html
+- **Outlined icons**: https://basmilius.github.io/weather-icons/index.html
 
 ### ⚒ Process
 - An icon is designed in Adobe Illustrator.
@@ -26,9 +29,17 @@ somewhat weather related.
 ---
 
 <p float="left">
-    <img src="https://bmcdn.nl/assets/weather-icons/v1.3/clear-day.svg" alt="Partly Cloudy Day" height="48"/>
-    <img src="https://bmcdn.nl/assets/weather-icons/v1.3/partly-cloudy-day.svg" alt="Partly Cloudy Day" height="48"/>
-    <img src="https://bmcdn.nl/assets/weather-icons/v1.3/rain.svg" alt="Rain" height="48"/>
-    <img src="https://bmcdn.nl/assets/weather-icons/v1.3/tornado.svg" alt="Tornado" height="48"/>
-    <img src="https://bmcdn.nl/assets/weather-icons/v1.3/clear-night.svg" alt="Clear Night" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v2.0/fill/clear-day.svg" alt="Partly Cloudy Day" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v2.0/fill/partly-cloudy-day.svg" alt="Partly Cloudy Day" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v2.0/fill/rain.svg" alt="Rain" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v2.0/fill/tornado.svg" alt="Tornado" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v2.0/fill/clear-night.svg" alt="Clear Night" height="48"/>
+</p>
+
+<p float="left">
+    <img src="https://bmcdn.nl/assets/weather-icons/v2.0/line/clear-day.svg" alt="Partly Cloudy Day" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v2.0/line/partly-cloudy-day.svg" alt="Partly Cloudy Day" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v2.0/line/rain.svg" alt="Rain" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v2.0/line/tornado.svg" alt="Tornado" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v2.0/line/clear-night.svg" alt="Clear Night" height="48"/>
 </p>
