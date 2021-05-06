@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
 	<defs>
 		<clipPath id="a">
-			<polygon points="7.5 7.5 56.5 7.5 56.5 35.56 35.5 35.5 35.5 56.5 7.5 56.5 7.5 7.5" fill="none"/>
+			<path d="M33.5,48.5v-9a6,6,0,0,1,6-6h17V7.5H7.5v49h28V53A6,6,0,0,1,33.5,48.5Z" fill="none"/>
 		</clipPath>
 		<linearGradient id="b" x1="26.75" y1="22.91" x2="37.25" y2="41.09" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#fbbf24"/>
