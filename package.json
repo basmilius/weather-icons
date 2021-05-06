@@ -1,6 +1,6 @@
 {
 	"name": "@bybas/weather-icons",
-	"version": "1.5.0",
+	"version": "2.0.0",
 	"description": "A set of animated svg weather icons.",
 	"main": "index.js",
 	"scripts": {
