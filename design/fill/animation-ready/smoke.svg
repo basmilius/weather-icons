@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+	<defs>
+		<linearGradient id="a" x1="22.56" y1="21.96" x2="39.2" y2="50.8" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#fff"/>
+			<stop offset="0.45" stop-color="#fff"/>
+			<stop offset="1" stop-color="#e6effc"/>
+		</linearGradient>
+		<linearGradient id="b" x1="30.25" y1="48.4" x2="33.25" y2="53.6" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#9ca3af"/>
+			<stop offset="0.45" stop-color="#9ca3af"/>
+			<stop offset="1" stop-color="#8c929d"/>
+		</linearGradient>
+		<linearGradient id="c" x1="23.5" y1="38.1" x2="28" y2="45.9" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#b8bdc6"/>
+			<stop offset="0.45" stop-color="#b8bdc6"/>
+			<stop offset="1" stop-color="#a5aab2"/>
+		</linearGradient>
+		<linearGradient id="d" x1="33.75" y1="28.8" x2="39.75" y2="39.2" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#d4d7dd"/>
+			<stop offset="0.45" stop-color="#d4d7dd"/>
+			<stop offset="1" stop-color="#bec1c6"/>
+		</linearGradient>
+	</defs>
+	<path d="M46.5,31.5l-.32,0a10.49,10.49,0,0,0-19.11-8,7,7,0,0,0-10.57,6,7.21,7.21,0,0,0,.1,1.14A7.5,7.5,0,0,0,18,45.5a4.19,4.19,0,0,0,.5,0v0h28a7,7,0,0,0,0-14Z" stroke="#f3f7fe" stroke-miterlimit="10" stroke-width="0.5" fill="url(#a)"/>
+	<circle cx="31.75" cy="51" r="3" stroke="#949ba6" stroke-miterlimit="10" stroke-width="0.5" fill="url(#b)"/>
+	<circle cx="25.75" cy="42" r="4.5" stroke="#afb4bc" stroke-miterlimit="10" stroke-width="0.5" fill="url(#c)"/>
+	<circle cx="36.75" cy="34" r="6" stroke="#c9ccd2" stroke-miterlimit="10" stroke-width="0.5" fill="url(#d)"/>
+</svg>

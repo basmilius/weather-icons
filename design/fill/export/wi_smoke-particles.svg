@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+	<defs>
+		<linearGradient id="a" x1="30.25" y1="39.4" x2="33.25" y2="44.6" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#9ca3af"/>
+			<stop offset="0.45" stop-color="#9ca3af"/>
+			<stop offset="1" stop-color="#8c929d"/>
+		</linearGradient>
+		<linearGradient id="b" x1="23.5" y1="29.1" x2="28" y2="36.9" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#b8bdc6"/>
+			<stop offset="0.45" stop-color="#b8bdc6"/>
+			<stop offset="1" stop-color="#a5aab2"/>
+		</linearGradient>
+		<linearGradient id="c" x1="33.75" y1="19.8" x2="39.75" y2="30.2" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#d4d7dd"/>
+			<stop offset="0.45" stop-color="#d4d7dd"/>
+			<stop offset="1" stop-color="#bec1c6"/>
+		</linearGradient>
+	</defs>
+	<circle cx="31.75" cy="42" r="3" stroke="#949ba6" stroke-miterlimit="10" stroke-width="0.5" fill="url(#a)"/>
+	<circle cx="25.75" cy="33" r="4.5" stroke="#afb4bc" stroke-miterlimit="10" stroke-width="0.5" fill="url(#b)"/>
+	<circle cx="36.75" cy="25" r="6" stroke="#c9ccd2" stroke-miterlimit="10" stroke-width="0.5" fill="url(#c)"/>
+</svg>
