@@ -5,7 +5,11 @@
 	"main": "index.html",
 	"type": "module",
 	"scripts": {
-		"build": "node ."
+		"build": "yarn run make && yarn run map:providers",
+		"make": "yarn run make:svgs && yarn run make:pngs",
+		"make:pngs": "node scripts/make-pngs.js",
+		"make:svgs": "node scripts/make-svgs.js",
+		"map:providers": "node scripts/sort-for-api-providers.js"
 	},
 	"devDependencies": {
 		"chalk": "^4.1.1",
