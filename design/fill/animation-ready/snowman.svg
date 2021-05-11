@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+	<defs>
+		<linearGradient id="a" x1="26.75" y1="28.91" x2="37.25" y2="47.09" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#f3f7fe"/>
+			<stop offset="0.45" stop-color="#f3f7fe"/>
+			<stop offset="1" stop-color="#deeafb"/>
+		</linearGradient>
+		<linearGradient id="b" x1="28.25" y1="15.5" x2="35.75" y2="28.5" xlink:href="#a"/>
+		<linearGradient id="c" x1="30.01" y1="24.55" x2="34.8" y2="32.85" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#f87171"/>
+			<stop offset="0.45" stop-color="#f87171"/>
+			<stop offset="1" stop-color="#dc2626"/>
+		</linearGradient>
+		<linearGradient id="d" x1="-51.74" y1="142.49" x2="-45.96" y2="152.51" gradientTransform="translate(-3.61 -136.49) rotate(-30)" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#495057"/>
+			<stop offset="0.45" stop-color="#495057"/>
+			<stop offset="1" stop-color="#212529"/>
+		</linearGradient>
+		<linearGradient id="e" x1="31.5" y1="22.13" x2="32.5" y2="23.87" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ffc078"/>
+			<stop offset="0.45" stop-color="#ffc078"/>
+			<stop offset="1" stop-color="#ff922b"/>
+		</linearGradient>
+	</defs>
+	<circle cx="32" cy="38" r="10.5" stroke="#e6effc" stroke-miterlimit="10" stroke-width="0.5" fill="url(#a)"/>
+	<circle cx="32" cy="22" r="7.5" stroke="#e6effc" stroke-miterlimit="10" stroke-width="0.5" fill="url(#b)"/>
+	<circle cx="32" cy="34" r="1" fill="#374151"/>
+	<circle cx="32" cy="37" r="1" fill="#374151"/>
+	<circle cx="32" cy="40" r="1" fill="#374151"/>
+	<line x1="43.5" y1="28.4" x2="40.5" y2="33.6" fill="none" stroke="#564a4a" stroke-linecap="round" stroke-miterlimit="10">
+		<animateTransform attributeName="transform" type="rotate" values="0 40.5 33.6; 40 40.5 33.6; 0 40.5 33.6" dur="3s" repeatCount="indefinite"/>
+	</line>
+	<line x1="23.5" y1="34.1" x2="20.5" y2="28.9" fill="none" stroke="#564a4a" stroke-linecap="round" stroke-miterlimit="10">
+		<animateTransform attributeName="transform" type="rotate" values="0 23.5 34.1; -40 23.5 34.1; 0 23.5 34.1" begin="-1.5s" dur="3s" repeatCount="indefinite"/>
+	</line>
+	<circle cx="34" cy="20" r="1" fill="#374151"/>
+	<circle cx="30" cy="20" r="1" fill="#374151"/>
+	<path d="M37.09,26.5H26.91a.88.88,0,0,0-.91.89v1.22a.87.87,0,0,0,.86.89H35V31a1,1,0,0,0,1,1h0a1,1,0,0,0,1-1V29.5h.14a.87.87,0,0,0,.86-.89V27.39A.88.88,0,0,0,37.09,26.5Z" stroke="#ef4444" stroke-miterlimit="10" stroke-width="0.5" fill="url(#c)"/>
+	<path d="M33.45,12.05l-2.6,1.5-2.5-4.33-5.2,3,2.5,4.33-2.6,1.5a1,1,0,0,0-.36,1.36l.5.87a1,1,0,0,0,1.36.37l10.4-6a1,1,0,0,0,.36-1.36l-.5-.87A1,1,0,0,0,33.45,12.05Z" stroke="#343a40" stroke-miterlimit="10" stroke-width="0.5" fill="url(#d)"/>
+	<line x1="25.83" y1="15.87" x2="30.17" y2="13.37" fill="none" stroke="#ef4444" stroke-linecap="square" stroke-miterlimit="10" stroke-width="0.5"/>
+	<circle cx="32" cy="23" r="1" stroke="#ffa94d" stroke-miterlimit="10" stroke-width="0.25" fill="url(#e)"/>
+</svg>
