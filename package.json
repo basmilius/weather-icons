@@ -2,13 +2,18 @@
 	"name": "@bybas/weather-icons",
 	"version": "2.0.0",
 	"description": "A set of animated svg weather icons.",
-	"main": "index.js",
+	"main": "index.html",
+	"type": "module",
 	"scripts": {
 		"build": "node ."
 	},
 	"devDependencies": {
+		"chalk": "^4.1.1",
+		"imagemin": "^8.0.0",
+		"imagemin-optipng": "^8.0.0",
+		"puppeteer": "^9.1.1",
 		"rimraf": "^3.0.2",
-		"svgo": "^1.3.2"
+		"svgo": "^2.3.0"
 	},
 	"repository": {
 		"type": "git",
