@@ -1,4 +1,5 @@
 import fs from "fs/promises";
+import fsSync from "fs";
 import rimraf from "rimraf";
 import { printSuccessFailed } from "./printer.js";
 
@@ -29,6 +30,11 @@ export async function getFiles(path)
 {
 	return await fs.readdir(path)
 		.then(files => files.filter(file => !forbiddenFiles.includes(file)));
+}
+
+export async function pathExists(path)
+{
+	return new Promise(resolve => fsSync.exists(path, result => resolve(result)));
 }
 
 /**
