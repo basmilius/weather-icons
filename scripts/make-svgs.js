@@ -74,7 +74,6 @@ async function optimizeSVG(input, output)
 				"convertShapeToPath",
 				"sortAttrs",
 				"removeDimensions",
-				"removeOffCanvasPaths",
 				"reusePaths"
 			]
 		});
