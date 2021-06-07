@@ -11,7 +11,7 @@
 			<stop offset="0.45" stop-color="#f87171"/>
 			<stop offset="1" stop-color="#dc2626"/>
 		</linearGradient>
-		<linearGradient id="d" x1="-51.74" y1="142.49" x2="-45.96" y2="152.51" gradientTransform="translate(-3.61 -136.49) rotate(-30)" gradientUnits="userSpaceOnUse">
+		<linearGradient id="d" x1="-70.49" y1="212.49" x2="-64.71" y2="222.51" gradientTransform="translate(-22.37 -206.49) rotate(-30)" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#495057"/>
 			<stop offset="0.45" stop-color="#495057"/>
 			<stop offset="1" stop-color="#212529"/>

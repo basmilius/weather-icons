@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
 	<defs>
 		<linearGradient id="a" x1="27.54" y1="36.27" x2="36.21" y2="51.28" gradientUnits="userSpaceOnUse">
-			<stop offset="0" stop-color="#624226"/>
-			<stop offset="0.45" stop-color="#624226"/>
-			<stop offset="1" stop-color="#312113"/>
+			<stop offset="0" stop-color="#875b34"/>
+			<stop offset="0.45" stop-color="#875b34"/>
+			<stop offset="1" stop-color="#624226"/>
 		</linearGradient>
 		<linearGradient id="b" x1="35.27" y1="30.69" x2="40.58" y2="39.9" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#51cf66"/>
@@ -25,7 +25,7 @@
 		<linearGradient id="k" x1="39.5" y1="13.13" x2="40.5" y2="14.87" xlink:href="#f"/>
 		<linearGradient id="l" x1="23.5" y1="13.13" x2="24.5" y2="14.87" xlink:href="#f"/>
 	</defs>
-	<path d="M34.32,51.45l-.5-15.88a1.5,1.5,0,0,0-1.5-1.46h-.64a1.5,1.5,0,0,0-1.5,1.46l-.5,15.88A1.5,1.5,0,0,0,31.18,53h1.64A1.5,1.5,0,0,0,34.32,51.45Z" stroke="#49311d" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#a)"/>
+	<path d="M34.32,51.45l-.5-15.88a1.5,1.5,0,0,0-1.5-1.46h-.64a1.5,1.5,0,0,0-1.5,1.46l-.5,15.88A1.5,1.5,0,0,0,31.18,53h1.64A1.5,1.5,0,0,0,34.32,51.45Z" stroke="#744e2d" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#a)"/>
 	<ellipse cx="37.93" cy="35.3" rx="5.33" ry="5.31" stroke="#40c057" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.5" fill="url(#b)"/>
 	<ellipse cx="24.33" cy="32.93" rx="5.33" ry="5.31" stroke="#40c057" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.5" fill="url(#c)"/>
 	<path d="M40.89,19.36a7.56,7.56,0,0,0-1.36.13,3.55,3.55,0,1,0-5.15,4.11,7.11,7.11,0,1,0,6.51-4.24Z" stroke="#40c057" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.5" fill="url(#d)"/>
