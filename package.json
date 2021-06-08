@@ -29,7 +29,7 @@
 	],
 	"homepage": "https://meteocons.com/",
 	"scripts": {
-		"build": "yarn run make && yarn run map:providers",
+		"build": "node scripts/build.js",
 		"make": "yarn run make:svgs && yarn run make:pngs",
 		"make:pngs": "node scripts/make-pngs.js",
 		"make:svgs": "node scripts/make-svgs.js",

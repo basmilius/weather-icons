@@ -1,13 +1,11 @@
-import { BaseJob } from "./BaseJob.js";
+import {BaseJob} from "./BaseJob.js";
 
-export class FontJob extends BaseJob
-{
+export class FontJob extends BaseJob {
 
-	constructor(from, types, prefix = "")
-	{
-		super("font", from, prefix);
+    constructor(target, from, types, prefix = "") {
+        super("font", target, from, prefix);
 
-		this.types = types;
-	}
+        this.types = types;
+    }
 
 }
