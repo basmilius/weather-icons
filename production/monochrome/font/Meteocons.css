@@ -1,9 +1,9 @@
 @font-face {
     font-family: "Meteocons";
-    src: url("./Meteocons.svg?693c0d00798b24242c47d7b48d91cdee#Meteocons") format("svg"),
-url("./Meteocons.ttf?693c0d00798b24242c47d7b48d91cdee") format("truetype"),
-url("./Meteocons.woff?693c0d00798b24242c47d7b48d91cdee") format("woff"),
-url("./Meteocons.woff2?693c0d00798b24242c47d7b48d91cdee") format("woff2");
+    src: url("./Meteocons.svg?6f57662f3a9735a117e7479a4d305ddf#Meteocons") format("svg"),
+url("./Meteocons.ttf?6f57662f3a9735a117e7479a4d305ddf") format("truetype"),
+url("./Meteocons.woff?6f57662f3a9735a117e7479a4d305ddf") format("woff"),
+url("./Meteocons.woff2?6f57662f3a9735a117e7479a4d305ddf") format("woff2");
 }
 
 i[class^="m-"]:before, i[class*=" m-"]:before {

@@ -22,8 +22,8 @@ export class FontJob extends BaseJob {
             name: "Meteocons",
             prefix: "m",
             tag: "i",
+            fontHeight: 900,
             fontTypes: this.types,
-            descent: 50,
             inputDir: this.getFromDirectory(),
             outputDir: this.getTargetDirectory()
         });
