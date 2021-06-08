@@ -7,40 +7,24 @@ export const STYLES_MAP = ["fill", "line", "monochrome"];
 export const PRODUCTION_MAP = [
 	// new FontJob("fill/font", "static/export", ["svg", "ttf", "woff", "woff2"], "wi_"),
 	// new PngJob("fill/png", "static/export", [64, 128, 256, 512, 1024], "wi_"),
-	// new SvgJob("fill/svg", "fill/animation-ready"),
-	// new SvgJob("fill/svg-static", "static/export", "wi_"),
+	new SvgJob("fill/svg", "fill/animation-ready"),
+	new SvgJob("fill/svg-static", "static/export", "wi_"),
 
-	new PngJob("line/png", "line/export", [64, 128, 256, 512, 1024], "wi_"),
-	// new SvgJob("line/svg", "line/animation-ready"),
-	// new SvgJob("line/svg-static", "line/export", "wi_"),
+	// new PngJob("line/png", "line/export", [64, 128, 256, 512, 1024], "wi_"),
+	new SvgJob("line/svg", "line/animation-ready"),
+	new SvgJob("line/svg-static", "line/export", "wi_"),
 
-	// new FontJob("monochrome/font", "static-monochrome/export", ["svg", "ttf", "woff", "woff2"], "wi"),
+	new FontJob("monochrome/font", "static-monochrome/animation-ready", ["svg", "ttf", "woff", "woff2"]),
 	new PngJob("monochrome/png", "static-monochrome/export", [64, 128, 256, 512, 1024], "wi_"),
-	// new SvgJob("monochrome/svg", "monochrome/animation-ready"),
-	// new SvgJob("monochrome/svg-static", "monochrome/export", "wi_")
+	new SvgJob("monochrome/svg", "monochrome/animation-ready"),
+	new SvgJob("monochrome/svg-static", "monochrome/export", "wi_")
 ];
-
-export function eachJob(fn)
-{
-	for (let job of PRODUCTION_MAP)
-	{
-		fn(job);
-	}
-}
 
 export async function eachJobAsync(fn)
 {
 	for (let job of PRODUCTION_MAP)
 	{
 		await fn(job);
-	}
-}
-
-export function eachStyle(fn)
-{
-	for (let style of STYLES_MAP)
-	{
-		fn(style);
 	}
 }
 

@@ -1,11 +1,35 @@
+import chalk from "chalk";
+import {generateFonts} from "fantasticon";
 import {BaseJob} from "./BaseJob.js";
+import {printPart, printPartDone} from "../util/printer.js";
 
 export class FontJob extends BaseJob {
 
     constructor(target, from, types, prefix = "") {
         super("font", target, from, prefix);
 
-        this.types = types;
+        this.types = types.filter(type => ["eot", "svg", "ttf", "woff", "woff2"].includes(type));
+    }
+
+    async run() {
+        await this.runClearTarget();
+        await this.runEnsureTarget();
+
+        printPart(`[${chalk.magentaBright("job:font")}] `);
+        printPart(`Creating webfonts... `);
+
+        await generateFonts({
+            name: "Meteocons",
+            prefix: "m",
+            tag: "i",
+            fontTypes: this.types,
+            descent: 50,
+            inputDir: this.getFromDirectory(),
+            outputDir: this.getTargetDirectory()
+        });
+
+        printPart(chalk.greenBright("Done!"));
+        printPartDone();
     }
 
 }

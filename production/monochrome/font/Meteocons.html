@@ -1,0 +1,1725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meteocons</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .preview {
+            width: 100px;
+            display: inline-block;
+            margin: 10px;
+        }
+        .preview .inner {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            background: #f5f5f5;
+            -webkit-border-radius: 3px 3px 0 0;
+            -moz-border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0;
+        }
+        .preview .inner  {
+            line-height: 85px;
+            font-size: 40px;
+            color: #333;
+        }
+        .label {
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 5px;
+            font-size: 10px;
+            font-family: Monaco, monospace;
+            color: #666;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background: #ddd;
+            -webkit-border-radius: 0 0 3px 3px;
+            -moz-border-radius: 0 0 3px 3px;
+            border-radius: 0 0 3px 3px;
+            color: #666;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="Meteocons.css" />
+</head>
+<body>
+
+    <h1>Meteocons</h1>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-alert-avalanche-danger"></i>
+            </span>
+            <br>
+            <span class='label'>alert-avalanche-danger</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-alert-falling-rocks"></i>
+            </span>
+            <br>
+            <span class='label'>alert-falling-rocks</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-barometer"></i>
+            </span>
+            <br>
+            <span class='label'>barometer</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-celsius"></i>
+            </span>
+            <br>
+            <span class='label'>celsius</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-clear-day"></i>
+            </span>
+            <br>
+            <span class='label'>clear-day</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-clear-night"></i>
+            </span>
+            <br>
+            <span class='label'>clear-night</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-cloudy"></i>
+            </span>
+            <br>
+            <span class='label'>cloudy</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-code-green"></i>
+            </span>
+            <br>
+            <span class='label'>code-green</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-code-orange"></i>
+            </span>
+            <br>
+            <span class='label'>code-orange</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-code-red"></i>
+            </span>
+            <br>
+            <span class='label'>code-red</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-code-yellow"></i>
+            </span>
+            <br>
+            <span class='label'>code-yellow</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-compass"></i>
+            </span>
+            <br>
+            <span class='label'>compass</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-drizzle"></i>
+            </span>
+            <br>
+            <span class='label'>drizzle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-dust-day"></i>
+            </span>
+            <br>
+            <span class='label'>dust-day</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-dust-night"></i>
+            </span>
+            <br>
+            <span class='label'>dust-night</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-dust-wind"></i>
+            </span>
+            <br>
+            <span class='label'>dust-wind</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-dust"></i>
+            </span>
+            <br>
+            <span class='label'>dust</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-fahrenheit"></i>
+            </span>
+            <br>
+            <span class='label'>fahrenheit</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-falling-stars"></i>
+            </span>
+            <br>
+            <span class='label'>falling-stars</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-fog-day"></i>
+            </span>
+            <br>
+            <span class='label'>fog-day</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-fog-night"></i>
+            </span>
+            <br>
+            <span class='label'>fog-night</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-fog"></i>
+            </span>
+            <br>
+            <span class='label'>fog</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-hail"></i>
+            </span>
+            <br>
+            <span class='label'>hail</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-haze-day"></i>
+            </span>
+            <br>
+            <span class='label'>haze-day</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-haze-night"></i>
+            </span>
+            <br>
+            <span class='label'>haze-night</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-haze"></i>
+            </span>
+            <br>
+            <span class='label'>haze</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-horizon"></i>
+            </span>
+            <br>
+            <span class='label'>horizon</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-humidity"></i>
+            </span>
+            <br>
+            <span class='label'>humidity</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-hurricane"></i>
+            </span>
+            <br>
+            <span class='label'>hurricane</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-lightning-bolt"></i>
+            </span>
+            <br>
+            <span class='label'>lightning-bolt</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-mist"></i>
+            </span>
+            <br>
+            <span class='label'>mist</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-moon-first-quarter"></i>
+            </span>
+            <br>
+            <span class='label'>moon-first-quarter</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-moon-full"></i>
+            </span>
+            <br>
+            <span class='label'>moon-full</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-moon-last-quarter"></i>
+            </span>
+            <br>
+            <span class='label'>moon-last-quarter</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-moon-new"></i>
+            </span>
+            <br>
+            <span class='label'>moon-new</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-moon-waning-crescent"></i>
+            </span>
+            <br>
+            <span class='label'>moon-waning-crescent</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-moon-waning-gibbous"></i>
+            </span>
+            <br>
+            <span class='label'>moon-waning-gibbous</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-moon-waxing-crescent"></i>
+            </span>
+            <br>
+            <span class='label'>moon-waxing-crescent</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-moon-waxing-gibbous"></i>
+            </span>
+            <br>
+            <span class='label'>moon-waxing-gibbous</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-moonrise"></i>
+            </span>
+            <br>
+            <span class='label'>moonrise</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-moonset"></i>
+            </span>
+            <br>
+            <span class='label'>moonset</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-not-available"></i>
+            </span>
+            <br>
+            <span class='label'>not-available</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-day-drizzle"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-day-drizzle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-day-fog"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-day-fog</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-day-hail"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-day-hail</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-day-haze"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-day-haze</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-day-rain"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-day-rain</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-day-sleet"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-day-sleet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-day-smoke"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-day-smoke</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-day-snow"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-day-snow</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-day"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-day</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-drizzle"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-drizzle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-fog"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-fog</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-hail"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-hail</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-haze"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-haze</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-night-drizzle"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-night-drizzle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-night-fog"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-night-fog</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-night-hail"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-night-hail</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-night-haze"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-night-haze</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-night-rain"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-night-rain</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-night-sleet"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-night-sleet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-night-smoke"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-night-smoke</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-night-snow"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-night-snow</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-night"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-night</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-rain"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-rain</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-sleet"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-sleet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-smoke"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-smoke</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast-snow"></i>
+            </span>
+            <br>
+            <span class='label'>overcast-snow</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-overcast"></i>
+            </span>
+            <br>
+            <span class='label'>overcast</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-day-drizzle"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-day-drizzle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-day-fog"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-day-fog</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-day-hail"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-day-hail</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-day-haze"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-day-haze</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-day-rain"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-day-rain</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-day-sleet"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-day-sleet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-day-smoke"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-day-smoke</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-day-snow"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-day-snow</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-day"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-day</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-night-drizzle"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-night-drizzle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-night-fog"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-night-fog</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-night-hail"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-night-hail</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-night-haze"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-night-haze</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-night-rain"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-night-rain</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-night-sleet"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-night-sleet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-night-smoke"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-night-smoke</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-night-snow"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-night-snow</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-partly-cloudy-night"></i>
+            </span>
+            <br>
+            <span class='label'>partly-cloudy-night</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-pollen-flower"></i>
+            </span>
+            <br>
+            <span class='label'>pollen-flower</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-pollen-grass"></i>
+            </span>
+            <br>
+            <span class='label'>pollen-grass</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-pollen-tree"></i>
+            </span>
+            <br>
+            <span class='label'>pollen-tree</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-pollen"></i>
+            </span>
+            <br>
+            <span class='label'>pollen</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-pressure-high-alt"></i>
+            </span>
+            <br>
+            <span class='label'>pressure-high-alt</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-pressure-high"></i>
+            </span>
+            <br>
+            <span class='label'>pressure-high</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-pressure-low-alt"></i>
+            </span>
+            <br>
+            <span class='label'>pressure-low-alt</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-pressure-low"></i>
+            </span>
+            <br>
+            <span class='label'>pressure-low</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-rain"></i>
+            </span>
+            <br>
+            <span class='label'>rain</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-rainbow-clear"></i>
+            </span>
+            <br>
+            <span class='label'>rainbow-clear</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-rainbow"></i>
+            </span>
+            <br>
+            <span class='label'>rainbow</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-raindrop-measure"></i>
+            </span>
+            <br>
+            <span class='label'>raindrop-measure</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-raindrop"></i>
+            </span>
+            <br>
+            <span class='label'>raindrop</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-raindrops"></i>
+            </span>
+            <br>
+            <span class='label'>raindrops</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-sleet"></i>
+            </span>
+            <br>
+            <span class='label'>sleet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-smoke-particles"></i>
+            </span>
+            <br>
+            <span class='label'>smoke-particles</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-smoke"></i>
+            </span>
+            <br>
+            <span class='label'>smoke</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-snow"></i>
+            </span>
+            <br>
+            <span class='label'>snow</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-snowflake"></i>
+            </span>
+            <br>
+            <span class='label'>snowflake</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-snowman"></i>
+            </span>
+            <br>
+            <span class='label'>snowman</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-solar-eclipse"></i>
+            </span>
+            <br>
+            <span class='label'>solar-eclipse</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-star"></i>
+            </span>
+            <br>
+            <span class='label'>star</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-starry-night"></i>
+            </span>
+            <br>
+            <span class='label'>starry-night</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-sunrise"></i>
+            </span>
+            <br>
+            <span class='label'>sunrise</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-sunset"></i>
+            </span>
+            <br>
+            <span class='label'>sunset</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thermometer-celsius"></i>
+            </span>
+            <br>
+            <span class='label'>thermometer-celsius</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thermometer-colder"></i>
+            </span>
+            <br>
+            <span class='label'>thermometer-colder</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thermometer-fahrenheit"></i>
+            </span>
+            <br>
+            <span class='label'>thermometer-fahrenheit</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thermometer-glass-celsius"></i>
+            </span>
+            <br>
+            <span class='label'>thermometer-glass-celsius</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thermometer-glass-fahrenheit"></i>
+            </span>
+            <br>
+            <span class='label'>thermometer-glass-fahrenheit</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thermometer-glass"></i>
+            </span>
+            <br>
+            <span class='label'>thermometer-glass</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thermometer-mercury-cold"></i>
+            </span>
+            <br>
+            <span class='label'>thermometer-mercury-cold</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thermometer-mercury"></i>
+            </span>
+            <br>
+            <span class='label'>thermometer-mercury</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thermometer-raindrop"></i>
+            </span>
+            <br>
+            <span class='label'>thermometer-raindrop</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thermometer-warmer"></i>
+            </span>
+            <br>
+            <span class='label'>thermometer-warmer</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thermometer-water"></i>
+            </span>
+            <br>
+            <span class='label'>thermometer-water</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thermometer"></i>
+            </span>
+            <br>
+            <span class='label'>thermometer</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-day-overcast-rain"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-day-overcast-rain</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-day-overcast-snow"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-day-overcast-snow</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-day-overcast"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-day-overcast</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-day-rain"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-day-rain</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-day-snow"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-day-snow</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-day"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-day</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-night-overcast-rain"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-night-overcast-rain</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-night-overcast-snow"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-night-overcast-snow</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-night-overcast"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-night-overcast</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-night-rain"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-night-rain</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-night-snow"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-night-snow</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-night"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-night</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-overcast-rain"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-overcast-rain</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-overcast-snow"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-overcast-snow</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-overcast"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-overcast</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-rain"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-rain</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms-snow"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms-snow</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-thunderstorms"></i>
+            </span>
+            <br>
+            <span class='label'>thunderstorms</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-tide-high"></i>
+            </span>
+            <br>
+            <span class='label'>tide-high</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-tide-low"></i>
+            </span>
+            <br>
+            <span class='label'>tide-low</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-time-afternoon"></i>
+            </span>
+            <br>
+            <span class='label'>time-afternoon</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-time-evening"></i>
+            </span>
+            <br>
+            <span class='label'>time-evening</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-time-late-afternoon"></i>
+            </span>
+            <br>
+            <span class='label'>time-late-afternoon</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-time-late-evening"></i>
+            </span>
+            <br>
+            <span class='label'>time-late-evening</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-time-late-morning"></i>
+            </span>
+            <br>
+            <span class='label'>time-late-morning</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-time-late-night"></i>
+            </span>
+            <br>
+            <span class='label'>time-late-night</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-time-morning"></i>
+            </span>
+            <br>
+            <span class='label'>time-morning</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-time-night"></i>
+            </span>
+            <br>
+            <span class='label'>time-night</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-tornado"></i>
+            </span>
+            <br>
+            <span class='label'>tornado</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-umbrella-wind-alt"></i>
+            </span>
+            <br>
+            <span class='label'>umbrella-wind-alt</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-umbrella-wind"></i>
+            </span>
+            <br>
+            <span class='label'>umbrella-wind</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-umbrella"></i>
+            </span>
+            <br>
+            <span class='label'>umbrella</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-uv-index-1"></i>
+            </span>
+            <br>
+            <span class='label'>uv-index-1</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-uv-index-10"></i>
+            </span>
+            <br>
+            <span class='label'>uv-index-10</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-uv-index-11"></i>
+            </span>
+            <br>
+            <span class='label'>uv-index-11</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-uv-index-2"></i>
+            </span>
+            <br>
+            <span class='label'>uv-index-2</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-uv-index-3"></i>
+            </span>
+            <br>
+            <span class='label'>uv-index-3</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-uv-index-4"></i>
+            </span>
+            <br>
+            <span class='label'>uv-index-4</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-uv-index-5"></i>
+            </span>
+            <br>
+            <span class='label'>uv-index-5</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-uv-index-6"></i>
+            </span>
+            <br>
+            <span class='label'>uv-index-6</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-uv-index-7"></i>
+            </span>
+            <br>
+            <span class='label'>uv-index-7</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-uv-index-8"></i>
+            </span>
+            <br>
+            <span class='label'>uv-index-8</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-uv-index-9"></i>
+            </span>
+            <br>
+            <span class='label'>uv-index-9</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-uv-index"></i>
+            </span>
+            <br>
+            <span class='label'>uv-index</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-wind-beaufort-0"></i>
+            </span>
+            <br>
+            <span class='label'>wind-beaufort-0</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-wind-beaufort-1"></i>
+            </span>
+            <br>
+            <span class='label'>wind-beaufort-1</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-wind-beaufort-10"></i>
+            </span>
+            <br>
+            <span class='label'>wind-beaufort-10</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-wind-beaufort-11"></i>
+            </span>
+            <br>
+            <span class='label'>wind-beaufort-11</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-wind-beaufort-12"></i>
+            </span>
+            <br>
+            <span class='label'>wind-beaufort-12</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-wind-beaufort-2"></i>
+            </span>
+            <br>
+            <span class='label'>wind-beaufort-2</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-wind-beaufort-3"></i>
+            </span>
+            <br>
+            <span class='label'>wind-beaufort-3</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-wind-beaufort-4"></i>
+            </span>
+            <br>
+            <span class='label'>wind-beaufort-4</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-wind-beaufort-5"></i>
+            </span>
+            <br>
+            <span class='label'>wind-beaufort-5</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-wind-beaufort-6"></i>
+            </span>
+            <br>
+            <span class='label'>wind-beaufort-6</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-wind-beaufort-7"></i>
+            </span>
+            <br>
+            <span class='label'>wind-beaufort-7</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-wind-beaufort-8"></i>
+            </span>
+            <br>
+            <span class='label'>wind-beaufort-8</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-wind-beaufort-9"></i>
+            </span>
+            <br>
+            <span class='label'>wind-beaufort-9</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-wind-offshore"></i>
+            </span>
+            <br>
+            <span class='label'>wind-offshore</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-wind-onshore"></i>
+            </span>
+            <br>
+            <span class='label'>wind-onshore</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-wind"></i>
+            </span>
+            <br>
+            <span class='label'>wind</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="m m-windsock"></i>
+            </span>
+            <br>
+            <span class='label'>windsock</span>
+        </div>
+
+
+</body>
+</html>

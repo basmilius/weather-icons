@@ -1,0 +1,574 @@
+@font-face {
+    font-family: "Meteocons";
+    src: url("./Meteocons.svg?693c0d00798b24242c47d7b48d91cdee#Meteocons") format("svg"),
+url("./Meteocons.ttf?693c0d00798b24242c47d7b48d91cdee") format("truetype"),
+url("./Meteocons.woff?693c0d00798b24242c47d7b48d91cdee") format("woff"),
+url("./Meteocons.woff2?693c0d00798b24242c47d7b48d91cdee") format("woff2");
+}
+
+i[class^="m-"]:before, i[class*=" m-"]:before {
+    font-family: Meteocons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.m-alert-avalanche-danger:before {
+    content: "\f101";
+}
+.m-alert-falling-rocks:before {
+    content: "\f102";
+}
+.m-barometer:before {
+    content: "\f103";
+}
+.m-celsius:before {
+    content: "\f104";
+}
+.m-clear-day:before {
+    content: "\f105";
+}
+.m-clear-night:before {
+    content: "\f106";
+}
+.m-cloudy:before {
+    content: "\f107";
+}
+.m-code-green:before {
+    content: "\f108";
+}
+.m-code-orange:before {
+    content: "\f109";
+}
+.m-code-red:before {
+    content: "\f10a";
+}
+.m-code-yellow:before {
+    content: "\f10b";
+}
+.m-compass:before {
+    content: "\f10c";
+}
+.m-drizzle:before {
+    content: "\f10d";
+}
+.m-dust-day:before {
+    content: "\f10e";
+}
+.m-dust-night:before {
+    content: "\f10f";
+}
+.m-dust-wind:before {
+    content: "\f110";
+}
+.m-dust:before {
+    content: "\f111";
+}
+.m-fahrenheit:before {
+    content: "\f112";
+}
+.m-falling-stars:before {
+    content: "\f113";
+}
+.m-fog-day:before {
+    content: "\f114";
+}
+.m-fog-night:before {
+    content: "\f115";
+}
+.m-fog:before {
+    content: "\f116";
+}
+.m-hail:before {
+    content: "\f117";
+}
+.m-haze-day:before {
+    content: "\f118";
+}
+.m-haze-night:before {
+    content: "\f119";
+}
+.m-haze:before {
+    content: "\f11a";
+}
+.m-horizon:before {
+    content: "\f11b";
+}
+.m-humidity:before {
+    content: "\f11c";
+}
+.m-hurricane:before {
+    content: "\f11d";
+}
+.m-lightning-bolt:before {
+    content: "\f11e";
+}
+.m-mist:before {
+    content: "\f11f";
+}
+.m-moon-first-quarter:before {
+    content: "\f120";
+}
+.m-moon-full:before {
+    content: "\f121";
+}
+.m-moon-last-quarter:before {
+    content: "\f122";
+}
+.m-moon-new:before {
+    content: "\f123";
+}
+.m-moon-waning-crescent:before {
+    content: "\f124";
+}
+.m-moon-waning-gibbous:before {
+    content: "\f125";
+}
+.m-moon-waxing-crescent:before {
+    content: "\f126";
+}
+.m-moon-waxing-gibbous:before {
+    content: "\f127";
+}
+.m-moonrise:before {
+    content: "\f128";
+}
+.m-moonset:before {
+    content: "\f129";
+}
+.m-not-available:before {
+    content: "\f12a";
+}
+.m-overcast-day-drizzle:before {
+    content: "\f12b";
+}
+.m-overcast-day-fog:before {
+    content: "\f12c";
+}
+.m-overcast-day-hail:before {
+    content: "\f12d";
+}
+.m-overcast-day-haze:before {
+    content: "\f12e";
+}
+.m-overcast-day-rain:before {
+    content: "\f12f";
+}
+.m-overcast-day-sleet:before {
+    content: "\f130";
+}
+.m-overcast-day-smoke:before {
+    content: "\f131";
+}
+.m-overcast-day-snow:before {
+    content: "\f132";
+}
+.m-overcast-day:before {
+    content: "\f133";
+}
+.m-overcast-drizzle:before {
+    content: "\f134";
+}
+.m-overcast-fog:before {
+    content: "\f135";
+}
+.m-overcast-hail:before {
+    content: "\f136";
+}
+.m-overcast-haze:before {
+    content: "\f137";
+}
+.m-overcast-night-drizzle:before {
+    content: "\f138";
+}
+.m-overcast-night-fog:before {
+    content: "\f139";
+}
+.m-overcast-night-hail:before {
+    content: "\f13a";
+}
+.m-overcast-night-haze:before {
+    content: "\f13b";
+}
+.m-overcast-night-rain:before {
+    content: "\f13c";
+}
+.m-overcast-night-sleet:before {
+    content: "\f13d";
+}
+.m-overcast-night-smoke:before {
+    content: "\f13e";
+}
+.m-overcast-night-snow:before {
+    content: "\f13f";
+}
+.m-overcast-night:before {
+    content: "\f140";
+}
+.m-overcast-rain:before {
+    content: "\f141";
+}
+.m-overcast-sleet:before {
+    content: "\f142";
+}
+.m-overcast-smoke:before {
+    content: "\f143";
+}
+.m-overcast-snow:before {
+    content: "\f144";
+}
+.m-overcast:before {
+    content: "\f145";
+}
+.m-partly-cloudy-day-drizzle:before {
+    content: "\f146";
+}
+.m-partly-cloudy-day-fog:before {
+    content: "\f147";
+}
+.m-partly-cloudy-day-hail:before {
+    content: "\f148";
+}
+.m-partly-cloudy-day-haze:before {
+    content: "\f149";
+}
+.m-partly-cloudy-day-rain:before {
+    content: "\f14a";
+}
+.m-partly-cloudy-day-sleet:before {
+    content: "\f14b";
+}
+.m-partly-cloudy-day-smoke:before {
+    content: "\f14c";
+}
+.m-partly-cloudy-day-snow:before {
+    content: "\f14d";
+}
+.m-partly-cloudy-day:before {
+    content: "\f14e";
+}
+.m-partly-cloudy-night-drizzle:before {
+    content: "\f14f";
+}
+.m-partly-cloudy-night-fog:before {
+    content: "\f150";
+}
+.m-partly-cloudy-night-hail:before {
+    content: "\f151";
+}
+.m-partly-cloudy-night-haze:before {
+    content: "\f152";
+}
+.m-partly-cloudy-night-rain:before {
+    content: "\f153";
+}
+.m-partly-cloudy-night-sleet:before {
+    content: "\f154";
+}
+.m-partly-cloudy-night-smoke:before {
+    content: "\f155";
+}
+.m-partly-cloudy-night-snow:before {
+    content: "\f156";
+}
+.m-partly-cloudy-night:before {
+    content: "\f157";
+}
+.m-pollen-flower:before {
+    content: "\f158";
+}
+.m-pollen-grass:before {
+    content: "\f159";
+}
+.m-pollen-tree:before {
+    content: "\f15a";
+}
+.m-pollen:before {
+    content: "\f15b";
+}
+.m-pressure-high-alt:before {
+    content: "\f15c";
+}
+.m-pressure-high:before {
+    content: "\f15d";
+}
+.m-pressure-low-alt:before {
+    content: "\f15e";
+}
+.m-pressure-low:before {
+    content: "\f15f";
+}
+.m-rain:before {
+    content: "\f160";
+}
+.m-rainbow-clear:before {
+    content: "\f161";
+}
+.m-rainbow:before {
+    content: "\f162";
+}
+.m-raindrop-measure:before {
+    content: "\f163";
+}
+.m-raindrop:before {
+    content: "\f164";
+}
+.m-raindrops:before {
+    content: "\f165";
+}
+.m-sleet:before {
+    content: "\f166";
+}
+.m-smoke-particles:before {
+    content: "\f167";
+}
+.m-smoke:before {
+    content: "\f168";
+}
+.m-snow:before {
+    content: "\f169";
+}
+.m-snowflake:before {
+    content: "\f16a";
+}
+.m-snowman:before {
+    content: "\f16b";
+}
+.m-solar-eclipse:before {
+    content: "\f16c";
+}
+.m-star:before {
+    content: "\f16d";
+}
+.m-starry-night:before {
+    content: "\f16e";
+}
+.m-sunrise:before {
+    content: "\f16f";
+}
+.m-sunset:before {
+    content: "\f170";
+}
+.m-thermometer-celsius:before {
+    content: "\f171";
+}
+.m-thermometer-colder:before {
+    content: "\f172";
+}
+.m-thermometer-fahrenheit:before {
+    content: "\f173";
+}
+.m-thermometer-glass-celsius:before {
+    content: "\f174";
+}
+.m-thermometer-glass-fahrenheit:before {
+    content: "\f175";
+}
+.m-thermometer-glass:before {
+    content: "\f176";
+}
+.m-thermometer-mercury-cold:before {
+    content: "\f177";
+}
+.m-thermometer-mercury:before {
+    content: "\f178";
+}
+.m-thermometer-raindrop:before {
+    content: "\f179";
+}
+.m-thermometer-warmer:before {
+    content: "\f17a";
+}
+.m-thermometer-water:before {
+    content: "\f17b";
+}
+.m-thermometer:before {
+    content: "\f17c";
+}
+.m-thunderstorms-day-overcast-rain:before {
+    content: "\f17d";
+}
+.m-thunderstorms-day-overcast-snow:before {
+    content: "\f17e";
+}
+.m-thunderstorms-day-overcast:before {
+    content: "\f17f";
+}
+.m-thunderstorms-day-rain:before {
+    content: "\f180";
+}
+.m-thunderstorms-day-snow:before {
+    content: "\f181";
+}
+.m-thunderstorms-day:before {
+    content: "\f182";
+}
+.m-thunderstorms-night-overcast-rain:before {
+    content: "\f183";
+}
+.m-thunderstorms-night-overcast-snow:before {
+    content: "\f184";
+}
+.m-thunderstorms-night-overcast:before {
+    content: "\f185";
+}
+.m-thunderstorms-night-rain:before {
+    content: "\f186";
+}
+.m-thunderstorms-night-snow:before {
+    content: "\f187";
+}
+.m-thunderstorms-night:before {
+    content: "\f188";
+}
+.m-thunderstorms-overcast-rain:before {
+    content: "\f189";
+}
+.m-thunderstorms-overcast-snow:before {
+    content: "\f18a";
+}
+.m-thunderstorms-overcast:before {
+    content: "\f18b";
+}
+.m-thunderstorms-rain:before {
+    content: "\f18c";
+}
+.m-thunderstorms-snow:before {
+    content: "\f18d";
+}
+.m-thunderstorms:before {
+    content: "\f18e";
+}
+.m-tide-high:before {
+    content: "\f18f";
+}
+.m-tide-low:before {
+    content: "\f190";
+}
+.m-time-afternoon:before {
+    content: "\f191";
+}
+.m-time-evening:before {
+    content: "\f192";
+}
+.m-time-late-afternoon:before {
+    content: "\f193";
+}
+.m-time-late-evening:before {
+    content: "\f194";
+}
+.m-time-late-morning:before {
+    content: "\f195";
+}
+.m-time-late-night:before {
+    content: "\f196";
+}
+.m-time-morning:before {
+    content: "\f197";
+}
+.m-time-night:before {
+    content: "\f198";
+}
+.m-tornado:before {
+    content: "\f199";
+}
+.m-umbrella-wind-alt:before {
+    content: "\f19a";
+}
+.m-umbrella-wind:before {
+    content: "\f19b";
+}
+.m-umbrella:before {
+    content: "\f19c";
+}
+.m-uv-index-1:before {
+    content: "\f19d";
+}
+.m-uv-index-10:before {
+    content: "\f19e";
+}
+.m-uv-index-11:before {
+    content: "\f19f";
+}
+.m-uv-index-2:before {
+    content: "\f1a0";
+}
+.m-uv-index-3:before {
+    content: "\f1a1";
+}
+.m-uv-index-4:before {
+    content: "\f1a2";
+}
+.m-uv-index-5:before {
+    content: "\f1a3";
+}
+.m-uv-index-6:before {
+    content: "\f1a4";
+}
+.m-uv-index-7:before {
+    content: "\f1a5";
+}
+.m-uv-index-8:before {
+    content: "\f1a6";
+}
+.m-uv-index-9:before {
+    content: "\f1a7";
+}
+.m-uv-index:before {
+    content: "\f1a8";
+}
+.m-wind-beaufort-0:before {
+    content: "\f1a9";
+}
+.m-wind-beaufort-1:before {
+    content: "\f1aa";
+}
+.m-wind-beaufort-10:before {
+    content: "\f1ab";
+}
+.m-wind-beaufort-11:before {
+    content: "\f1ac";
+}
+.m-wind-beaufort-12:before {
+    content: "\f1ad";
+}
+.m-wind-beaufort-2:before {
+    content: "\f1ae";
+}
+.m-wind-beaufort-3:before {
+    content: "\f1af";
+}
+.m-wind-beaufort-4:before {
+    content: "\f1b0";
+}
+.m-wind-beaufort-5:before {
+    content: "\f1b1";
+}
+.m-wind-beaufort-6:before {
+    content: "\f1b2";
+}
+.m-wind-beaufort-7:before {
+    content: "\f1b3";
+}
+.m-wind-beaufort-8:before {
+    content: "\f1b4";
+}
+.m-wind-beaufort-9:before {
+    content: "\f1b5";
+}
+.m-wind-offshore:before {
+    content: "\f1b6";
+}
+.m-wind-onshore:before {
+    content: "\f1b7";
+}
+.m-wind:before {
+    content: "\f1b8";
+}
+.m-windsock:before {
+    content: "\f1b9";
+}

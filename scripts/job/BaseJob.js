@@ -26,6 +26,14 @@ export class BaseJob {
         return await getFiles(`./design/${this.from}`);
     }
 
+    getFromDirectory(suffix = "") {
+        return `${this.cwd}/design/${this.from}${suffix}`;
+    }
+
+    getTargetDirectory(suffix = "") {
+        return `${this.cwd}/production/${this.target}${suffix}`;
+    }
+
     getFromFile(name, suffix = "") {
         return `${this.cwd}/design/${this.from}/${name}${suffix}`;
     }
