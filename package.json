@@ -1,47 +1,44 @@
 {
-	"name": "@bybas/weather-icons",
-	"version": "2.1.0",
-	"description": "A set of animated svg weather icons.",
-	"author": {
-		"name": "Bas Milius",
-		"email": "bas@mili.us",
-		"url": "https://bas.dev"
-	},
-	"license": "MIT",
-	"main": "index.html",
-	"type": "module",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/basmilius/weather-icons.git"
-	},
-	"bugs": {
-		"url": "https://github.com/basmilius/weather-icons/issues"
-	},
-	"keywords": [
-		"openweathermap",
-		"tomorrow.io",
-		"icons",
-		"meteocons",
-		"weather icons",
-		"weather",
-		"bas milius",
-		"bybas"
-	],
-	"homepage": "https://meteocons.com/",
-	"scripts": {
-		"build": "node scripts/build.js",
-		"make": "yarn run make:svgs && yarn run make:pngs",
-		"make:pngs": "node scripts/make-pngs.js",
-		"make:svgs": "node scripts/make-svgs.js",
-		"map:providers": "node scripts/sort-for-api-providers.js"
-	},
-	"devDependencies": {
-		"chalk": "^4.1.1",
+    "name": "@bybas/weather-icons",
+    "version": "2.1.0",
+    "description": "A set of animated svg weather icons.",
+    "author": {
+        "name": "Bas Milius",
+        "email": "bas@mili.us",
+        "url": "https://bas.dev"
+    },
+    "license": "MIT",
+    "main": "index.html",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/basmilius/weather-icons.git"
+    },
+    "bugs": {
+        "url": "https://github.com/basmilius/weather-icons/issues"
+    },
+    "keywords": [
+        "openweathermap",
+        "tomorrow.io",
+        "icons",
+        "meteocons",
+        "weather icons",
+        "weather",
+        "bas milius",
+        "bybas"
+    ],
+    "homepage": "https://meteocons.com/",
+    "scripts": {
+        "build": "node scripts/build.js",
+        "build:svgs": "node scripts/build:svgs.js"
+    },
+    "devDependencies": {
+        "chalk": "^4.1.1",
         "fantasticon": "^1.2.2",
-		"imagemin": "^8.0.0",
-		"imagemin-optipng": "^8.0.0",
-		"puppeteer": "^9.1.1",
-		"rimraf": "^3.0.2",
-		"svgo": "^2.3.0"
-	}
+        "imagemin": "^8.0.0",
+        "imagemin-optipng": "^8.0.0",
+        "puppeteer": "^9.1.1",
+        "rimraf": "^3.0.2",
+        "svgo": "^2.3.0"
+    }
 }
