@@ -30,7 +30,7 @@
     "homepage": "https://meteocons.com/",
     "scripts": {
         "build": "node scripts/build.js",
-        "build:svgs": "node scripts/build:svgs.js"
+        "build:svgs": "node scripts/build-svgs.js"
     },
     "devDependencies": {
         "chalk": "^4.1.1",
