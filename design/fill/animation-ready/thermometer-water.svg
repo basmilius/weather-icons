@@ -1,35 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-	<defs>
-		<clipPath id="a">
-			<path d="M47.5,45.71a4,4,0,0,1-4-4.06,4.07,4.07,0,0,1,1.71-3.32V28.61H13.12v17.1Z" fill="none"/>
-		</clipPath>
-		<linearGradient id="b" x1="25.82" y1="26.77" x2="38.39" y2="48.54" gradientUnits="userSpaceOnUse">
-			<stop offset="0" stop-color="#3392d6"/>
-			<stop offset="0.45" stop-color="#3392d6"/>
-			<stop offset="1" stop-color="#2477b2"/>
-		</linearGradient>
-		<linearGradient id="c" x1="42.77" y1="28.66" x2="51.6" y2="43.96" gradientUnits="userSpaceOnUse">
-			<stop offset="0" stop-color="#515a69" stop-opacity="0.05"/>
-			<stop offset="0.45" stop-color="#6b7280" stop-opacity="0.05"/>
-			<stop offset="1" stop-color="#384354" stop-opacity="0.1"/>
-		</linearGradient>
-		<linearGradient id="d" x1="42.52" y1="28.23" x2="51.85" y2="44.39" gradientUnits="userSpaceOnUse">
-			<stop offset="0" stop-color="#d4d7dd"/>
-			<stop offset="0.45" stop-color="#d4d7dd"/>
-			<stop offset="1" stop-color="#bec1c6"/>
-		</linearGradient>
-	</defs>
-	<g clip-path="url(#a)">
-		<path d="M47,34.33H46c-1.36,0-2.61-1.46-3.25-2.67a.28.28,0,0,0-.5,0c-.64,1.21-1.89,2.67-3.25,2.67s-2.61-1.46-3.25-2.67a.28.28,0,0,0-.5,0c-.64,1.21-1.89,2.67-3.25,2.67s-2.61-1.46-3.25-2.67a.28.28,0,0,0-.5,0c-.64,1.21-1.89,2.67-3.25,2.67s-2.61-1.46-3.25-2.67a.28.28,0,0,0-.5,0c-.64,1.21-1.89,2.67-3.25,2.67H17v6.13a2,2,0,0,0,2,2H45a2,2,0,0,0,2-2Z" stroke="#2885c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#b)">
-			<animate attributeName="d" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" dur="3s" repeatCount="indefinite" values="
-			M47,34.33H46c-1.36,0-2.61-1.46-3.25-2.67a.28.28,0,0,0-.5,0c-.64,1.21-1.89,2.67-3.25,2.67s-2.61-1.46-3.25-2.67a.28.28,0,0,0-.5,0c-.64,1.21-1.89,2.67-3.25,2.67s-2.61-1.46-3.25-2.67a.28.28,0,0,0-.5,0c-.64,1.21-1.89,2.67-3.25,2.67s-2.61-1.46-3.25-2.67a.28.28,0,0,0-.5,0c-.64,1.21-1.89,2.67-3.25,2.67H17v6.13a2,2,0,0,0,2,2H45a2,2,0,0,0,2-2Z;
-			M47,36.33H46c-1.36,0-2.61-1.46-3.25-2.67a.28.28,0,0,0-.5,0c-.64,1.21-1.89,2.67-3.25,2.67s-2.61-1.46-3.25-2.67a.28.28,0,0,0-.5,0c-.64,1.21-1.89,2.67-3.25,2.67s-2.61-1.46-3.25-2.67a.28.28,0,0,0-.5,0c-.64,1.21-1.89,2.67-3.25,2.67s-2.61-1.46-3.25-2.67a.28.28,0,0,0-.5,0c-.64,1.21-1.89,2.67-3.25,2.67H17v4.13a2,2,0,0,0,2,2H45a2,2,0,0,0,2-2Z;
-			M47,34.33H46c-1.36,0-2.61-1.46-3.25-2.67a.28.28,0,0,0-.5,0c-.64,1.21-1.89,2.67-3.25,2.67s-2.61-1.46-3.25-2.67a.28.28,0,0,0-.5,0c-.64,1.21-1.89,2.67-3.25,2.67s-2.61-1.46-3.25-2.67a.28.28,0,0,0-.5,0c-.64,1.21-1.89,2.67-3.25,2.67s-2.61-1.46-3.25-2.67a.28.28,0,0,0-.5,0c-.64,1.21-1.89,2.67-3.25,2.67H17v6.13a2,2,0,0,0,2,2H45a2,2,0,0,0,2-2Z"/>
-		</path>
-	</g>
-	<circle cx="47.5" cy="41.71" r="2.57" fill="#ef4444"/>
-	<path d="M47.5,33.14v8.57" fill="none" stroke="#ef4444" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2">
-		<animateTransform attributeName="transform" type="translate" values="0 0; 0 1; 0 0" dur="1s" repeatCount="indefinite"/>
-	</path>
-	<path d="M51.5,41.65a4,4,0,1,1-8,0,4.07,4.07,0,0,1,1.71-3.32V28.61a2.29,2.29,0,1,1,4.58,0v9.72A4.07,4.07,0,0,1,51.5,41.65ZM47.79,32h2m-2-2.29h2m-2,4.58h2" stroke-linecap="round" stroke-linejoin="round" fill="url(#c)" stroke="url(#d)"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+    <defs>
+        <linearGradient id="a" x1="79.46" y1="-22.29" x2="165.78" y2="127.22" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#3392d6"/>
+            <stop offset="0.45" stop-color="#3392d6"/>
+            <stop offset="1" stop-color="#2477b2"/>
+        </linearGradient>
+        <clipPath id="b">
+            <path d="M372,357c-22.09,0-40-18.15-40-40.54a40.64,40.64,0,0,1,17.14-33.24V186.16A23,23,0,0,1,372,163H119.24V357Zm2.86-136.94h20m-20-22.82h20m-20,45.64h20" fill="none"/>
+        </clipPath>
+        <linearGradient id="c" x1="324.79" y1="186.75" x2="412.97" y2="339.47" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#515a69" stop-opacity="0.05"/>
+            <stop offset="0.45" stop-color="#6b7280" stop-opacity="0.05"/>
+            <stop offset="1" stop-color="#384354" stop-opacity="0.1"/>
+        </linearGradient>
+        <linearGradient id="d" x1="323.72" y1="184.9" x2="414.04" y2="341.33" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#d4d7dd"/>
+            <stop offset="0.45" stop-color="#d4d7dd"/>
+            <stop offset="1" stop-color="#bec1c6"/>
+        </linearGradient>
+        <symbol id="e" viewBox="0 0 244 92">
+            <path d="M242,24.63h-8c-10.92,0-20.85-11.66-26-21.39a2.28,2.28,0,0,0-4.06,0c-5.12,9.73-15.05,21.39-26,21.39S157.15,13,152,3.24a2.28,2.28,0,0,0-4.06,0c-5.12,9.73-15.05,21.39-26,21.39S101.15,13,96,3.24a2.28,2.28,0,0,0-4.06,0c-5.12,9.73-15,21.39-26,21.39S45.15,13,40,3.24a2.28,2.28,0,0,0-4.06,0c-5.12,9.73-15,21.39-26,21.39H2V73.7A16.14,16.14,0,0,0,18,90H226a16.14,16.14,0,0,0,16-16.3Z" stroke="#2885c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" fill="url(#a)"/>
+        </symbol>
+    </defs>
+    <g clip-path="url(#b)">
+        <use width="244" height="92" transform="translate(134 242)" xlink:href="#e"/>
+    </g>
+    <ellipse cx="372" cy="317.06" rx="25.71" ry="25.68" fill="#ef4444"/>
+    <path d="M372,231.47v85.59" fill="none" stroke="#ef4444" stroke-linecap="round" stroke-miterlimit="10" stroke-width="17.13"/>
+    <path d="M412,316.46c0,22.39-17.91,40.54-40,40.54s-40-18.15-40-40.54a40.64,40.64,0,0,1,17.14-33.24V186.16a22.86,22.86,0,1,1,45.72,0v97.06A40.64,40.64,0,0,1,412,316.46Zm-37.14-96.4h20m-20-22.82h20m-20,45.64h20" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.28" fill="url(#c)" stroke="url(#d)"/>
 </svg>

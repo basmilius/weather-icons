@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+	<defs>
+		<linearGradient id="a" x1="27.56" y1="17.64" x2="38.27" y2="36.19" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#d4d7dd"/>
+			<stop offset="0.45" stop-color="#d4d7dd"/>
+			<stop offset="1" stop-color="#bec1c6"/>
+		</linearGradient>
+		<linearGradient id="b" x1="19.96" y1="29.03" x2="31.37" y2="48.8" xlink:href="#a"/>
+	</defs>
+	<path d="M43.64,20a5,5,0,1,1,3.61,8.46H11.75" fill="none" stroke-dasharray="35 22" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke="url(#a)">
+		<animate attributeName="stroke-dashoffset" values="-57; 57" dur="1s" repeatCount="indefinite"/>
+	</path>
+	<path d="M29.14,44a5,5,0,1,0,3.61-8.46h-21" fill="none" stroke-dasharray="24 15" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke="url(#b)">
+		<animate attributeName="stroke-dashoffset" values="-39; 39" dur="1s" begin="-.25s" repeatCount="indefinite"/>
+	</path>
+	<path d="M46.55,34.82a.57.57,0,0,1,.11.39v9.64a.43.43,0,0,1-.51.51h-.86a.43.43,0,0,1-.5-.51V37l-2.11,1.17a.62.62,0,0,1-.46.12.6.6,0,0,1-.3-.31l-.38-.67a.52.52,0,0,1-.06-.4c0-.1.14-.19.31-.29l2.92-1.68a1.37,1.37,0,0,1,.72-.21h.72A.55.55,0,0,1,46.55,34.82Z" fill="#374151"/>
+	<path d="M52.51,34.48a3.64,3.64,0,0,1,2.65,1,3.23,3.23,0,0,1,1,2.37,3.29,3.29,0,0,1-.9,2.48A10.49,10.49,0,0,1,52,42.13l-.22.08-.23.09-.22.09a.92.92,0,0,0-.23.12l-.19.11a1,1,0,0,0-.18.15l-.13.16a.34.34,0,0,0-.09.19.76.76,0,0,0,0,.21v.27h5a.58.58,0,0,1,.4.11.55.55,0,0,1,.11.4v.74a.51.51,0,0,1-.11.39.53.53,0,0,1-.4.12H49a.43.43,0,0,1-.51-.51V43.72a3.33,3.33,0,0,1,.23-1.28,2.32,2.32,0,0,1,.71-.93,5.73,5.73,0,0,1,.9-.61c.28-.15.65-.31,1.11-.5a8.51,8.51,0,0,0,1.94-.93,1.84,1.84,0,0,0,.79-1.55,1.66,1.66,0,0,0-.48-1.2,1.74,1.74,0,0,0-1.26-.49,2.09,2.09,0,0,0-2.07,1.34.64.64,0,0,1-.25.35.54.54,0,0,1-.41,0l-.81-.3c-.34-.13-.45-.34-.33-.64A3.87,3.87,0,0,1,52.51,34.48Z" fill="#374151"/>
+</svg>

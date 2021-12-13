@@ -1,3 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-	<polyline points="32 44 32 20 26.21 26.89 32 20 37.78 26.89" fill="none" stroke="#ef4444" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <defs>
+        <linearGradient id="a" x1="213.84" y1="170.48" x2="308.98" y2="335.27" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#f87171"/>
+            <stop offset="0.45" stop-color="#f87171"/>
+            <stop offset="1" stop-color="#dc2626"/>
+        </linearGradient>
+    </defs>
+    <path d="M256,364a12,12,0,0,1-12-12V193l-25.09,29.9a12,12,0,1,1-18.38-15.43l46.28-55.15v0a12,12,0,0,1,5.08-3.55h0a12.49,12.49,0,0,1,2.1-.56h0a11.88,11.88,0,0,1,5.66.43l.66.23a12.05,12.05,0,0,1,4.85,3.5l46.25,55.12a12,12,0,1,1-18.38,15.43L268,193V352A12,12,0,0,1,256,364Z" stroke="#ef4444" stroke-miterlimit="10" stroke-width="4" fill="url(#a)"/>
 </svg>

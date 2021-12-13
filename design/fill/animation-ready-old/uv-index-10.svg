@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+	<defs>
+		<linearGradient id="a" x1="26.75" y1="22.91" x2="37.25" y2="41.09" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#fbbf24"/>
+			<stop offset="0.45" stop-color="#fbbf24"/>
+			<stop offset="1" stop-color="#f59e0b"/>
+		</linearGradient>
+	</defs>
+	<circle cx="32" cy="32" r="10.5" stroke="#f8af18" stroke-miterlimit="10" stroke-width="0.5" fill="url(#a)"/>
+	<path d="M32,15.71V9.5m0,45V48.29M43.52,20.48l4.39-4.39M16.09,47.91l4.39-4.39m0-23-4.39-4.39M47.91,47.91l-4.39-4.39M15.71,32H9.5m45,0H48.29" fill="none" stroke="#fbbf24" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3">
+		<animateTransform attributeName="transform" dur="45s" values="0 32 32; 360 32 32" repeatCount="indefinite" type="rotate"/>
+	</path>
+	<rect x="33.5" y="33.5" width="21" height="21" rx="6" fill="#ff3c00" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+	<path d="M41.9,40.1a.5.5,0,0,1,.1.36v7.08a.5.5,0,0,1-.1.36.46.46,0,0,1-.35.1h-.89a.46.46,0,0,1-.35-.1.5.5,0,0,1-.1-.36V42.25l-1.07.62a.42.42,0,0,1-.68-.18L38.08,42a.45.45,0,0,1-.07-.35.64.64,0,0,1,.29-.27l2-1.18a1.24,1.24,0,0,1,.64-.18h.63A.46.46,0,0,1,41.9,40.1Z" fill="#fff"/>
+	<path d="M44.8,40.72a3.74,3.74,0,0,1,4.41,0,2.54,2.54,0,0,1,.79,2v2.6a2.53,2.53,0,0,1-.79,2A3.09,3.09,0,0,1,47,48a3.14,3.14,0,0,1-2.21-.73,2.53,2.53,0,0,1-.8-2v-2.6A2.51,2.51,0,0,1,44.8,40.72Zm3.1,1.16a1.33,1.33,0,0,0-.89-.27,1.35,1.35,0,0,0-.91.27,1,1,0,0,0-.32.79v2.65a1,1,0,0,0,.32.79,1.31,1.31,0,0,0,.91.28,1.28,1.28,0,0,0,.89-.28,1,1,0,0,0,.32-.79V42.67A1,1,0,0,0,47.9,41.88Z" fill="#fff"/>
+</svg>

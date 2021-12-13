@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+	<defs>
+		<linearGradient id="a" x1="31" y1="26.27" x2="33" y2="29.73" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#fbbf24"/>
+			<stop offset="0.45" stop-color="#fbbf24"/>
+			<stop offset="1" stop-color="#f59e0b"/>
+		</linearGradient>
+		<linearGradient id="b" x1="36.67" y1="32.69" x2="39.33" y2="37.31" xlink:href="#a"/>
+		<linearGradient id="c" x1="24.67" y1="32.69" x2="27.33" y2="37.31" xlink:href="#a"/>
+		<linearGradient id="d" x1="14" y1="34.27" x2="16" y2="37.73" xlink:href="#a"/>
+		<linearGradient id="e" x1="48" y1="34.27" x2="50" y2="37.73" xlink:href="#a"/>
+		<linearGradient id="f" x1="41.33" y1="27.85" x2="42.67" y2="30.15" xlink:href="#a"/>
+		<linearGradient id="g" x1="21.33" y1="27.85" x2="22.67" y2="30.15" xlink:href="#a"/>
+	</defs>
+	<circle cx="32" cy="28" r="2" stroke="#f8af18" stroke-miterlimit="10" stroke-width="0.25" fill="url(#a)">
+		<animateTransform attributeName="transform" type="translate" values="0 -5; 0 5; 0 -5" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" repeatCount="indefinite"/>
+	</circle>
+	<circle cx="38" cy="35" r="2.67" stroke="#f8af18" stroke-miterlimit="10" stroke-width="0.25" fill="url(#b)">
+		<animateTransform attributeName="transform" type="translate" values="0 -5; 0 5; 0 -5" begin="-0.6s" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" repeatCount="indefinite"/>
+	</circle>
+	<circle cx="26" cy="35" r="2.67" stroke="#f8af18" stroke-miterlimit="10" stroke-width="0.25" fill="url(#c)">
+		<animateTransform attributeName="transform" type="translate" values="0 -5; 0 5; 0 -5" begin="-0.4s" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" repeatCount="indefinite"/>
+	</circle>
+	<circle cx="15" cy="36" r="2" stroke="#f8af18" stroke-miterlimit="10" stroke-width="0.25" fill="url(#d)">
+		<animateTransform attributeName="transform" type="translate" values="0 -5; 0 5; 0 -5" begin="-0.2s" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" repeatCount="indefinite"/>
+	</circle>
+	<circle cx="49" cy="36" r="2" stroke="#f8af18" stroke-miterlimit="10" stroke-width="0.25" fill="url(#e)">
+		<animateTransform attributeName="transform" type="translate" values="0 -5; 0 5; 0 -5" begin="-1.2s" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" repeatCount="indefinite"/>
+	</circle>
+	<circle cx="42" cy="29" r="1.33" stroke="#f8af18" stroke-miterlimit="10" stroke-width="0.25" fill="url(#f)">
+		<animateTransform attributeName="transform" type="translate" values="0 -5; 0 5; 0 -5" begin="-1.0s" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" repeatCount="indefinite"/>
+	</circle>
+	<circle cx="22" cy="29" r="1.33" stroke="#f8af18" stroke-miterlimit="10" stroke-width="0.25" fill="url(#g)">
+		<animateTransform attributeName="transform" type="translate" values="0 -5; 0 5; 0 -5" begin="-0.8s" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" repeatCount="indefinite"/>
+	</circle>
+</svg>

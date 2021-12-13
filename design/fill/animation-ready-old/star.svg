@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+	<defs>
+		<linearGradient id="a" x1="23.22" y1="16.8" x2="40.78" y2="47.2" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#fcd966"/>
+			<stop offset="0.45" stop-color="#fcd966"/>
+			<stop offset="1" stop-color="#fccd34"/>
+			<animateTransform attributeName="gradientTransform" type="rotate" values="0 32 32; 360 32 32" dur="18s" repeatCount="indefinite"/>
+		</linearGradient>
+	</defs>
+	<path d="M33,23l9.06-4.25a2.39,2.39,0,0,1,3.18,3.18L41,31a2.42,2.42,0,0,0,0,2l4.25,9.06a2.39,2.39,0,0,1-3.18,3.18L33,41a2.42,2.42,0,0,0-2,0l-9.06,4.25a2.39,2.39,0,0,1-3.18-3.18L23,33a2.42,2.42,0,0,0,0-2l-4.25-9.06a2.39,2.39,0,0,1,3.18-3.18L31,23A2.42,2.42,0,0,0,33,23Z" stroke="#fcd34d" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#a)">
+		<animate attributeName="opacity" values="1; 0.4; 1" dur="3s" repeatCount="indefinite"/>
+		<animateTransform attributeName="transform" type="rotate" values="360 32 32; 0 32 32" dur="18s" repeatCount="indefinite"/>
+	</path>
+</svg>

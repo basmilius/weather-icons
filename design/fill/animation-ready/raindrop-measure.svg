@@ -1,29 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-	<defs>
-		<linearGradient id="a" x1="23.61" y1="21.85" x2="37.27" y2="45.52" gradientUnits="userSpaceOnUse">
-			<stop offset="0" stop-color="#f3f7fe"/>
-			<stop offset="0.45" stop-color="#f3f7fe"/>
-			<stop offset="1" stop-color="#deeafb"/>
-		</linearGradient>
-		<linearGradient id="b" x1="38.58" y1="19.34" x2="53.17" y2="44.59" gradientUnits="userSpaceOnUse">
-			<stop offset="0" stop-color="#d4d7dd"/>
-			<stop offset="0.45" stop-color="#d4d7dd"/>
-			<stop offset="1" stop-color="#bec1c6"/>
-		</linearGradient>
-		<clipPath id="c">
-			<path d="M21,32H43V48H21Z" fill="none">
-				<animate attributeName="d" values="M21,32H43V48H21Z; M21,28H43V48H21Z; M21,32H43V48H21Z" dur="3s" repeatCount="indefinite"/>
-			</path>
-		</clipPath>
-		<linearGradient id="d" x1="23.61" y1="21.85" x2="37.27" y2="45.52" gradientUnits="userSpaceOnUse">
-			<stop offset="0" stop-color="#3392d6"/>
-			<stop offset="0.45" stop-color="#3392d6"/>
-			<stop offset="1" stop-color="#2477b2"/>
-		</linearGradient>
-	</defs>
-	<path d="M32,17c-6.09,9-10,14.62-10,20.09a10,10,0,0,0,20,0C42,31.62,38.09,26,32,17Z" stroke="#e6effc" stroke-miterlimit="10" stroke-width="0.5" fill="url(#a)"/>
-	<path d="M44,17h4V47H44m1-15h3m-2,7h2M46,24h2" fill="none" stroke-linecap="square" stroke-linejoin="round" stroke="url(#b)"/>
-	<g clip-path="url(#c)">
-		<path d="M32,17c-6.09,9-10,14.62-10,20.09a10,10,0,0,0,20,0C42,31.62,38.09,26,32,17Z" stroke="#2885c7" stroke-miterlimit="10" stroke-width="0.5" fill="url(#d)"/>
-	</g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+    <defs>
+        <linearGradient id="a" x1="14.85" y1="42.34" x2="124.18" y2="231.72" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#3392d6"/>
+            <stop offset="0.45" stop-color="#3392d6"/>
+            <stop offset="1" stop-color="#2477b2"/>
+        </linearGradient>
+        <linearGradient id="b" x1="188.85" y1="170.77" x2="298.18" y2="360.15" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#f3f7fe"/>
+            <stop offset="0.45" stop-color="#f3f7fe"/>
+            <stop offset="1" stop-color="#deeafb"/>
+        </linearGradient>
+        <linearGradient id="c" x1="310.54" y1="152.47" x2="425.46" y2="351.53" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#d4d7dd"/>
+            <stop offset="0.45" stop-color="#d4d7dd"/>
+            <stop offset="1" stop-color="#bec1c6"/>
+        </linearGradient>
+        <clipPath id="d">
+            <path d="M168,252H344V380H168Z" fill="none"/>
+        </clipPath>
+        <symbol id="e" viewBox="0 0 164 245.57">
+            <path d="M82,3.57c-48.7,72-80,117-80,160.75s35.79,79.25,80,79.25,80-35.47,80-79.25S130.7,75.54,82,3.57Z" stroke="#2885c7" stroke-miterlimit="10" stroke-width="4" fill="url(#a)"/>
+        </symbol>
+    </defs>
+    <path d="M256,132c-48.7,72-80,117-80,160.75S211.79,372,256,372s80-35.47,80-79.25S304.7,204,256,132Z" stroke="#e6effc" stroke-miterlimit="10" stroke-width="4" fill="url(#b)"/>
+    <path d="M352,132h32V372H352m8-120h24m-16,56h16M368,188h16" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" stroke="url(#c)"/>
+    <g clip-path="url(#d)">
+        <use width="164" height="245.57" transform="translate(174.11 128.99)" xlink:href="#e"/>
+    </g>
 </svg>

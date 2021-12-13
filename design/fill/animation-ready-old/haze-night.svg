@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+	<defs>
+		<clipPath id="a">
+			<rect y="7.5" width="64" height="32" fill="none"/>
+		</clipPath>
+		<linearGradient id="b" x1="21.92" y1="18.75" x2="38.52" y2="47.52" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#86c3db"/>
+			<stop offset="0.45" stop-color="#86c3db"/>
+			<stop offset="1" stop-color="#5eafcf"/>
+			<animateTransform attributeName="gradientTransform" type="rotate" values="5 32 32; -15 32 32; 5 32 32" dur="10s" repeatCount="indefinite"/>
+		</linearGradient>
+		<linearGradient id="c" x1="17.94" y1="41.73" x2="26.94" y2="57.32" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#d4d7dd"/>
+			<stop offset="0.45" stop-color="#d4d7dd"/>
+			<stop offset="1" stop-color="#bec1c6"/>
+		</linearGradient>
+		<linearGradient id="d" x1="28.81" y1="35.45" x2="37.81" y2="51.04" xlink:href="#c"/>
+		<linearGradient id="e" x1="37.06" y1="30.68" x2="46.06" y2="46.27" xlink:href="#c"/>
+		<linearGradient id="f" x1="17.94" y1="48.73" x2="26.94" y2="64.32" xlink:href="#c"/>
+		<linearGradient id="g" x1="28.81" y1="42.45" x2="37.81" y2="58.04" xlink:href="#c"/>
+		<linearGradient id="h" x1="37.06" y1="37.68" x2="46.06" y2="53.27" xlink:href="#c"/>
+	</defs>
+	<g clip-path="url(#a)">
+		<path d="M46.66,36.2A16.66,16.66,0,0,1,29.88,19.65a16.29,16.29,0,0,1,.55-4.15A16.56,16.56,0,1,0,48.5,36.1C47.89,36.16,47.28,36.2,46.66,36.2Z" stroke="#72b9d5" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#b)">
+			<animateTransform attributeName="transform" type="rotate" values="-5 32 32; 15 32 32; -5 32 32" dur="10s" repeatCount="indefinite"/>
+		</path>
+	</g>
+	<g>
+		<line x1="17" y1="44" x2="21.5" y2="44" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke="url(#c)"/>
+		<line x1="28.5" y1="44" x2="39" y2="44" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="7 7" stroke="url(#d)"/>
+		<line x1="42.5" y1="44" x2="47" y2="44" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke="url(#e)"/>
+		<animateTransform attributeName="transform" type="translate" values="-3 0; 3 0; -3 0" dur="5s" begin="0s" repeatCount="indefinite"/>
+	</g>
+	<g>
+		<line x1="17" y1="51" x2="21.5" y2="51" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke="url(#f)"/>
+		<line x1="28.5" y1="51" x2="39" y2="51" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="7 7" stroke="url(#g)"/>
+		<line x1="42.5" y1="51" x2="47" y2="51" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke="url(#h)"/>
+		<animateTransform attributeName="transform" type="translate" values="-3 0; 3 0; -3 0" dur="5s" begin="-4s" repeatCount="indefinite"/>
+	</g>
+</svg>

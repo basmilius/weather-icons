@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+	<defs>
+		<linearGradient id="a" x1="25.32" y1="20.7" x2="40.58" y2="47.15" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#d4d7dd"/>
+			<stop offset="0.45" stop-color="#d4d7dd"/>
+			<stop offset="1" stop-color="#bec1c6"/>
+		</linearGradient>
+		<linearGradient id="b" x1="26.16" y1="19.57" x2="36.32" y2="37.16" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#f87171"/>
+			<stop offset="0.45" stop-color="#f87171"/>
+			<stop offset="1" stop-color="#dc2626"/>
+		</linearGradient>
+	</defs>
+	<path d="M38,45.75a3,3,0,0,1-6,0V18" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="url(#a)"/>
+	<g>
+		<path d="M47,31c0-6.63-6.72-12-15-12S17,24.37,17,31l1.59-.73a8.91,8.91,0,0,1,7.31.06l1.38.67.85-.44a8.84,8.84,0,0,1,7.74,0l.85.44,1.38-.67a8.91,8.91,0,0,1,7.31-.06Z" stroke="#ef4444" stroke-miterlimit="10" stroke-width="0.5" fill="url(#b)"/>
+		<path d="M36.72,31C37.56,24.3,32,19,32,19s-5.56,5.3-4.72,12" fill="none" stroke="#ef4444" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5"/>
+		<animateTransform attributeName="transform" type="translate" values="0 0; 0 0.5; 0 0" dur="2s" repeatCount="indefinite"/>
+	</g>
+</svg>

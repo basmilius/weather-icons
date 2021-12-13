@@ -1,30 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-	<defs>
-		<linearGradient id="a" x1="23.29" y1="23.36" x2="38.11" y2="49.02" gradientUnits="userSpaceOnUse">
-			<stop offset="0" stop-color="#f87171"/>
-			<stop offset="0.45" stop-color="#f87171"/>
-			<stop offset="1" stop-color="#dc2626"/>
-		</linearGradient>
-		<linearGradient id="b" x1="24.62" y1="26.06" x2="37.18" y2="47.82" gradientUnits="userSpaceOnUse">
-			<stop offset="0" stop-color="#fbbf24"/>
-			<stop offset="0.45" stop-color="#fbbf24"/>
-			<stop offset="1" stop-color="#f59e0b"/>
-		</linearGradient>
-		<linearGradient id="c" x1="18" y1="34.25" x2="46" y2="34.25" gradientUnits="userSpaceOnUse">
-			<stop offset="0" stop-color="#51cf66"/>
-			<stop offset="0.45" stop-color="#51cf66"/>
-			<stop offset="1" stop-color="#37b24d"/>
-		</linearGradient>
-		<linearGradient id="d" x1="39.75" y1="32.41" x2="49.01" y2="48.46" gradientUnits="userSpaceOnUse">
-			<stop offset="0" stop-color="#f3f7fe"/>
-			<stop offset="0.45" stop-color="#f3f7fe"/>
-			<stop offset="1" stop-color="#deeafb"/>
-		</linearGradient>
-	</defs>
-	<path d="M13.5,41A18.25,18.25,0,0,1,32,23,18.25,18.25,0,0,1,50.5,41" fill="none" stroke-miterlimit="10" stroke-width="3" stroke="url(#a)"/>
-	<path d="M16.5,41A15.26,15.26,0,0,1,32,26,15.26,15.26,0,0,1,47.5,41" fill="none" stroke-miterlimit="10" stroke-width="3" stroke="url(#b)"/>
-	<path d="M19.5,41A12.26,12.26,0,0,1,32,29,12.26,12.26,0,0,1,44.5,41" fill="none" stroke-miterlimit="10" stroke-width="3" stroke="url(#c)"/>
-	<path d="M53.09,37.72h-.17a5.86,5.86,0,0,0-10.67-4.46,3.9,3.9,0,0,0-5.9,3.34,4.23,4.23,0,0,0,0,.63,4.17,4.17,0,0,0,.79,8.26h15.9a3.89,3.89,0,1,0,0-7.78Z" stroke="#e6effc" stroke-miterlimit="10" stroke-width="0.5" fill="url(#d)">
-		<animateTransform attributeName="transform" type="translate" values="-3 0; 3 0; -3 0" dur="7s" repeatCount="indefinite"/>
-	</path>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+    <defs>
+        <linearGradient id="a" x1="54.01" y1="16.93" x2="125.82" y2="141.31" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#f3f7fe"/>
+            <stop offset="0.45" stop-color="#f3f7fe"/>
+            <stop offset="1" stop-color="#deeafb"/>
+        </linearGradient>
+        <linearGradient id="b" x1="160.35" y1="168.89" x2="278.86" y2="374.16" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#f87171"/>
+            <stop offset="0.45" stop-color="#f87171"/>
+            <stop offset="1" stop-color="#dc2626"/>
+        </linearGradient>
+        <linearGradient id="c" x1="170.96" y1="190.48" x2="271.47" y2="364.58" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fbbf24"/>
+            <stop offset="0.45" stop-color="#fbbf24"/>
+            <stop offset="1" stop-color="#f59e0b"/>
+        </linearGradient>
+        <linearGradient id="d" x1="118" y1="256" x2="342" y2="256" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#51cf66"/>
+            <stop offset="0.45" stop-color="#51cf66"/>
+            <stop offset="1" stop-color="#37b24d"/>
+        </linearGradient>
+        <symbol id="e" viewBox="0 0 189.48 120.47">
+            <path d="M157.29,58.08c-.46,0-.91,0-1.36.07a45.76,45.76,0,0,0,1.36-10.86A45.26,45.26,0,0,0,73.5,23.52,30.15,30.15,0,0,0,27.88,49.45a30.47,30.47,0,0,0,.43,4.9,32.34,32.34,0,0,0,6,64.12c.73,0,1.44-.06,2.16-.11v.11H157.29a30.2,30.2,0,0,0,0-60.39Z" stroke="#e6effc" stroke-miterlimit="10" stroke-width="4" fill="url(#a)"/>
+        </symbol>
+    </defs>
+    <path d="M82,310c0-79.53,66.26-144,148-144s148,64.47,148,144" fill="none" stroke-miterlimit="10" stroke-width="24" stroke="url(#b)"/>
+    <path d="M106,310c0-66.27,55.52-120,124-120s124,53.73,124,120" fill="none" stroke-miterlimit="10" stroke-width="24" stroke="url(#c)"/>
+    <path d="M130,310c0-53,44.77-96,100-96s100,43,100,96" fill="none" stroke-miterlimit="10" stroke-width="24" stroke="url(#d)"/>
+    <use width="189.48" height="120.47" transform="translate(239.94 223.59)" xlink:href="#e"/>
 </svg>

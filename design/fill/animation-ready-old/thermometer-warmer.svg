@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+	<defs>
+		<linearGradient id="a" x1="23.73" y1="19.16" x2="39.18" y2="45.93" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#515a69" stop-opacity="0.05"/>
+			<stop offset="0.45" stop-color="#6b7280" stop-opacity="0.05"/>
+			<stop offset="1" stop-color="#384354" stop-opacity="0.1"/>
+		</linearGradient>
+		<linearGradient id="b" x1="23.48" y1="18.73" x2="39.43" y2="46.36" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#d4d7dd"/>
+			<stop offset="0.45" stop-color="#d4d7dd"/>
+			<stop offset="1" stop-color="#bec1c6"/>
+		</linearGradient>
+	</defs>
+	<circle cx="32" cy="42" r="4.5" fill="#ef4444"/>
+	<path d="M32,19V42" fill="none" stroke="#ef4444" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3">
+		<animateTransform attributeName="transform" type="translate" values="0 0; 0 1; 0 0" dur="1s" repeatCount="indefinite"/>
+	</path>
+	<path d="M32.5,29H36m3,12.9a7,7,0,1,1-14,0,7.12,7.12,0,0,1,3-5.83v-17a4,4,0,1,1,8,0v17A7.12,7.12,0,0,1,39,41.9ZM32.5,25H36m-3.5-4H36" stroke-linecap="round" stroke-linejoin="round" fill="url(#a)" stroke="url(#b)"/>
+	<polyline points="44 38 44 26 41 29.45 44 26 47 29.45" fill="none" stroke="#ef4444" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<animateTransform attributeName="transform" type="translate" values="0 0; 0 0; 0 -6; 0 -6" dur="1.5s" keyTimes="0.0; 0.5; 0.9; 1.0" begin="0s" repeatCount="indefinite"/>
+		<animate attributeName="opacity" values="0; 1; 1; 0; 0" dur="1.5s" keyTimes="0.0; 0.3; 0.8; 0.9; 1.0" repeatCount="indefinite"/>
+	</polyline>
+</svg>

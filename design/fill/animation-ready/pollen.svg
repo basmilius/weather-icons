@@ -1,36 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
-	<defs>
-		<linearGradient id="a" x1="31" y1="26.27" x2="33" y2="29.73" gradientUnits="userSpaceOnUse">
-			<stop offset="0" stop-color="#fbbf24"/>
-			<stop offset="0.45" stop-color="#fbbf24"/>
-			<stop offset="1" stop-color="#f59e0b"/>
-		</linearGradient>
-		<linearGradient id="b" x1="36.67" y1="32.69" x2="39.33" y2="37.31" xlink:href="#a"/>
-		<linearGradient id="c" x1="24.67" y1="32.69" x2="27.33" y2="37.31" xlink:href="#a"/>
-		<linearGradient id="d" x1="14" y1="34.27" x2="16" y2="37.73" xlink:href="#a"/>
-		<linearGradient id="e" x1="48" y1="34.27" x2="50" y2="37.73" xlink:href="#a"/>
-		<linearGradient id="f" x1="41.33" y1="27.85" x2="42.67" y2="30.15" xlink:href="#a"/>
-		<linearGradient id="g" x1="21.33" y1="27.85" x2="22.67" y2="30.15" xlink:href="#a"/>
-	</defs>
-	<circle cx="32" cy="28" r="2" stroke="#f8af18" stroke-miterlimit="10" stroke-width="0.25" fill="url(#a)">
-		<animateTransform attributeName="transform" type="translate" values="0 -5; 0 5; 0 -5" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" repeatCount="indefinite"/>
-	</circle>
-	<circle cx="38" cy="35" r="2.67" stroke="#f8af18" stroke-miterlimit="10" stroke-width="0.25" fill="url(#b)">
-		<animateTransform attributeName="transform" type="translate" values="0 -5; 0 5; 0 -5" begin="-0.6s" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" repeatCount="indefinite"/>
-	</circle>
-	<circle cx="26" cy="35" r="2.67" stroke="#f8af18" stroke-miterlimit="10" stroke-width="0.25" fill="url(#c)">
-		<animateTransform attributeName="transform" type="translate" values="0 -5; 0 5; 0 -5" begin="-0.4s" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" repeatCount="indefinite"/>
-	</circle>
-	<circle cx="15" cy="36" r="2" stroke="#f8af18" stroke-miterlimit="10" stroke-width="0.25" fill="url(#d)">
-		<animateTransform attributeName="transform" type="translate" values="0 -5; 0 5; 0 -5" begin="-0.2s" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" repeatCount="indefinite"/>
-	</circle>
-	<circle cx="49" cy="36" r="2" stroke="#f8af18" stroke-miterlimit="10" stroke-width="0.25" fill="url(#e)">
-		<animateTransform attributeName="transform" type="translate" values="0 -5; 0 5; 0 -5" begin="-1.2s" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" repeatCount="indefinite"/>
-	</circle>
-	<circle cx="42" cy="29" r="1.33" stroke="#f8af18" stroke-miterlimit="10" stroke-width="0.25" fill="url(#f)">
-		<animateTransform attributeName="transform" type="translate" values="0 -5; 0 5; 0 -5" begin="-1.0s" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" repeatCount="indefinite"/>
-	</circle>
-	<circle cx="22" cy="29" r="1.33" stroke="#f8af18" stroke-miterlimit="10" stroke-width="0.25" fill="url(#g)">
-		<animateTransform attributeName="transform" type="translate" values="0 -5; 0 5; 0 -5" begin="-0.8s" dur="5s" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1" repeatCount="indefinite"/>
-	</circle>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+    <defs>
+        <linearGradient id="a" x1="145" y1="3.14" x2="161" y2="30.86" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fbbf24"/>
+            <stop offset="0.45" stop-color="#fbbf24"/>
+            <stop offset="1" stop-color="#f59e0b"/>
+        </linearGradient>
+        <linearGradient id="b" x1="190.33" y1="54.52" x2="211.67" y2="91.48" xlink:href="#a"/>
+        <linearGradient id="c" x1="94.33" y1="54.52" x2="115.67" y2="91.48" xlink:href="#a"/>
+        <linearGradient id="d" x1="9" y1="67.14" x2="25" y2="94.86" xlink:href="#a"/>
+        <linearGradient id="e" x1="281" y1="67.14" x2="297" y2="94.86" xlink:href="#a"/>
+        <linearGradient id="f" x1="227.67" y1="15.76" x2="238.33" y2="34.24" xlink:href="#a"/>
+        <linearGradient id="g" x1="67.67" y1="15.76" x2="78.33" y2="34.24" xlink:href="#a"/>
+        <symbol id="h" viewBox="0 0 306 98">
+            <circle cx="153" cy="17" r="16" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#a)"/>
+            <circle cx="201" cy="73" r="21.33" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#b)"/>
+            <circle cx="105" cy="73" r="21.33" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#c)"/>
+            <circle cx="17" cy="81" r="16" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#d)"/>
+            <circle cx="289" cy="81" r="16" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#e)"/>
+            <circle cx="233" cy="25" r="10.67" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#f)"/>
+            <circle cx="73" cy="25" r="10.67" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#g)"/>
+        </symbol>
+    </defs>
+    <use width="306" height="98" transform="translate(103 207)" xlink:href="#h"/>
 </svg>

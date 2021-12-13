@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+	<defs>
+		<linearGradient id="a" x1="27.5" y1="17.21" x2="36.5" y2="32.79" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#d4d7dd"/>
+			<stop offset="0.45" stop-color="#d4d7dd"/>
+			<stop offset="1" stop-color="#bec1c6"/>
+		</linearGradient>
+		<linearGradient id="b" y1="24.21" y2="39.79" xlink:href="#a"/>
+		<linearGradient id="c" y1="31.21" y2="46.79" xlink:href="#a"/>
+	</defs>
+	<line x1="17" y1="25" x2="47" y2="25" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke="url(#a)">
+		<animateTransform attributeName="transform" type="translate" values="-4 0; 4 0; -4 0" dur="5s" begin="0s" repeatCount="indefinite"/>
+	</line>
+	<line x1="17" y1="32" x2="47" y2="32" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke="url(#b)">
+		<animateTransform attributeName="transform" type="translate" values="-3 0; 3 0; -3 0" dur="5s" begin="-2s" repeatCount="indefinite"/>
+	</line>
+	<line x1="17" y1="39" x2="47" y2="39" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" stroke="url(#c)">
+		<animateTransform attributeName="transform" type="translate" values="-4 0; 4 0; -4 0" dur="5s" begin="-4s" repeatCount="indefinite"/>
+	</line>
+</svg>
