@@ -2,20 +2,22 @@
     "name": "@bybas/weather-icons",
     "version": "2.1.0",
     "description": "A set of animated svg weather icons.",
+    "homepage": "https://meteocons.com/",
+    "license": "MIT",
     "author": {
         "name": "Bas Milius",
         "email": "bas@mili.us",
         "url": "https://bas.dev"
     },
-    "license": "MIT",
     "main": "index.html",
     "type": "module",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/basmilius/weather-icons.git"
-    },
     "bugs": {
         "url": "https://github.com/basmilius/weather-icons/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/basmilius/weather-icons.git",
+        "directory": "packages/icons"
     },
     "keywords": [
         "openweathermap",
@@ -27,7 +29,6 @@
         "bas milius",
         "bybas"
     ],
-    "homepage": "https://meteocons.com/",
     "scripts": {
         "build": "node scripts/build.js",
         "build:svgs": "node scripts/build-svgs.js"
