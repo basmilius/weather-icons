@@ -15,12 +15,39 @@
             <rect width="512" height="306" fill="none"/>
         </clipPath>
         <symbol id="e" viewBox="0 0 384 384">
+            <!-- sun-core -->
             <circle cx="192" cy="192" r="84" stroke="#f8af18" stroke-miterlimit="10" stroke-width="6" fill="url(#c)"/>
-            <path d="M192,61.66V12m0,360V322.34M284.17,99.83l35.11-35.11M64.72,319.28l35.11-35.11m0-184.34L64.72,64.72M319.28,319.28l-35.11-35.11M61.66,192H12m360,0H322.34" fill="none" stroke="#fbbf24" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24"/>
+
+            <!-- sun-rays -->
+            <path d="M192,61.66V12m0,360V322.34M284.17,99.83l35.11-35.11M64.72,319.28l35.11-35.11m0-184.34L64.72,64.72M319.28,319.28l-35.11-35.11M61.66,192H12m360,0H322.34" fill="none" stroke="#fbbf24" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24">
+                <animateTransform
+                    attributeName="transform"
+                    additive="sum"
+                    type="rotate"
+                    values="0 192 192; 45 192 192"
+                    dur="6s"
+                    repeatCount="indefinite"/>
+            </path>
         </symbol>
-        <symbol id="f" viewBox="0 0 264 72">
-            <line x1="12" y1="60" x2="252" y2="60" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke="url(#a)"/>
-            <line x1="12" y1="12" x2="252" y2="12" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke="url(#b)"/>
+        <symbol id="f" viewBox="0 0 264 72" overflow="visible">
+            <line x1="12" y1="60" x2="252" y2="60" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke="url(#a)">
+                <animateTransform
+                    attributeName="transform"
+                    additive="sum"
+                    type="translate"
+                    values="-24 0; 24 0; -24 0"
+                    dur="6s"
+                    repeatCount="indefinite"/>
+            </line>
+            <line x1="12" y1="12" x2="252" y2="12" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke="url(#b)">
+                <animateTransform
+                    attributeName="transform"
+                    additive="sum"
+                    type="translate"
+                    values="24 0; -24 0; 24 0"
+                    dur="6s"
+                    repeatCount="indefinite"/>
+            </line>
         </symbol>
     </defs>
     <g clip-path="url(#d)">

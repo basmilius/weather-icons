@@ -19,15 +19,44 @@
             <rect width="512" height="306" fill="none"/>
         </clipPath>
         <symbol id="i" viewBox="0 0 270 270">
-            <path d="M252.25,168.63C178.13,168.63,118,109.35,118,36.21A130.48,130.48,0,0,1,122.47,3C55.29,10.25,3,66.37,3,134.58,3,207.71,63.09,267,137.21,267,199.69,267,252,224.82,267,167.79A135.56,135.56,0,0,1,252.25,168.63Z" stroke="#72b9d5" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" fill="url(#g)"/>
+            <!-- moon -->
+            <path d="M252.25,168.63C178.13,168.63,118,109.35,118,36.21A130.48,130.48,0,0,1,122.47,3C55.29,10.25,3,66.37,3,134.58,3,207.71,63.09,267,137.21,267,199.69,267,252,224.82,267,167.79A135.56,135.56,0,0,1,252.25,168.63Z" stroke="#72b9d5" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" fill="url(#g)">
+                <animateTransform
+                    attributeName="transform"
+                    additive="sum"
+                    type="rotate"
+                    values="-15 135 135; 9 135 135; -15 135 135"
+                    dur="6s"
+                    repeatCount="indefinite"/>
+            </path>
         </symbol>
-        <symbol id="j" viewBox="0 0 264 72">
-            <line x1="12" y1="60" x2="42" y2="60" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke="url(#a)"/>
-            <line x1="102" y1="60" x2="192" y2="60" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke-dasharray="60 60" stroke="url(#b)"/>
-            <line x1="222" y1="60" x2="252" y2="60" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke="url(#c)"/>
-            <line x1="12" y1="12" x2="42" y2="12" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke="url(#d)"/>
-            <line x1="102" y1="12" x2="192" y2="12" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke-dasharray="60 60" stroke="url(#e)"/>
-            <line x1="222" y1="12" x2="252" y2="12" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke="url(#f)"/>
+        <symbol id="j" viewBox="0 0 264 72" overflow="visible">
+            <g>
+                <line x1="12" y1="60" x2="42" y2="60" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke="url(#a)"/>
+                <line x1="102" y1="60" x2="192" y2="60" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke-dasharray="60 60" stroke="url(#b)"/>
+                <line x1="222" y1="60" x2="252" y2="60" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke="url(#c)"/>
+
+                <animateTransform
+                    attributeName="transform"
+                    additive="sum"
+                    type="translate"
+                    values="-24 0; 24 0; -24 0"
+                    dur="6s"
+                    repeatCount="indefinite"/>
+            </g>
+            <g>
+                <line x1="12" y1="12" x2="42" y2="12" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke="url(#d)"/>
+                <line x1="102" y1="12" x2="192" y2="12" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke-dasharray="60 60" stroke="url(#e)"/>
+                <line x1="222" y1="12" x2="252" y2="12" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke="url(#f)"/>
+
+                <animateTransform
+                    attributeName="transform"
+                    additive="sum"
+                    type="translate"
+                    values="24 0; -24 0; 24 0"
+                    dur="6s"
+                    repeatCount="indefinite"/>
+            </g>
         </symbol>
     </defs>
     <g clip-path="url(#h)">

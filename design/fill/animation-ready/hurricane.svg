@@ -6,5 +6,13 @@
             <stop offset="1" stop-color="#bec1c6"/>
         </linearGradient>
     </defs>
-    <path d="M344,256a88,88,0,1,1-88-88A88,88,0,0,1,344,256ZM200.05,116.87l-3.83,7.7a269.69,269.69,0,0,0-27.35,142.56h0M312,395.13l3.83-7.7a269.69,269.69,0,0,0,27.35-142.56h0" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke="url(#a)"/>
+    <path d="M344,256a88,88,0,1,1-88-88A88,88,0,0,1,344,256ZM200.05,116.87l-3.83,7.7a269.69,269.69,0,0,0-27.35,142.56h0M312,395.13l3.83-7.7a269.69,269.69,0,0,0,27.35-142.56h0" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24" stroke="url(#a)">
+        <animateTransform
+            attributeName="transform"
+            additive="sum"
+            type="rotate"
+            values="1440 256 256; 0 256 256"
+            dur="6s"
+            repeatCount="indefinite"/>
+    </path>
 </svg>

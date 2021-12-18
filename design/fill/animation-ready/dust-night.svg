@@ -25,21 +25,77 @@
             <polygon points="0 0 512 0 0 512 0 0" fill="none"/>
         </clipPath>
         <symbol id="o" viewBox="0 0 270 270">
-            <path d="M252.25,168.63C178.13,168.63,118,109.35,118,36.21A130.48,130.48,0,0,1,122.47,3C55.29,10.25,3,66.37,3,134.58,3,207.71,63.09,267,137.21,267,199.69,267,252,224.82,267,167.79A135.56,135.56,0,0,1,252.25,168.63Z" stroke="#72b9d5" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" fill="url(#m)"/>
+            <!-- moon -->
+            <path d="M252.25,168.63C178.13,168.63,118,109.35,118,36.21A130.48,130.48,0,0,1,122.47,3C55.29,10.25,3,66.37,3,134.58,3,207.71,63.09,267,137.21,267,199.69,267,252,224.82,267,167.79A135.56,135.56,0,0,1,252.25,168.63Z" stroke="#72b9d5" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" fill="url(#m)">
+                <animateTransform
+                    attributeName="transform"
+                    additive="sum"
+                    type="rotate"
+                    values="-15 135 135; 9 135 135; -15 135 135"
+                    dur="6s"
+                    repeatCount="indefinite"/>
+            </path>
         </symbol>
         <symbol id="p" viewBox="0 0 244 192">
-            <circle cx="12" cy="180" r="12" fill="url(#a)"/>
-            <circle cx="72" cy="180" r="12" fill="url(#b)"/>
-            <circle cx="44" cy="148" r="12" fill="url(#c)"/>
-            <circle cx="104" cy="148" r="12" fill="url(#d)"/>
-            <circle cx="76" cy="112" r="12" fill="url(#e)"/>
-            <circle cx="136" cy="112" r="12" fill="url(#f)"/>
-            <circle cx="108" cy="80" r="12" fill="url(#g)"/>
-            <circle cx="168" cy="80" r="12" fill="url(#h)"/>
-            <circle cx="140" cy="44" r="12" fill="url(#i)"/>
-            <circle cx="200" cy="44" r="12" fill="url(#j)"/>
-            <circle cx="172" cy="12" r="12" fill="url(#k)"/>
-            <circle cx="232" cy="12" r="12" fill="url(#l)"/>
+            <!-- dust-1 -->
+            <circle cx="12" cy="180" r="12" fill="url(#a)">
+                <animate attributeName="opacity" values=".5; 1; .5" dur=".67s" begin="-1s" repeatCount="indefinite"/>
+            </circle>
+
+            <!-- dust-2 -->
+            <circle cx="72" cy="180" r="12" fill="url(#b)">
+                <animate attributeName="opacity" values=".5; 1; .5" dur=".67s" begin="-1.08s" repeatCount="indefinite"/>
+            </circle>
+
+            <!-- dust-3 -->
+            <circle cx="44" cy="148" r="12" fill="url(#c)">
+                <animate attributeName="opacity" values=".5; 1; .5" dur=".67s" begin="-1.16s" repeatCount="indefinite"/>
+            </circle>
+
+            <!-- dust-4 -->
+            <circle cx="104" cy="148" r="12" fill="url(#d)">
+                <animate attributeName="opacity" values=".5; 1; .5" dur=".67s" begin="-1.24s" repeatCount="indefinite"/>
+            </circle>
+
+            <!-- dust-5 -->
+            <circle cx="76" cy="112" r="12" fill="url(#e)">
+                <animate attributeName="opacity" values=".5; 1; .5" dur=".67s" begin="-1.32s" repeatCount="indefinite"/>
+            </circle>
+
+            <!-- dust-6 -->
+            <circle cx="136" cy="112" r="12" fill="url(#f)">
+                <animate attributeName="opacity" values=".5; 1; .5" dur=".67s" begin="-1.40s" repeatCount="indefinite"/>
+            </circle>
+
+            <!-- dust-7 -->
+            <circle cx="108" cy="80" r="12" fill="url(#g)">
+                <animate attributeName="opacity" values=".5; 1; .5" dur=".67s" begin="-1.48s" repeatCount="indefinite"/>
+            </circle>
+
+            <!-- dust-8 -->
+            <circle cx="168" cy="80" r="12" fill="url(#h)">
+                <animate attributeName="opacity" values=".5; 1; .5" dur=".67s" begin="-1.56s" repeatCount="indefinite"/>
+            </circle>
+
+            <!-- dust-9 -->
+            <circle cx="140" cy="44" r="12" fill="url(#i)">
+                <animate attributeName="opacity" values=".5; 1; .5" dur=".67s" begin="-1.64s" repeatCount="indefinite"/>
+            </circle>
+
+            <!-- dust-10 -->
+            <circle cx="200" cy="44" r="12" fill="url(#j)">
+                <animate attributeName="opacity" values=".5; 1; .5" dur=".67s" begin="-1.72s" repeatCount="indefinite"/>
+            </circle>
+
+            <!-- dust-11 -->
+            <circle cx="172" cy="12" r="12" fill="url(#k)">
+                <animate attributeName="opacity" values=".5; 1; .5" dur=".67s" begin="-1.80s" repeatCount="indefinite"/>
+            </circle>
+
+            <!-- dust-12 -->
+            <circle cx="232" cy="12" r="12" fill="url(#l)">
+                <animate attributeName="opacity" values=".5; 1; .5" dur=".67s" begin="-1.88s" repeatCount="indefinite"/>
+            </circle>
         </symbol>
     </defs>
     <g clip-path="url(#n)">
