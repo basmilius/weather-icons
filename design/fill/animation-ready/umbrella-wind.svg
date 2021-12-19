@@ -13,12 +13,50 @@
             <stop offset="1" stop-color="#dc2626"/>
         </linearGradient>
         <symbol id="e" viewBox="0 0 138 96">
-            <path d="M105.23,10.78a15.55,15.55,0,1,1,11.21,26.33H6" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" stroke="url(#a)"/>
-            <path d="M60.67,85.22A15.55,15.55,0,1,0,71.89,58.89H6.56" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" stroke="url(#b)"/>
+            <!-- blow-1 -->
+            <path d="M105.23,10.78a15.55,15.55,0,1,1,11.21,26.33H6" fill="none" stroke-dasharray="58" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" stroke="url(#a)">
+                <animate attributeName="stroke-dashoffset" values="0; 1274" dur="6s" repeatCount="indefinite"/>
+            </path>
+
+            <!-- blow-2 -->
+            <path d="M60.67,85.22A15.55,15.55,0,1,0,71.89,58.89H6.56" fill="none" stroke-dasharray="43" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" stroke="url(#b)">
+                <animate attributeName="stroke-dashoffset" values="0; 857" dur="6s" repeatCount="indefinite"/>
+            </path>
         </symbol>
     </defs>
-    <path d="M219.94,359.94A24,24,0,1,1,186,326l1.76-1.76L343,169" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" stroke="url(#c)"/>
-    <path d="M354.29,327.42c37.49-37.49,29.89-105.87-17-152.74s-115.25-54.46-152.74-17l13.15,4.87c18.48,6.84,34.57,23.23,41,41.73l4,11.54,7.29,2.34c19.83,6.38,37.42,24,43.8,43.8l2.34,7.29,11.54,4c18.5,6.42,34.89,22.51,41.73,41Z" stroke="#ef4444" stroke-miterlimit="10" stroke-width="4" fill="url(#d)"/>
-    <path d="M296.15,269.28c42.61-33.19,41.17-94.6,41.17-94.6s-61.41-1.44-94.6,41.17" fill="none" stroke="#ef4444" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+
+    <!-- umbrella -->
+    <g transform="rotate(45 256 256)">
+        <!-- handle -->
+        <path d="M304,355a24,24,0,0,1-48,0V133" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" stroke="url(#c)"/>
+
+        <!-- cloth -->
+        <g>
+            <path d="M376,237c0-53-53.73-96-120-96s-120,43-120,96l12.74-5.85c17.9-8.23,40.88-8,58.49.52l11,5.33,6.81-3.5c18.53-9.51,43.41-9.51,61.94,0l6.81,3.5,11-5.33c17.61-8.54,40.59-8.75,58.49-.52Z" stroke="#ef4444" stroke-miterlimit="10" stroke-width="4" fill="url(#d)"/>
+            <path d="M293.78,237c6.66-53.6-37.78-96-37.78-96s-44.44,42.4-37.78,96" fill="none" stroke="#ef4444" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+
+            <animateTransform
+                attributeName="transform"
+                additive="sum"
+                type="scale"
+                values="1 1; .9 1.1; 1 1"
+                dur="6s"
+                calcMode="spline"
+                keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
+                repeatCount="indefinite"/>
+
+            <animateTransform
+                attributeName="transform"
+                additive="sum"
+                type="translate"
+                values="0 0; 29 -14; 0 0"
+                dur="6s"
+                calcMode="spline"
+                keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
+                repeatCount="indefinite"/>
+        </g>
+    </g>
+
+    <!--wind -->
     <use width="138" height="96" transform="translate(62.5 201)" xlink:href="#e"/>
 </svg>

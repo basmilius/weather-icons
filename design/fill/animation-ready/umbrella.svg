@@ -11,7 +11,33 @@
             <stop offset="1" stop-color="#dc2626"/>
         </linearGradient>
     </defs>
+
+    <!-- handle -->
     <path d="M304,355a24,24,0,0,1-48,0V133" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" stroke="url(#a)"/>
-    <path d="M376,237c0-53-53.73-96-120-96s-120,43-120,96l12.74-5.85c17.9-8.23,40.88-8,58.49.52l11,5.33,6.81-3.5c18.53-9.51,43.41-9.51,61.94,0l6.81,3.5,11-5.33c17.61-8.54,40.59-8.75,58.49-.52Z" stroke="#ef4444" stroke-miterlimit="10" stroke-width="4" fill="url(#b)"/>
-    <path d="M293.78,237c6.66-53.6-37.78-96-37.78-96s-44.44,42.4-37.78,96" fill="none" stroke="#ef4444" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+
+    <!-- cloth -->
+    <g>
+        <path d="M376,237c0-53-53.73-96-120-96s-120,43-120,96l12.74-5.85c17.9-8.23,40.88-8,58.49.52l11,5.33,6.81-3.5c18.53-9.51,43.41-9.51,61.94,0l6.81,3.5,11-5.33c17.61-8.54,40.59-8.75,58.49-.52Z" stroke="#ef4444" stroke-miterlimit="10" stroke-width="4" fill="url(#b)"/>
+        <path d="M293.78,237c6.66-53.6-37.78-96-37.78-96s-44.44,42.4-37.78,96" fill="none" stroke="#ef4444" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+
+        <animateTransform
+            attributeName="transform"
+            additive="sum"
+            type="scale"
+            values="1 1; .9 1.1; 1 1"
+            dur="6s"
+            calcMode="spline"
+            keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
+            repeatCount="indefinite"/>
+
+        <animateTransform
+            attributeName="transform"
+            additive="sum"
+            type="translate"
+            values="0 0; 29 -14; 0 0"
+            dur="6s"
+            calcMode="spline"
+            keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
+            repeatCount="indefinite"/>
+    </g>
 </svg>

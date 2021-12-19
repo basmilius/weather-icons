@@ -6,8 +6,19 @@
             <stop offset="1" stop-color="#fd7e14"/>
         </linearGradient>
         <symbol id="b" viewBox="0 0 294.97 294.03">
+            <!-- sun-core -->
             <ellipse cx="147.48" cy="147.02" rx="64.53" ry="64.31" stroke="#ff922b" stroke-miterlimit="10" stroke-width="6" fill="url(#a)"/>
-            <path d="M147.48,47.22V9.2m0,275.63v-38M218.29,76.45l27-26.88M49.7,244.46l27-26.88m0-141.13-27-26.88M245.26,244.46l-27-26.88M47.35,147H9.2m276.57,0H247.62" fill="none" stroke="#ffa94d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="18.41"/>
+
+            <!-- sun-rays -->
+            <path d="M147.48,47.22V9.2m0,275.63v-38M218.29,76.45l27-26.88M49.7,244.46l27-26.88m0-141.13-27-26.88M245.26,244.46l-27-26.88M47.35,147H9.2m276.57,0H247.62" fill="none" stroke="#ffa94d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="18.41">
+                <animateTransform
+                    attributeName="transform"
+                    additive="sum"
+                    type="rotate"
+                    values="0 147.2 147.2; 45 147.2 147.2"
+                    dur="6s"
+                    repeatCount="indefinite"/>
+            </path>
         </symbol>
     </defs>
     <path d="M185.26,438.38H171.8v-32H159.12v-9h2.17q5.53,0,8.78-2.37c2-1.49,3.33-3.92,4-7.27l.14-.58h11.09Z" fill="#374251"/>

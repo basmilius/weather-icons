@@ -34,7 +34,7 @@
             values="-6 256 256; 6 256 256; -6 256 256"
             dur="2s"
             calcMode="spline"
-            keySplines=".25, .1, .25, 1; .25, .1, .25, 1"
+            keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
             repeatCount="indefinite"/>
     </g>
 </svg>

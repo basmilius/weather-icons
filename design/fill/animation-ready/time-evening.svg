@@ -9,8 +9,19 @@
             <rect y="12" width="512" height="282" fill="none"/>
         </clipPath>
         <symbol id="c" viewBox="0 0 294.97 294.03">
+            <!-- sun-core -->
             <ellipse cx="147.48" cy="147.02" rx="64.53" ry="64.31" stroke="#ff922b" stroke-miterlimit="10" stroke-width="6" fill="url(#a)"/>
-            <path d="M147.48,47.22V9.2m0,275.63v-38M218.29,76.45l27-26.88M49.7,244.46l27-26.88m0-141.13-27-26.88M245.26,244.46l-27-26.88M47.35,147H9.2m276.57,0H247.62" fill="none" stroke="#ffa94d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="18.41"/>
+
+            <!-- sun-rays -->
+            <path d="M147.48,47.22V9.2m0,275.63v-38M218.29,76.45l27-26.88M49.7,244.46l27-26.88m0-141.13-27-26.88M245.26,244.46l-27-26.88M47.35,147H9.2m276.57,0H247.62" fill="none" stroke="#ffa94d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="18.41">
+                <animateTransform
+                    attributeName="transform"
+                    additive="sum"
+                    type="rotate"
+                    values="0 147.2 147.2; 45 147.2 147.2"
+                    dur="6s"
+                    repeatCount="indefinite"/>
+            </path>
         </symbol>
     </defs>
     <g clip-path="url(#b)">

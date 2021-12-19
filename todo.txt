@@ -1,0 +1,228 @@
+alert-avalanche-danger.svg             --    done
+alert-falling-rocks.svg                --    done
+barometer.svg                          --    done
+beanie.svg                             --    done
+celsius.svg                            --    done
+clear-day.svg                          --    done
+clear-night.svg                        --    done
+cloudy.svg                             --    done
+code-green.svg                         --    done
+code-orange.svg                        --    done
+code-red.svg                           --    done
+code-yellow.svg                        --    done
+compass.svg                            --    done
+drizzle.svg                            --    done
+dust.svg                               --    done
+dust-day.svg                           --    done
+dust-night.svg                         --    done
+dust-wind.svg                          --    done
+extreme.svg                            --    done
+extreme-day.svg                        --    done
+extreme-day-drizzle.svg                --    done
+extreme-day-fog.svg                    --    done
+extreme-day-hail.svg                   --    done
+extreme-day-haze.svg                   --    done
+extreme-day-rain.svg                   --    done
+extreme-day-sleet.svg                  --    done
+extreme-day-smoke.svg                  --    done
+extreme-day-snow.svg                   --    done
+extreme-drizzle.svg                    --    done
+extreme-fog.svg                        --    done
+extreme-hail.svg                       --    done
+extreme-haze.svg                       --    done
+extreme-night.svg                      --    done
+extreme-night-drizzle.svg              --    done
+extreme-night-fog.svg                  --    done
+extreme-night-hail.svg                 --    done
+extreme-night-haze.svg                 --    done
+extreme-night-rain.svg                 --    done
+extreme-night-sleet.svg                --    done
+extreme-night-smoke.svg                --    done
+extreme-night-snow.svg                 --    done
+extreme-rain.svg                       --    done
+extreme-sleet.svg                      --    done
+extreme-smoke.svg                      --    done
+extreme-snow.svg                       --    done
+fahrenheit.svg                         --    done
+falling-stars.svg                      --    done
+fog.svg                                --    done
+fog-day.svg                            --    done
+fog-night.svg                          --    done
+glove.svg                              --    done
+hail.svg                               --    done
+haze.svg                               --    done
+haze-day.svg                           --    done
+haze-night.svg                         --    done
+horizon.svg                            --    done
+humidity.svg                           --    done
+hurricane.svg                          --    done
+lightning-bolt.svg                     --    done
+mist.svg                               --    done
+moon-first-quarter.svg                 --    not done
+moon-full.svg                          --    not done
+moon-last-quarter.svg                  --    not done
+moon-new.svg                           --    not done
+moon-waning-crescent.svg               --    not done
+moon-waning-gibbous.svg                --    not done
+moon-waxing-crescent.svg               --    not done
+moon-waxing-gibbous.svg                --    not done
+moonrise.svg                           --    done
+moonset.svg                            --    done
+not-available.svg                      --    done
+overcast.svg                           --    done
+overcast-day.svg                       --    done
+overcast-day-drizzle.svg               --    done
+overcast-day-fog.svg                   --    done
+overcast-day-hail.svg                  --    done
+overcast-day-haze.svg                  --    done
+overcast-day-rain.svg                  --    done
+overcast-day-sleet.svg                 --    done
+overcast-day-smoke.svg                 --    done
+overcast-day-snow.svg                  --    done
+overcast-drizzle.svg                   --    done
+overcast-fog.svg                       --    done
+overcast-hail.svg                      --    done
+overcast-haze.svg                      --    done
+overcast-night.svg                     --    done
+overcast-night-drizzle.svg             --    done
+overcast-night-fog.svg                 --    done
+overcast-night-hail.svg                --    done
+overcast-night-haze.svg                --    done
+overcast-night-rain.svg                --    done
+overcast-night-sleet.svg               --    done
+overcast-night-smoke.svg               --    done
+overcast-night-snow.svg                --    done
+overcast-rain.svg                      --    done
+overcast-sleet.svg                     --    done
+overcast-smoke.svg                     --    done
+overcast-snow.svg                      --    done
+partly-cloudy-day.svg                  --    not done
+partly-cloudy-day-drizzle.svg          --    not done
+partly-cloudy-day-fog.svg              --    not done
+partly-cloudy-day-hail.svg             --    not done
+partly-cloudy-day-haze.svg             --    not done
+partly-cloudy-day-rain.svg             --    not done
+partly-cloudy-day-sleet.svg            --    not done
+partly-cloudy-day-smoke.svg            --    not done
+partly-cloudy-day-snow.svg             --    not done
+partly-cloudy-night.svg                --    not done
+partly-cloudy-night-drizzle.svg        --    not done
+partly-cloudy-night-fog.svg            --    not done
+partly-cloudy-night-hail.svg           --    not done
+partly-cloudy-night-haze.svg           --    not done
+partly-cloudy-night-rain.svg           --    not done
+partly-cloudy-night-sleet.svg          --    not done
+partly-cloudy-night-smoke.svg          --    not done
+partly-cloudy-night-snow.svg           --    not done
+pollen.svg                             --    not done
+pollen-flower.svg                      --    not done
+pollen-grass.svg                       --    not done
+pollen-tree.svg                        --    not done
+pressure-high.svg                      --    not done
+pressure-high-alt.svg                  --    not done
+pressure-low.svg                       --    not done
+pressure-low-alt.svg                   --    not done
+rain.svg                               --    not done
+rainbow.svg                            --    not done
+rainbow-clear.svg                      --    not done
+raindrop.svg                           --    not done
+raindrop-measure.svg                   --    not done
+raindrops.svg                          --    not done
+sleet.svg                              --    not done
+smoke.svg                              --    not done
+smoke-particles.svg                    --    not done
+snow.svg                               --    not done
+snowflake.svg                          --    not done
+snowman.svg                            --    not done
+solar-eclipse.svg                      --    not done
+star.svg                               --    not done
+starry-night.svg                       --    not done
+sunrise.svg                            --    not done
+sunset.svg                             --    not done
+thermometer.svg                        --    not done
+thermometer-celsius.svg                --    not done
+thermometer-colder.svg                 --    not done
+thermometer-fahrenheit.svg             --    not done
+thermometer-glass.svg                  --    not done
+thermometer-glass-celsius.svg          --    not done
+thermometer-glass-fahrenheit.svg       --    not done
+thermometer-mercury.svg                --    not done
+thermometer-mercury-cold.svg           --    not done
+thermometer-raindrop.svg               --    not done
+thermometer-snow.svg                   --    not done
+thermometer-sun.svg                    --    not done
+thermometer-warmer.svg                 --    not done
+thermometer-water.svg                  --    not done
+thunderstorms.svg                      --    not done
+thunderstorms-day.svg                  --    not done
+thunderstorms-day-extreme.svg          --    not done
+thunderstorms-day-extreme-rain.svg     --    not done
+thunderstorms-day-extreme-snow.svg     --    not done
+thunderstorms-day-overcast.svg         --    not done
+thunderstorms-day-overcast-rain.svg    --    not done
+thunderstorms-day-overcast-snow.svg    --    not done
+thunderstorms-day-rain.svg             --    not done
+thunderstorms-day-snow.svg             --    not done
+thunderstorms-extreme.svg              --    not done
+thunderstorms-extreme-rain.svg         --    not done
+thunderstorms-extreme-snow.svg         --    not done
+thunderstorms-night.svg                --    not done
+thunderstorms-night-extreme.svg        --    not done
+thunderstorms-night-extreme-rain.svg   --    not done
+thunderstorms-night-extreme-snow.svg   --    not done
+thunderstorms-night-overcast.svg       --    not done
+thunderstorms-night-overcast-rain.svg  --    not done
+thunderstorms-night-overcast-snow.svg  --    not done
+thunderstorms-night-rain.svg           --    not done
+thunderstorms-night-snow.svg           --    not done
+thunderstorms-overcast.svg             --    not done
+thunderstorms-overcast-rain.svg        --    not done
+thunderstorms-overcast-snow.svg        --    not done
+thunderstorms-rain.svg                 --    not done
+thunderstorms-snow.svg                 --    not done
+tide-high.svg                          --    not done
+tide-low.svg                           --    not done
+time-afternoon.svg                     --    done
+time-evening.svg                       --    done
+time-late-afternoon.svg                --    done
+time-late-evening.svg                  --    done
+time-late-morning.svg                  --    done
+time-late-night.svg                    --    done
+time-morning.svg                       --    done
+time-night.svg                         --    done
+tornado.svg                            --    done
+umbrella.svg                           --    done
+umbrella-wind.svg                      --    done
+umbrella-wind-alt.svg                  --    done
+uv-index.svg                           --    done
+uv-index-1.svg                         --    done
+uv-index-2.svg                         --    done
+uv-index-3.svg                         --    done
+uv-index-4.svg                         --    done
+uv-index-5.svg                         --    done
+uv-index-6.svg                         --    done
+uv-index-7.svg                         --    done
+uv-index-8.svg                         --    done
+uv-index-9.svg                         --    done
+uv-index-10.svg                        --    done
+uv-index-11.svg                        --    done
+wind.svg                               --    done
+wind-alert.svg                         --    done
+wind-beaufort-0.svg                    --    done
+wind-beaufort-1.svg                    --    done
+wind-beaufort-2.svg                    --    done
+wind-beaufort-3.svg                    --    done
+wind-beaufort-4.svg                    --    done
+wind-beaufort-5.svg                    --    done
+wind-beaufort-6.svg                    --    done
+wind-beaufort-7.svg                    --    done
+wind-beaufort-8.svg                    --    done
+wind-beaufort-9.svg                    --    done
+wind-beaufort-10.svg                   --    done
+wind-beaufort-11.svg                   --    done
+wind-beaufort-12.svg                   --    done
+wind-offshore.svg                      --    done
+wind-onshore.svg                       --    done
+wind-snow.svg                          --    done
+windsock.svg                           --    not done
+windsock-weak.svg                      --    not done

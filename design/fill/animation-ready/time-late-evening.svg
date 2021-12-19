@@ -21,6 +21,26 @@
     <path d="M253.77,438.38H240.3v-32H227.63v-9h2.16q5.55,0,8.79-2.37c2-1.49,3.33-3.92,4-7.27l.14-.58h11.09Z" fill="#374251"/>
     <path d="M283.79,423.34H263.27V413.4h20.52Z" fill="#374251"/>
     <path d="M328.43,432.27q-6,7.26-16.27,7.27t-16.27-7.27q-6-7.27-6.05-19.66t6.05-19.44q5.89-7.2,16.27-7.2,10.21,0,16.27,7.2t6,19.44Q334.41,425,328.43,432.27Zm-16.27-3.17q9.36,0,9.36-16.35t-9.36-16.34q-9.44,0-9.43,16.34T312.16,429.1Z" fill="#374251"/>
-    <use width="192.48" height="192.48" transform="translate(159.76 139.76)" xlink:href="#c"/>
-    <use width="189.48" height="120.47" transform="translate(214.32 236.93)" xlink:href="#d"/>
+
+    <!-- moon -->
+    <use width="192.48" height="192.48" transform="translate(159.76 139.76)" xlink:href="#c">
+        <animateTransform
+            attributeName="transform"
+            additive="sum"
+            type="rotate"
+            values="-15 96.24 96.24; 9 96.24 96.24; -15 96.24 96.24"
+            dur="6s"
+            repeatCount="indefinite"/>
+    </use>
+
+    <!-- cloud -->
+    <use width="189.48" height="120.47" transform="translate(214.32 236.93)" xlink:href="#d">
+        <animateTransform
+            attributeName="transform"
+            additive="sum"
+            type="translate"
+            values="-6 0; 6 0; -6 0"
+            dur="6s"
+            repeatCount="indefinite"/>
+    </use>
 </svg>

@@ -9,8 +9,19 @@
             <rect y="12" width="512" height="282" fill="none"/>
         </clipPath>
         <symbol id="c" viewBox="0 0 294.4 294.4">
+            <!-- sun-core -->
             <circle cx="147.2" cy="147.2" r="64.4" stroke="#f8af18" stroke-miterlimit="10" stroke-width="4.6" fill="url(#a)"/>
-            <path d="M147.2,47.27V9.2m0,276V247.13M217.86,76.54l26.92-26.92M49.62,244.78l26.92-26.92m0-141.32L49.62,49.62M244.78,244.78l-26.92-26.92M47.27,147.2H9.2m276,0H247.13" fill="none" stroke="#fbbf24" stroke-linecap="round" stroke-miterlimit="10" stroke-width="18.4"/>
+
+            <!-- sun-rays -->
+            <path d="M147.2,47.27V9.2m0,276V247.13M217.86,76.54l26.92-26.92M49.62,244.78l26.92-26.92m0-141.32L49.62,49.62M244.78,244.78l-26.92-26.92M47.27,147.2H9.2m276,0H247.13" fill="none" stroke="#fbbf24" stroke-linecap="round" stroke-miterlimit="10" stroke-width="18.4">
+                <animateTransform
+                    attributeName="transform"
+                    additive="sum"
+                    type="rotate"
+                    values="0 147.2 147.2; 45 147.2 147.2"
+                    dur="6s"
+                    repeatCount="indefinite"/>
+            </path>
         </symbol>
     </defs>
     <g clip-path="url(#b)">
