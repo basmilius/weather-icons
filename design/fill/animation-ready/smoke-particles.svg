@@ -5,12 +5,82 @@
             <stop offset="0.45" stop-color="#b8bdc6"/>
             <stop offset="1" stop-color="#a5aab2"/>
         </linearGradient>
-        <linearGradient id="b" x1="20" y1="90.82" x2="56" y2="153.18" xlink:href="#a"/>
-        <linearGradient id="c" x1="94" y1="8.42" x2="142" y2="91.58" xlink:href="#a"/>
-        <symbol id="d" viewBox="0 0 168 212">
-            <circle cx="86" cy="186" r="24" stroke="#afb4bc" stroke-miterlimit="10" stroke-width="4" fill="url(#a)"/>
-            <circle cx="38" cy="122" r="36" stroke="#afb4bc" stroke-miterlimit="10" stroke-width="4" fill="url(#b)"/>
-            <circle cx="118" cy="50" r="48" stroke="#afb4bc" stroke-miterlimit="10" stroke-width="4" fill="url(#c)"/>
+        <symbol id="d" viewBox="0 0 168 212" overflow="visible">
+            <circle cx="86" cy="186" r="24" stroke="#afb4bc" stroke-miterlimit="10" stroke-width="4" fill="url(#a)" opacity="0">
+                <animateTransform
+                    id="x1"
+                    attributeName="transform"
+                    additive="sum"
+                    type="translate"
+                    values="0 0; -58 -118"
+                    begin="0s; x1.end+.75s"
+                    dur="2.25s"/>
+
+                <animate
+                    id="y1"
+                    attributeName="r"
+                    values="24; 36"
+                    begin="0s; y1.end+.75s"
+                    dur="2.25s"/>
+
+                <animate
+                    id="z1"
+                    attributeName="opacity"
+                    values="0; 1; 1; 0"
+                    begin="0s; y1.end+.75s"
+                    dur="2.25s"
+                    keyTimes="0; .17; .83; 1"/>
+            </circle>
+            <circle cx="86" cy="186" r="24" stroke="#afb4bc" stroke-miterlimit="10" stroke-width="4" fill="url(#a)" opacity="0">
+                <animateTransform
+                    id="x2"
+                    attributeName="transform"
+                    additive="sum"
+                    type="translate"
+                    values="0 0; 58 -118"
+                    begin=".83s; x2.end+.75s"
+                    dur="2.25s"/>
+
+                <animate
+                    id="y2"
+                    attributeName="r"
+                    values="24; 36"
+                    begin=".83s; y2.end+.75s"
+                    dur="2.25s"/>
+
+                <animate
+                    id="z2"
+                    attributeName="opacity"
+                    values="0; 1; 1; 0"
+                    begin=".83s; z2.end+.75s"
+                    dur="2.25s"
+                    keyTimes="0; .17; .83; 1"/>
+            </circle>
+            <circle cx="86" cy="186" r="24" stroke="#afb4bc" stroke-miterlimit="10" stroke-width="4" fill="url(#a)" opacity="0">
+                <animateTransform
+                    id="x3"
+                    attributeName="transform"
+                    additive="sum"
+                    type="translate"
+                    values="0 0; 0 -118"
+                    begin="1.66s; x3.end+.75s"
+                    dur="2.25s"/>
+
+                <animate
+                    id="y3"
+                    attributeName="r"
+                    values="24; 36"
+                    begin="1.66s; y3.end+.75s"
+                    dur="2.25s"/>
+
+                <animate
+                    id="z3"
+                    attributeName="opacity"
+                    values="0; 1; 1; 0"
+                    begin="1.66s; z3.end+.75s"
+                    dur="2.25s"
+                    keyTimes="0; .17; .83; 1"/>
+            </circle>
         </symbol>
     </defs>
     <use width="168" height="212" transform="translate(172 150)" xlink:href="#d"/>

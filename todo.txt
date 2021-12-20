@@ -96,24 +96,24 @@ overcast-rain.svg                      --    done
 overcast-sleet.svg                     --    done
 overcast-smoke.svg                     --    done
 overcast-snow.svg                      --    done
-partly-cloudy-day.svg                  --    not done
-partly-cloudy-day-drizzle.svg          --    not done
-partly-cloudy-day-fog.svg              --    not done
-partly-cloudy-day-hail.svg             --    not done
-partly-cloudy-day-haze.svg             --    not done
-partly-cloudy-day-rain.svg             --    not done
-partly-cloudy-day-sleet.svg            --    not done
-partly-cloudy-day-smoke.svg            --    not done
-partly-cloudy-day-snow.svg             --    not done
-partly-cloudy-night.svg                --    not done
-partly-cloudy-night-drizzle.svg        --    not done
-partly-cloudy-night-fog.svg            --    not done
-partly-cloudy-night-hail.svg           --    not done
-partly-cloudy-night-haze.svg           --    not done
-partly-cloudy-night-rain.svg           --    not done
-partly-cloudy-night-sleet.svg          --    not done
-partly-cloudy-night-smoke.svg          --    not done
-partly-cloudy-night-snow.svg           --    not done
+partly-cloudy-day.svg                  --    done
+partly-cloudy-day-drizzle.svg          --    done
+partly-cloudy-day-fog.svg              --    done
+partly-cloudy-day-hail.svg             --    done
+partly-cloudy-day-haze.svg             --    done
+partly-cloudy-day-rain.svg             --    done
+partly-cloudy-day-sleet.svg            --    done
+partly-cloudy-day-smoke.svg            --    done
+partly-cloudy-day-snow.svg             --    done
+partly-cloudy-night.svg                --    done
+partly-cloudy-night-drizzle.svg        --    done
+partly-cloudy-night-fog.svg            --    done
+partly-cloudy-night-hail.svg           --    done
+partly-cloudy-night-haze.svg           --    done
+partly-cloudy-night-rain.svg           --    done
+partly-cloudy-night-sleet.svg          --    done
+partly-cloudy-night-smoke.svg          --    done
+partly-cloudy-night-snow.svg           --    done
 pollen.svg                             --    not done
 pollen-flower.svg                      --    not done
 pollen-grass.svg                       --    not done
@@ -122,16 +122,16 @@ pressure-high.svg                      --    not done
 pressure-high-alt.svg                  --    not done
 pressure-low.svg                       --    not done
 pressure-low-alt.svg                   --    not done
-rain.svg                               --    not done
+rain.svg                               --    done
 rainbow.svg                            --    not done
 rainbow-clear.svg                      --    not done
 raindrop.svg                           --    not done
 raindrop-measure.svg                   --    not done
 raindrops.svg                          --    not done
-sleet.svg                              --    not done
-smoke.svg                              --    not done
-smoke-particles.svg                    --    not done
-snow.svg                               --    not done
+sleet.svg                              --    done
+smoke.svg                              --    done
+smoke-particles.svg                    --    done
+snow.svg                               --    done
 snowflake.svg                          --    not done
 snowman.svg                            --    not done
 solar-eclipse.svg                      --    not done
