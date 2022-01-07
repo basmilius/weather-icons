@@ -153,33 +153,33 @@ thermometer-snow.svg                   --    not done
 thermometer-sun.svg                    --    not done
 thermometer-warmer.svg                 --    not done
 thermometer-water.svg                  --    not done
-thunderstorms.svg                      --    not done
-thunderstorms-day.svg                  --    not done
-thunderstorms-day-extreme.svg          --    not done
-thunderstorms-day-extreme-rain.svg     --    not done
-thunderstorms-day-extreme-snow.svg     --    not done
-thunderstorms-day-overcast.svg         --    not done
-thunderstorms-day-overcast-rain.svg    --    not done
-thunderstorms-day-overcast-snow.svg    --    not done
-thunderstorms-day-rain.svg             --    not done
-thunderstorms-day-snow.svg             --    not done
-thunderstorms-extreme.svg              --    not done
-thunderstorms-extreme-rain.svg         --    not done
-thunderstorms-extreme-snow.svg         --    not done
-thunderstorms-night.svg                --    not done
-thunderstorms-night-extreme.svg        --    not done
-thunderstorms-night-extreme-rain.svg   --    not done
-thunderstorms-night-extreme-snow.svg   --    not done
-thunderstorms-night-overcast.svg       --    not done
-thunderstorms-night-overcast-rain.svg  --    not done
-thunderstorms-night-overcast-snow.svg  --    not done
-thunderstorms-night-rain.svg           --    not done
-thunderstorms-night-snow.svg           --    not done
-thunderstorms-overcast.svg             --    not done
-thunderstorms-overcast-rain.svg        --    not done
-thunderstorms-overcast-snow.svg        --    not done
-thunderstorms-rain.svg                 --    not done
-thunderstorms-snow.svg                 --    not done
+thunderstorms.svg                      --    done
+thunderstorms-day.svg                  --    done
+thunderstorms-day-extreme.svg          --    done
+thunderstorms-day-extreme-rain.svg     --    done
+thunderstorms-day-extreme-snow.svg     --    done
+thunderstorms-day-overcast.svg         --    done
+thunderstorms-day-overcast-rain.svg    --    done
+thunderstorms-day-overcast-snow.svg    --    done
+thunderstorms-day-rain.svg             --    done
+thunderstorms-day-snow.svg             --    done
+thunderstorms-extreme.svg              --    done
+thunderstorms-extreme-rain.svg         --    done
+thunderstorms-extreme-snow.svg         --    done
+thunderstorms-night.svg                --    done
+thunderstorms-night-extreme.svg        --    done
+thunderstorms-night-extreme-rain.svg   --    done
+thunderstorms-night-extreme-snow.svg   --    done
+thunderstorms-night-overcast.svg       --    done
+thunderstorms-night-overcast-rain.svg  --    done
+thunderstorms-night-overcast-snow.svg  --    done
+thunderstorms-night-rain.svg           --    done
+thunderstorms-night-snow.svg           --    done
+thunderstorms-overcast.svg             --    done
+thunderstorms-overcast-rain.svg        --    done
+thunderstorms-overcast-snow.svg        --    done
+thunderstorms-rain.svg                 --    done
+thunderstorms-snow.svg                 --    done
 tide-high.svg                          --    done
 tide-low.svg                           --    done
 time-afternoon.svg                     --    done
