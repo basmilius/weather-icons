@@ -8,10 +8,10 @@ clear-night.svg                        --    done
 cloud-down.svg                         --    done
 cloud-up.svg                           --    done
 cloudy.svg                             --    done
-code-green.svg                         --    done
-code-orange.svg                        --    done
-code-red.svg                           --    done
-code-yellow.svg                        --    done
+code-green.svg                         --    not animated
+code-orange.svg                        --    not animated
+code-red.svg                           --    not animated
+code-yellow.svg                        --    not animated
 compass.svg                            --    done
 drizzle.svg                            --    done
 dust.svg                               --    done
@@ -47,10 +47,10 @@ extreme-smoke.svg                      --    done
 extreme-snow.svg                       --    done
 fahrenheit.svg                         --    done
 falling-stars.svg                      --    done
-flag-gale-warning.svg                  --    not done
-flag-hurricane-warning.svg             --    not done
-flag-small-craft advisory.svg          --    not done
-flag-storm-warning.svg                 --    not done
+flag-gale-warning.svg                  --    not animated
+flag-hurricane-warning.svg             --    not animated
+flag-small-craft advisory.svg          --    not animated
+flag-storm-warning.svg                 --    not animated
 fog.svg                                --    done
 fog-day.svg                            --    done
 fog-night.svg                          --    done
@@ -64,14 +64,14 @@ humidity.svg                           --    done
 hurricane.svg                          --    done
 lightning-bolt.svg                     --    done
 mist.svg                               --    done
-moon-first-quarter.svg                 --    not done
-moon-full.svg                          --    not done
-moon-last-quarter.svg                  --    not done
-moon-new.svg                           --    not done
-moon-waning-crescent.svg               --    not done
-moon-waning-gibbous.svg                --    not done
-moon-waxing-crescent.svg               --    not done
-moon-waxing-gibbous.svg                --    not done
+moon-first-quarter.svg                 --    not animated
+moon-full.svg                          --    not animated
+moon-last-quarter.svg                  --    not animated
+moon-new.svg                           --    not animated
+moon-waning-crescent.svg               --    not animated
+moon-waning-gibbous.svg                --    not animated
+moon-waxing-crescent.svg               --    not animated
+moon-waxing-gibbous.svg                --    not animated
 moonrise.svg                           --    done
 moonset.svg                            --    done
 not-available.svg                      --    done
@@ -125,9 +125,9 @@ pollen-flower.svg                      --    done
 pollen-grass.svg                       --    done
 pollen-tree.svg                        --    done
 pressure-high.svg                      --    done
-pressure-high-alt.svg                  --    not done
+pressure-high-alt.svg                  --    not animated
 pressure-low.svg                       --    done
-pressure-low-alt.svg                   --    not done
+pressure-low-alt.svg                   --    not animated
 rain.svg                               --    done
 rainbow.svg                            --    done
 rainbow-clear.svg                      --    done
