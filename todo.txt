@@ -5,6 +5,8 @@ beanie.svg                             --    done
 celsius.svg                            --    done
 clear-day.svg                          --    done
 clear-night.svg                        --    done
+cloud-down.svg                         --    done
+cloud-up.svg                           --    done
 cloudy.svg                             --    done
 code-green.svg                         --    done
 code-orange.svg                        --    done
@@ -45,6 +47,10 @@ extreme-smoke.svg                      --    done
 extreme-snow.svg                       --    done
 fahrenheit.svg                         --    done
 falling-stars.svg                      --    done
+flag-gale-warning.svg                  --    not done
+flag-hurricane-warning.svg             --    not done
+flag-small-craft advisory.svg          --    not done
+flag-storm-warning.svg                 --    not done
 fog.svg                                --    done
 fog-day.svg                            --    done
 fog-night.svg                          --    done
@@ -118,9 +124,9 @@ pollen.svg                             --    done
 pollen-flower.svg                      --    done
 pollen-grass.svg                       --    done
 pollen-tree.svg                        --    done
-pressure-high.svg                      --    not done
+pressure-high.svg                      --    done
 pressure-high-alt.svg                  --    not done
-pressure-low.svg                       --    not done
+pressure-low.svg                       --    done
 pressure-low-alt.svg                   --    not done
 rain.svg                               --    done
 rainbow.svg                            --    done
@@ -137,22 +143,24 @@ snowman.svg                            --    not done
 solar-eclipse.svg                      --    done
 star.svg                               --    done
 starry-night.svg                       --    done
+sun-hot.svg                            --    done
 sunrise.svg                            --    done
 sunset.svg                             --    done
-thermometer.svg                        --    not done
-thermometer-celsius.svg                --    not done
-thermometer-colder.svg                 --    not done
-thermometer-fahrenheit.svg             --    not done
-thermometer-glass.svg                  --    not done
-thermometer-glass-celsius.svg          --    not done
-thermometer-glass-fahrenheit.svg       --    not done
-thermometer-mercury.svg                --    not done
-thermometer-mercury-cold.svg           --    not done
-thermometer-raindrop.svg               --    not done
-thermometer-snow.svg                   --    not done
-thermometer-sun.svg                    --    not done
-thermometer-warmer.svg                 --    not done
-thermometer-water.svg                  --    not done
+thermometer.svg                        --    done
+thermometer-celsius.svg                --    done
+thermometer-colder.svg                 --    done
+thermometer-fahrenheit.svg             --    done
+thermometer-glass.svg                  --    done
+thermometer-glass-celsius.svg          --    done
+thermometer-glass-fahrenheit.svg       --    done
+thermometer-mercury.svg                --    done
+thermometer-mercury-cold.svg           --    done
+thermometer-moon.svg                   --    done
+thermometer-raindrop.svg               --    done
+thermometer-snow.svg                   --    done
+thermometer-sun.svg                    --    done
+thermometer-warmer.svg                 --    done
+thermometer-water.svg                  --    done
 thunderstorms.svg                      --    done
 thunderstorms-day.svg                  --    done
 thunderstorms-day-extreme.svg          --    done
