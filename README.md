@@ -1,5 +1,5 @@
 <a href="https://bas.dev" target="_blank" rel="noopener">
-	<img src="https://bas.dev/module/@bas/website/resource/image/logo.svg" alt="Bas Milius Logo" height="60" width="60" />
+	<img src="https://bmcdn.nl/assets/branding/logo.svg" alt="Bas Milius Logo" height="60" width="60" />
 </a>
 
 ---
@@ -29,11 +29,11 @@ somewhat weather related.
 ---
 
 <p float="left">
-    <img src="https://bmcdn.nl/assets/weather-icons/v2.0/fill/clear-day.svg" alt="Partly Cloudy Day" height="48"/>
-    <img src="https://bmcdn.nl/assets/weather-icons/v2.0/fill/partly-cloudy-day.svg" alt="Partly Cloudy Day" height="48"/>
-    <img src="https://bmcdn.nl/assets/weather-icons/v2.0/fill/rain.svg" alt="Rain" height="48"/>
-    <img src="https://bmcdn.nl/assets/weather-icons/v2.0/fill/tornado.svg" alt="Tornado" height="48"/>
-    <img src="https://bmcdn.nl/assets/weather-icons/v2.0/fill/clear-night.svg" alt="Clear Night" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/clear-day.svg" alt="Partly Cloudy Day" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/partly-cloudy-day.svg" alt="Partly Cloudy Day" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/rain.svg" alt="Rain" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/tornado.svg" alt="Tornado" height="48"/>
+    <img src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/clear-night.svg" alt="Clear Night" height="48"/>
 </p>
 
 <p float="left">
