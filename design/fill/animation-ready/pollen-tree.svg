@@ -24,14 +24,97 @@
         <linearGradient id="j" x1="163.91" y1="218.63" x2="206.46" y2="292.32" xlink:href="#i"/>
         <linearGradient id="k" x1="273.52" y1="127.15" x2="345.99" y2="252.67" xlink:href="#i"/>
         <linearGradient id="l" x1="187.5" y1="145.04" x2="267.26" y2="283.18" xlink:href="#i"/>
-        <symbol id="m" viewBox="0 0 234 74">
-            <circle cx="117" cy="13" r="12" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#a)"/>
-            <circle cx="157" cy="53" r="16" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#b)"/>
-            <circle cx="77" cy="53" r="16" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#c)"/>
-            <circle cx="13" cy="61" r="12" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#d)"/>
-            <circle cx="221" cy="61" r="12" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#e)"/>
-            <circle cx="181" cy="21" r="8" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#f)"/>
-            <circle cx="53" cy="21" r="8" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#g)"/>
+        <symbol id="m" viewBox="0 0 234 74" overflow="visible">
+            <!-- pollen-1 -->
+            <circle cx="117" cy="13" r="12" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#a)">
+                <animateTransform
+                    attributeName="transform"
+                    type="translate"
+                    values="0 -30; 0 30; 0 -30"
+                    begin="-0.33s"
+                    dur="3s"
+                    calcMode="spline"
+                    keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
+                    repeatCount="indefinite"/>
+            </circle>
+
+            <!-- pollen-2 -->
+            <circle cx="157" cy="53" r="16" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#b)">
+                <animateTransform
+                    attributeName="transform"
+                    type="translate"
+                    values="0 -30; 0 30; 0 -30"
+                    begin="-1.17s"
+                    dur="3s"
+                    calcMode="spline"
+                    keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
+                    repeatCount="indefinite"/>
+            </circle>
+
+            <!-- pollen-3 -->
+            <circle cx="77" cy="53" r="16" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#c)">
+                <animateTransform
+                    attributeName="transform"
+                    type="translate"
+                    values="0 -30; 0 30; 0 -30"
+                    begin="-1s"
+                    dur="3s"
+                    calcMode="spline"
+                    keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
+                    repeatCount="indefinite"/>
+            </circle>
+
+            <!-- pollen-4 -->
+            <circle cx="13" cy="61" r="12" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#d)">
+                <animateTransform
+                    attributeName="transform"
+                    type="translate"
+                    values="0 -30; 0 30; 0 -30"
+                    begin="-.67s"
+                    dur="3s"
+                    calcMode="spline"
+                    keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
+                    repeatCount="indefinite"/>
+            </circle>
+
+            <!-- pollen-5 -->
+            <circle cx="221" cy="61" r="12" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#e)">
+                <animateTransform
+                    attributeName="transform"
+                    type="translate"
+                    values="0 -30; 0 30; 0 -30"
+                    begin="-1.5s"
+                    dur="3s"
+                    calcMode="spline"
+                    keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
+                    repeatCount="indefinite"/>
+            </circle>
+
+            <!-- pollen-6 -->
+            <circle cx="181" cy="21" r="8" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#f)">
+                <animateTransform
+                    attributeName="transform"
+                    type="translate"
+                    values="0 -30; 0 30; 0 -30"
+                    begin="-1.33s"
+                    dur="3s"
+                    calcMode="spline"
+                    keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
+                    repeatCount="indefinite"/>
+            </circle>
+
+            <!-- pollen-7 -->
+            <circle cx="53" cy="21" r="8" stroke="#f8af18" stroke-miterlimit="10" stroke-width="2" fill="url(#g)">
+                <animateTransform
+                    attributeName="transform"
+                    type="translate"
+                    values="0 -30; 0 30; 0 -30"
+                    begin="-.83s"
+                    dur="3s"
+                    calcMode="spline"
+                    keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
+                    repeatCount="indefinite"/>
+            </circle>
         </symbol>
     </defs>
     <path d="M265.09,403.6l-4-127a12,12,0,0,0-12-11.65H244a12,12,0,0,0-12,11.65l-4,127A12,12,0,0,0,240,416h13.11A12,12,0,0,0,265.09,403.6Z" stroke="#744e2d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" fill="url(#h)"/>

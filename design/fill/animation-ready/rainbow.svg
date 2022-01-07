@@ -20,8 +20,17 @@
             <stop offset="0.45" stop-color="#51cf66"/>
             <stop offset="1" stop-color="#37b24d"/>
         </linearGradient>
-        <symbol id="e" viewBox="0 0 189.48 120.47">
-            <path d="M157.29,58.08c-.46,0-.91,0-1.36.07a45.76,45.76,0,0,0,1.36-10.86A45.26,45.26,0,0,0,73.5,23.52,30.15,30.15,0,0,0,27.88,49.45a30.47,30.47,0,0,0,.43,4.9,32.34,32.34,0,0,0,6,64.12c.73,0,1.44-.06,2.16-.11v.11H157.29a30.2,30.2,0,0,0,0-60.39Z" stroke="#e6effc" stroke-miterlimit="10" stroke-width="4" fill="url(#a)"/>
+        <symbol id="e" viewBox="0 0 189.48 120.47" overflow="visible">
+            <!-- cloud -->
+            <path d="M157.29,58.08c-.46,0-.91,0-1.36.07a45.76,45.76,0,0,0,1.36-10.86A45.26,45.26,0,0,0,73.5,23.52,30.15,30.15,0,0,0,27.88,49.45a30.47,30.47,0,0,0,.43,4.9,32.34,32.34,0,0,0,6,64.12c.73,0,1.44-.06,2.16-.11v.11H157.29a30.2,30.2,0,0,0,0-60.39Z" stroke="#e6effc" stroke-miterlimit="10" stroke-width="4" fill="url(#a)">
+                <animateTransform
+                    attributeName="transform"
+                    additive="sum"
+                    type="translate"
+                    values="-12 0; 12 0; -12 0"
+                    dur="6s"
+                    repeatCount="indefinite"/>
+            </path>
         </symbol>
     </defs>
     <path d="M82,310c0-79.53,66.26-144,148-144s148,64.47,148,144" fill="none" stroke-miterlimit="10" stroke-width="24" stroke="url(#b)"/>

@@ -114,31 +114,31 @@ partly-cloudy-night-rain.svg           --    done
 partly-cloudy-night-sleet.svg          --    done
 partly-cloudy-night-smoke.svg          --    done
 partly-cloudy-night-snow.svg           --    done
-pollen.svg                             --    not done
-pollen-flower.svg                      --    not done
-pollen-grass.svg                       --    not done
-pollen-tree.svg                        --    not done
+pollen.svg                             --    done
+pollen-flower.svg                      --    done
+pollen-grass.svg                       --    done
+pollen-tree.svg                        --    done
 pressure-high.svg                      --    not done
 pressure-high-alt.svg                  --    not done
 pressure-low.svg                       --    not done
 pressure-low-alt.svg                   --    not done
 rain.svg                               --    done
-rainbow.svg                            --    not done
-rainbow-clear.svg                      --    not done
-raindrop.svg                           --    not done
-raindrop-measure.svg                   --    not done
-raindrops.svg                          --    not done
+rainbow.svg                            --    done
+rainbow-clear.svg                      --    done
+raindrop.svg                           --    done
+raindrop-measure.svg                   --    done
+raindrops.svg                          --    done
 sleet.svg                              --    done
 smoke.svg                              --    done
 smoke-particles.svg                    --    done
 snow.svg                               --    done
-snowflake.svg                          --    not done
+snowflake.svg                          --    done
 snowman.svg                            --    not done
-solar-eclipse.svg                      --    not done
-star.svg                               --    not done
-starry-night.svg                       --    not done
-sunrise.svg                            --    not done
-sunset.svg                             --    not done
+solar-eclipse.svg                      --    done
+star.svg                               --    done
+starry-night.svg                       --    done
+sunrise.svg                            --    done
+sunset.svg                             --    done
 thermometer.svg                        --    not done
 thermometer-celsius.svg                --    not done
 thermometer-colder.svg                 --    not done
@@ -180,8 +180,8 @@ thunderstorms-overcast-rain.svg        --    not done
 thunderstorms-overcast-snow.svg        --    not done
 thunderstorms-rain.svg                 --    not done
 thunderstorms-snow.svg                 --    not done
-tide-high.svg                          --    not done
-tide-low.svg                           --    not done
+tide-high.svg                          --    done
+tide-low.svg                           --    done
 time-afternoon.svg                     --    done
 time-evening.svg                       --    done
 time-late-afternoon.svg                --    done

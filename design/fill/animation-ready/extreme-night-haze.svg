@@ -25,7 +25,7 @@
             <stop offset="0.45" stop-color="#86c3db"/>
             <stop offset="1" stop-color="#5eafcf"/>
         </linearGradient>
-        <symbol id="k" viewBox="0 0 172 172">
+        <symbol id="k" viewBox="0 0 172 172" overflow="visible">
             <!-- moon -->
             <path d="M160.62,107.4c-47.17,0-85.41-37.73-85.41-84.26A83.31,83.31,0,0,1,78,2C35.27,6.61,2,42.33,2,85.73,2,132.27,40.24,170,87.41,170A85.16,85.16,0,0,0,170,106.87,88,88,0,0,1,160.62,107.4Z" stroke="#72b9d5" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" fill="url(#i)">
                 <animateTransform

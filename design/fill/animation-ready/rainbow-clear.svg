@@ -25,11 +25,31 @@
             <stop offset="1" stop-color="#37b24d"/>
         </linearGradient>
         <symbol id="g" viewBox="0 0 196 196">
+            <!-- sun-core -->
             <circle cx="98" cy="98" r="40" stroke="#f8af18" stroke-miterlimit="10" stroke-width="4" fill="url(#b)"/>
-            <path d="M98,31.38V6m0,184V164.62M145.11,50.89,163.05,33M33,163.05l17.94-17.94m0-94.22L33,33m130.1,130.1-17.94-17.94M6,98H31.38M190,98H164.62" fill="none" stroke="#fbbf24" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12"/>
+
+            <!-- sun-rays -->
+            <path d="M98,31.38V6m0,184V164.62M145.11,50.89,163.05,33M33,163.05l17.94-17.94m0-94.22L33,33m130.1,130.1-17.94-17.94M6,98H31.38M190,98H164.62" fill="none" stroke="#fbbf24" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12">
+                <animateTransform
+                    attributeName="transform"
+                    additive="sum"
+                    type="rotate"
+                    values="0 98 98; 45 98 98"
+                    dur="6s"
+                    repeatCount="indefinite"/>
+            </path>
         </symbol>
-        <symbol id="h" viewBox="0 0 189.48 120.47">
-            <path d="M157.29,58.08c-.46,0-.91,0-1.36.07a45.76,45.76,0,0,0,1.36-10.86A45.26,45.26,0,0,0,73.5,23.52,30.15,30.15,0,0,0,27.88,49.45a30.47,30.47,0,0,0,.43,4.9,32.34,32.34,0,0,0,6,64.12c.73,0,1.44-.06,2.16-.11v.11H157.29a30.2,30.2,0,0,0,0-60.39Z" stroke="#e6effc" stroke-miterlimit="10" stroke-width="4" fill="url(#a)"/>
+        <symbol id="h" viewBox="0 0 189.48 120.47" overflow="visible">
+            <!-- cloud -->
+            <path d="M157.29,58.08c-.46,0-.91,0-1.36.07a45.76,45.76,0,0,0,1.36-10.86A45.26,45.26,0,0,0,73.5,23.52,30.15,30.15,0,0,0,27.88,49.45a30.47,30.47,0,0,0,.43,4.9,32.34,32.34,0,0,0,6,64.12c.73,0,1.44-.06,2.16-.11v.11H157.29a30.2,30.2,0,0,0,0-60.39Z" stroke="#e6effc" stroke-miterlimit="10" stroke-width="4" fill="url(#a)">
+                <animateTransform
+                    attributeName="transform"
+                    additive="sum"
+                    type="translate"
+                    values="-12 0; 12 0; -12 0"
+                    dur="6s"
+                    repeatCount="indefinite"/>
+            </path>
         </symbol>
     </defs>
     <g clip-path="url(#c)">
