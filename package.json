@@ -34,12 +34,12 @@
         "build:svgs": "node scripts/build-svgs.js"
     },
     "devDependencies": {
-        "chalk": "^4.1.1",
-        "fantasticon": "^1.2.2",
-        "imagemin": "^8.0.0",
-        "imagemin-optipng": "^8.0.0",
-        "puppeteer": "^9.1.1",
-        "rimraf": "^3.0.2",
-        "svgo": "^2.3.0"
+        "chalk": "5.0.0",
+        "fantasticon": "1.2.3",
+        "imagemin": "8.0.1",
+        "imagemin-optipng": "8.0.0",
+        "puppeteer": "13.0.1",
+        "rimraf": "3.0.2",
+        "svgo": "2.8.0"
     }
 }
