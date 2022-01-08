@@ -2,22 +2,26 @@ import {FontJob} from "./job/FontJob.js";
 import {PngJob} from "./job/PngJob.js";
 import {SvgJob} from "./job/SvgJob.js";
 
-export const STYLES_MAP = ["fill", "line", "monochrome"];
+// export const STYLES_MAP = ["cartoon", "fill", "line", "monochrome"];
+export const STYLES_MAP = ["fill"];
 
 export const PRODUCTION_MAP = [
-    // new FontJob("fill/font", "static/export", ["svg", "ttf", "woff", "woff2"], "wi_"),
-    // new PngJob("fill/png", "static/export", [64, 128, 256, 512, 1024], "wi_"),
-    new SvgJob("fill/svg", "fill/animation-ready"),
-    // new SvgJob("fill/svg-static", "static/export", "wi_"),
+    new PngJob("fill/png", "fill-static/final", [64, 128, 256, 512, 1024]),
+    new SvgJob("fill/svg", "fill/final"),
+    new SvgJob("fill/svg-static", "fill-static/final"),
 
-    // new PngJob("line/png", "line/export", [64, 128, 256, 512, 1024], "wi_"),
-    // new SvgJob("line/svg", "line/animation-ready"),
-    // new SvgJob("line/svg-static", "line/export", "wi_"),
+    new PngJob("cartoon/png", "cartoon-static/final", [64, 128, 256, 512, 1024]),
+    new SvgJob("cartoon/svg", "cartoon/final"),
+    new SvgJob("cartoon/svg-static", "cartoon-static/final"),
 
-    // new FontJob("monochrome/font", "static-monochrome/animation-ready", ["svg", "ttf", "woff", "woff2"]),
-    // new PngJob("monochrome/png", "static-monochrome/export", [64, 128, 256, 512, 1024], "wi_"),
-    // new SvgJob("monochrome/svg", "monochrome/animation-ready"),
-    // new SvgJob("monochrome/svg-static", "monochrome/export", "wi_")
+    new PngJob("line/png", "line-static/final", [64, 128, 256, 512, 1024]),
+    new SvgJob("line/svg", "line/final"),
+    new SvgJob("line/svg-static", "line-static/final"),
+
+    new FontJob("monochrome/font", "monochrome-static/final", ["svg", "ttf", "woff", "woff2"]),
+    new PngJob("monochrome/png", "monochrome-static/final", [64, 128, 256, 512, 1024]),
+    new SvgJob("monochrome/svg", "monochrome/final"),
+    new SvgJob("monochrome/svg-static", "monochrome-static/final")
 ];
 
 export async function eachJobAsync(fn) {
