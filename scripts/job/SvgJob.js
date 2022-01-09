@@ -49,7 +49,7 @@ export class SvgJob extends BaseJob {
                     "removeUselessDefs",
                     "removeEditorsNSData",
                     "removeEmptyAttrs",
-                    {name: "removeHiddenElems", params: {opacity0: false}},
+                    {name: "removeHiddenElems", params: {opacity0: false, pathEmptyD: false}},
                     "removeEmptyText",
                     "removeEmptyContainers",
                     "cleanupEnableBackground",

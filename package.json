@@ -1,6 +1,6 @@
 {
     "name": "@bybas/weather-icons",
-    "version": "2.1.0",
+    "version": "3.0.0",
     "description": "A set of animated svg weather icons.",
     "homepage": "https://meteocons.com/",
     "license": "MIT",
@@ -30,8 +30,7 @@
         "bybas"
     ],
     "scripts": {
-        "build": "node scripts/build.js",
-        "build:svgs": "node scripts/build-svgs.js"
+        "build": "node scripts/build.js"
     },
     "devDependencies": {
         "chalk": "5.0.0",

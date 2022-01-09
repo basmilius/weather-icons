@@ -42,16 +42,6 @@ export async function eachJobAsync(fn) {
     }
 }
 
-export async function eachJobWithTypeAsync(type, fn) {
-    for (let job of PRODUCTION_MAP) {
-        if (job.type !== type) {
-            continue;
-        }
-
-        await fn(job);
-    }
-}
-
 export async function eachStyleAsync(fn) {
     for (let style of STYLES_MAP) {
         await fn(style);
