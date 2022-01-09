@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-	<circle cx="32" cy="32" r="18" fill="none" stroke="#e5e7eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-	<path d="M32,25V19M45.5,32h-6M25,32H19m22.5-8.5-3,3m-13,0-3-3m16,14,3,3m-19,0,3-3" fill="none" stroke="#e5e7eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-	<circle cx="32" cy="32" r="3" fill="#374151"/>
-	<line x1="32" y1="35.5" x2="32" y2="20.5" fill="none" stroke="#374151" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2">
-		<animateTransform attributeName="transform" dur="9s" values="30 32 32; 55 32 32; 45 32 32; 55 32 32; 30 32 32" repeatCount="indefinite" type="rotate"/>
-	</line>
-</svg>

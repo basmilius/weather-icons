@@ -32,7 +32,8 @@ const MONOCHROME_JOBS = [
 ];
 
 export const PRODUCTION_MAP = [
-    ...FILL_JOBS
+    ...FILL_JOBS,
+    ...LINE_JOBS
 ];
 
 export async function eachJobAsync(fn) {

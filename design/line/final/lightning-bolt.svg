@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-	<polygon points="29 15.5 23 33.5 29 33.5 26 48.5 41 27.5 32 27.5 38 15.5 29 15.5" fill="#f59e0b">
-		<animate attributeName="opacity" values="1; 1; 1; 1; 1; 1; 0.1; 1; 0.1; 1; 1; 0.1; 1; 0.1; 1" dur="2s" repeatCount="indefinite"/>
-	</polygon>
-</svg>

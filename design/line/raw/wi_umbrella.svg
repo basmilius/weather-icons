@@ -1,4 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-	<path d="M32,32.69v12.5c0,2.12-1.9,2.12-3,2.12a3,3,0,0,1-3-2.12M32,16.5v1" fill="none" stroke="#d1d5db" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-	<path d="M45.5,33.12c0-8.28-6-15-13.5-15s-13.5,6.72-13.5,15l1.43-.91a6,6,0,0,1,6.58.08l1.24.83.77-.54a6,6,0,0,1,7,0l.77.54,1.24-.83a6,6,0,0,1,6.58-.08Z" fill="none" stroke="#ef4444" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <defs>
+        <linearGradient id="a" x1="203.54" y1="156.36" x2="323.67" y2="364.43" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#d4d7dd"/>
+            <stop offset="0.45" stop-color="#d4d7dd"/>
+            <stop offset="1" stop-color="#bec1c6"/>
+        </linearGradient>
+        <linearGradient id="b" x1="209.31" y1="145.56" x2="290.58" y2="286.32" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#f87171"/>
+            <stop offset="0.45" stop-color="#f87171"/>
+            <stop offset="1" stop-color="#dc2626"/>
+        </linearGradient>
+    </defs>
+    <path d="M304,355a24,24,0,0,1-48,0V133" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" stroke="url(#a)"/>
+    <path d="M376,237c0-53-53.73-96-120-96s-120,43-120,96l12.74-5.85c17.9-8.23,40.88-8,58.49.52l11,5.33,6.81-3.5c18.53-9.51,43.41-9.51,61.94,0l6.81,3.5,11-5.33c17.61-8.54,40.59-8.75,58.49-.52Z" stroke="#ef4444" stroke-miterlimit="10" stroke-width="4" fill="url(#b)"/>
+    <path d="M293.78,237c6.66-53.6-37.78-96-37.78-96s-44.44,42.4-37.78,96" fill="none" stroke="#ef4444" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

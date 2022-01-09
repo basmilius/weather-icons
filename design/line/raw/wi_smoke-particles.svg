@@ -1,5 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-	<circle cx="31.75" cy="42" r="3" fill="none" stroke="#9ca3af" stroke-miterlimit="10" stroke-width="2"/>
-	<circle cx="25.75" cy="33" r="4.5" fill="none" stroke="#d1d5db" stroke-miterlimit="10" stroke-width="2"/>
-	<circle cx="36.75" cy="25" r="6" fill="none" stroke="#e5e7eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+    <defs>
+        <linearGradient id="a" x1="74" y1="165.21" x2="98" y2="206.79" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#b8bdc6"/>
+            <stop offset="0.45" stop-color="#b8bdc6"/>
+            <stop offset="1" stop-color="#a5aab2"/>
+        </linearGradient>
+        <linearGradient id="b" x1="20" y1="90.82" x2="56" y2="153.18" xlink:href="#a"/>
+        <linearGradient id="c" x1="94" y1="8.42" x2="142" y2="91.58" xlink:href="#a"/>
+        <symbol id="d" viewBox="0 0 168 212">
+            <circle cx="86" cy="186" r="24" stroke="#afb4bc" stroke-miterlimit="10" stroke-width="4" fill="url(#a)"/>
+            <circle cx="38" cy="122" r="36" stroke="#afb4bc" stroke-miterlimit="10" stroke-width="4" fill="url(#b)"/>
+            <circle cx="118" cy="50" r="48" stroke="#afb4bc" stroke-miterlimit="10" stroke-width="4" fill="url(#c)"/>
+        </symbol>
+    </defs>
+    <use width="168" height="212" transform="translate(172 150)" xlink:href="#d"/>
 </svg>
