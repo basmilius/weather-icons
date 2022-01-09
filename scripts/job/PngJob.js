@@ -6,6 +6,7 @@ import puppeteer from "puppeteer";
 import {BaseJob} from "./BaseJob.js";
 import {readFile} from "../util/filesystem.js";
 import {printPart, printPartDone, printSuccessFailed} from "../util/printer.js";
+import {chunkArray} from "../util/array.js";
 
 export class PngJob extends BaseJob {
 
@@ -65,12 +66,16 @@ export class PngJob extends BaseJob {
                     continue;
                 }
 
-                await imagemin(paths, {
-                    destination: path.dirname(paths[0]),
-                    plugins: [imageminOptiPng({
-                        optimizationLevel: 4
-                    })]
-                });
+                const chunks = chunkArray(paths, 10);
+
+                for (let chunk of chunks) {
+                    await imagemin(chunk, {
+                        destination: path.dirname(paths[0]),
+                        plugins: [imageminOptiPng({
+                            optimizationLevel: 4
+                        })]
+                    });
+                }
             }
         });
     }
