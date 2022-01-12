@@ -19,6 +19,7 @@ const CARTOON_JOBS = [
 ];
 
 const LINE_JOBS = [
+    new LottieJob("line/lottie", "line/lottie"),
     new PngJob("line/png", "line-static/final", [32, 64, 128, 256, 512, 1024]),
     new SvgJob("line/svg", "line/final"),
     new SvgJob("line/svg-static", "line-static/final")
@@ -38,6 +39,16 @@ export const PRODUCTION_MAP = [
 
 export async function eachJobAsync(fn) {
     for (let job of PRODUCTION_MAP) {
+        await fn(job);
+    }
+}
+
+export async function eachJobWithTypeAsync(type, fn) {
+    for (let job of PRODUCTION_MAP) {
+        if (job.type !== type) {
+            continue;
+        }
+
         await fn(job);
     }
 }
