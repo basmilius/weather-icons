@@ -16,19 +16,14 @@
         <linearGradient id="j" x1="194" y1="33.61" x2="206" y2="54.39" xlink:href="#a"/>
         <linearGradient id="k" x1="166" y1="1.61" x2="178" y2="22.39" xlink:href="#a"/>
         <linearGradient id="l" x1="226" y1="1.61" x2="238" y2="22.39" xlink:href="#a"/>
-        <linearGradient id="m" x1="149.99" y1="119.24" x2="234.01" y2="264.76" gradientUnits="userSpaceOnUse">
-            <stop offset="0" stop-color="#fbbf24"/>
-            <stop offset="0.45" stop-color="#fbbf24"/>
-            <stop offset="1" stop-color="#f59e0b"/>
-        </linearGradient>
-        <clipPath id="n">
+        <clipPath id="m">
             <polygon points="0 0 512 0 0 512 0 0" fill="none"/>
         </clipPath>
-        <symbol id="o" viewBox="0 0 384 384">
-            <circle cx="192" cy="192" r="84" stroke="#f8af18" stroke-miterlimit="10" stroke-width="6" fill="url(#m)"/>
-            <path d="M192,61.66V12m0,360V322.34M284.17,99.83l35.11-35.11M64.72,319.28l35.11-35.11m0-184.34L64.72,64.72M319.28,319.28l-35.11-35.11M61.66,192H12m360,0H322.34" fill="none" stroke="#fbbf24" stroke-linecap="round" stroke-miterlimit="10" stroke-width="24"/>
+        <symbol id="n" viewBox="0 0 375 375">
+            <circle cx="187.5" cy="187.5" r="84" fill="none" stroke="#fbbf24" stroke-miterlimit="10" stroke-width="15"/>
+            <path d="M187.5,57.16V7.5m0,360V317.84M279.67,95.33l35.11-35.11M60.22,314.78l35.11-35.11m0-184.34L60.22,60.22M314.78,314.78l-35.11-35.11M57.16,187.5H7.5m360,0H317.84" fill="none" stroke="#fbbf24" stroke-linecap="round" stroke-miterlimit="10" stroke-width="15"/>
         </symbol>
-        <symbol id="p" viewBox="0 0 244 192">
+        <symbol id="o" viewBox="0 0 244 192">
             <circle cx="12" cy="180" r="12" fill="url(#a)"/>
             <circle cx="72" cy="180" r="12" fill="url(#b)"/>
             <circle cx="44" cy="148" r="12" fill="url(#c)"/>
@@ -43,8 +38,8 @@
             <circle cx="232" cy="12" r="12" fill="url(#l)"/>
         </symbol>
     </defs>
-    <g clip-path="url(#n)">
-        <use width="384" height="384" transform="translate(64 64)" xlink:href="#o"/>
+    <g clip-path="url(#m)">
+        <use width="375" height="375" transform="translate(68.5 68.5)" xlink:href="#n"/>
     </g>
-    <use width="244" height="192" transform="translate(192 182)" xlink:href="#p"/>
+    <use width="244" height="192" transform="translate(192 182)" xlink:href="#o"/>
 </svg>
