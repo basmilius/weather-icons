@@ -3,19 +3,13 @@ import {LottieJob} from "./job/LottieJob.js";
 import {PngJob} from "./job/PngJob.js";
 import {SvgJob} from "./job/SvgJob.js";
 
-export const STYLES_MAP = ["cartoon", "fill", "line", "monochrome"];
+export const STYLES_MAP = ["fill", "line", "monochrome"];
 
 const FILL_JOBS = [
     new LottieJob("fill/lottie", "fill/lottie"),
     new PngJob("fill/png", "fill-static/final", [32, 64, 128, 256, 512, 1024]),
     new SvgJob("fill/svg", "fill/final"),
     new SvgJob("fill/svg-static", "fill-static/final")
-];
-
-const CARTOON_JOBS = [
-    new PngJob("cartoon/png", "cartoon-static/final", [32, 64, 128, 256, 512, 1024]),
-    new SvgJob("cartoon/svg", "cartoon/final"),
-    new SvgJob("cartoon/svg-static", "cartoon-static/final")
 ];
 
 const LINE_JOBS = [
@@ -34,7 +28,8 @@ const MONOCHROME_JOBS = [
 
 export const PRODUCTION_MAP = [
     ...FILL_JOBS,
-    ...LINE_JOBS
+    ...LINE_JOBS,
+    ...MONOCHROME_JOBS
 ];
 
 export async function eachJobAsync(fn) {
