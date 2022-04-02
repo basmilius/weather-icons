@@ -13,7 +13,7 @@
                     attributeName="transform"
                     additive="sum"
                     type="rotate"
-                    values="0 98 98; 45 98 98"
+                    values="0 96.5 96.5; 45 96.5 96.5"
                     dur="6s"
                     repeatCount="indefinite"/>
             </path>
