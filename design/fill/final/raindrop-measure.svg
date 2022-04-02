@@ -16,7 +16,7 @@
             <stop offset="1" stop-color="#bec1c6"/>
         </linearGradient>
         <clipPath id="d">
-            <path d="M168,252H344V380H168Z" fill="none">
+            <path fill="none">
                 <animate
                     attributeName="d"
                     values="
