@@ -20,7 +20,7 @@ const LINE_JOBS = [
 ];
 
 const MONOCHROME_JOBS = [
-    new FontJob("monochrome/font", "monochrome-static/final", ["svg", "ttf", "woff", "woff2"]),
+    new FontJob("monochrome/font", "monochrome-static/outlined", ["svg", "ttf", "woff", "woff2"]),
     new PngJob("monochrome/png", "monochrome-static/final", [64, 128, 256, 512, 1024]),
     new SvgJob("monochrome/svg", "monochrome/final"),
     new SvgJob("monochrome/svg-static", "monochrome-static/final")
