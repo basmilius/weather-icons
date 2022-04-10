@@ -61,7 +61,7 @@ export class SvgJob extends BaseJob {
                     "removeNonInheritableGroupAttrs",
                     "removeUselessStrokeAndFill",
                     "removeUnusedNS",
-                    {name: "cleanupIDs", params: {force: true, remove: false}},
+                    // {name: "cleanupIDs", params: {force: true, remove: false}},
                     {name: "cleanupListOfValues", params: {floatPrecision: 1}},
                     {name: "cleanupNumericValues", params: {floatPrecision: 1}},
                     "moveElemsAttrsToGroup",
